@@ -134,33 +134,41 @@
         <categoryLink id="b409-7321-aa99-e4e6" name="Std Mandatory Choice" hidden="false" targetId="5bc4-848f-8491-7f8b" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="63b7-66c3-498f-e204" name="Formor Fiends" hidden="false" collective="false" import="true" targetId="7530-29bf-992f-6b48" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8823-d566-6ea9-7b0d" name="New CategoryLink" hidden="false" targetId="a006-cb89-8f63-26be" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="eb4a-aec9-521a-b054" name="Persecutors" publicationId="c2bc-5f69-7933-127a" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="2a0f-fb73-2610-3331" name="Fierce" publicationId="c2bc-5f69-7933-127a" hidden="false" targetId="d523-ee8a-8be8-d7c2" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="0233-2479-2424-866f" name="Infantry" hidden="false" targetId="7998-c623-9b44-d3d8" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c313-4407-e6b7-979a" name="Ghoul" publicationId="c2bc-5f69-7933-127a" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="c313-4407-e6b7-979a" name="Persecutor" publicationId="c2bc-5f69-7933-127a" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c14a-e173-d883-cd00" type="max"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1d1-adf6-3167-e6bc" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c14a-e173-d883-cd00" type="max"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1d1-adf6-3167-e6bc" type="min"/>
           </constraints>
           <profiles>
-            <profile id="3e4c-e38f-3407-3abc" name="Ghoul" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
+            <profile id="3e4c-e38f-3407-3abc" name="Persecutor" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
               <characteristics>
                 <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">2</characteristic>
                 <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">10</characteristic>
-                <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">5</characteristic>
-                <characteristic name="RES" typeId="a373-791b-b75c-1e95">5</characteristic>
-                <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6"/>
-                <characteristic name="HTH" typeId="881e-5ebc-37e7-7422"/>
-                <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa"/>
+                <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">3</characteristic>
+                <characteristic name="RES" typeId="a373-791b-b75c-1e95">4</characteristic>
+                <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">1</characteristic>
+                <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">5</characteristic>
+                <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">7</characteristic>
                 <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb"/>
                 <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a"/>
                 <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
-                <characteristic name="WL" typeId="70ec-23cf-9831-be85"/>
-                <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
+                <characteristic name="WL" typeId="70ec-23cf-9831-be85">1</characteristic>
+                <characteristic name="COU" typeId="89e0-8ba1-781b-2456">3</characteristic>
                 <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
               </characteristics>
             </profile>
@@ -170,7 +178,7 @@
             <categoryLink id="185c-792a-e7ba-b877" name="Std 2nd Choice" hidden="false" targetId="43ba-4fbc-ad58-e60d" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="55.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="41.0"/>
             <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -186,7 +194,6 @@
             <entryLink id="ada7-fabe-aa9e-43bd" name="Incarnate: Rhea Of Brisis" hidden="false" collective="false" import="true" targetId="bb8d-3610-80df-ab6b" type="selectionEntry"/>
             <entryLink id="4cbc-f1a5-d549-af5d" name="Incarnate: The Gorgon" hidden="false" collective="false" import="true" targetId="17f6-ea7c-daee-8af3" type="selectionEntry"/>
             <entryLink id="ee5a-3dc2-66a7-891d" name="Incarnate: Ejhin Of Vanth" publicationId="c2bc-5f69-7933-127a" page="42" hidden="false" collective="false" import="true" targetId="6e99-2aad-7fb0-d673" type="selectionEntry"/>
-            <entryLink id="f3ba-a458-54b1-e63e" name="Incarnate: Ardokath" publicationId="c2bc-5f69-7933-127a" page="38" hidden="false" collective="false" import="true" targetId="6070-cda8-0da5-941a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -236,13 +243,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e232-4c92-77a5-ace8" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="7145-abb1-49bb-a2d5" name="The Almigthy Skull" hidden="false" collective="false" import="true" targetId="ce4b-695e-1712-1cac" type="selectionEntry"/>
+            <entryLink id="7145-abb1-49bb-a2d5" name="Incarnate: Balkrón" hidden="false" collective="false" import="true" targetId="ce4b-695e-1712-1cac" type="selectionEntry"/>
             <entryLink id="b434-0a05-567f-d215" name="Incarnate: Melmoth" hidden="false" collective="false" import="true" targetId="4d81-7a95-c262-306f" type="selectionEntry"/>
-            <entryLink id="796a-8166-95bc-ba99" name="Incarnate: Azael the Infidel" hidden="false" collective="false" import="true" targetId="7e93-b3aa-52b4-eb24" type="selectionEntry"/>
             <entryLink id="e4ba-3441-d3cb-2206" name="Incarnate: Rhea Of Brisis" hidden="false" collective="false" import="true" targetId="bb8d-3610-80df-ab6b" type="selectionEntry"/>
-            <entryLink id="2886-22a1-f4b9-8951" name="Incarnate: The Gorgon" hidden="false" collective="false" import="true" targetId="17f6-ea7c-daee-8af3" type="selectionEntry"/>
-            <entryLink id="38e4-4c35-ac91-1dd4" name="Incarnate: Ejhin Of Vanth" publicationId="c2bc-5f69-7933-127a" page="42" hidden="false" collective="false" import="true" targetId="6e99-2aad-7fb0-d673" type="selectionEntry"/>
-            <entryLink id="7a9a-3141-3730-afac" name="Incarnate: Ardokath" publicationId="c2bc-5f69-7933-127a" page="38" hidden="false" collective="false" import="true" targetId="6070-cda8-0da5-941a" type="selectionEntry"/>
+            <entryLink id="2886-22a1-f4b9-8951" name="Incarnate: Damralh" hidden="false" collective="false" import="true" targetId="17f6-ea7c-daee-8af3" type="selectionEntry"/>
+            <entryLink id="38e4-4c35-ac91-1dd4" name="Incarnate: Gwernydd" publicationId="c2bc-5f69-7933-127a" page="42" hidden="false" collective="false" import="true" targetId="6e99-2aad-7fb0-d673" type="selectionEntry"/>
             <entryLink id="4706-35de-aee7-ee76" name="Incarnate: Tyramon" publicationId="c2bc-5f69-7933-127a" page="38" hidden="false" collective="false" import="true" targetId="4caf-7da2-6c14-aa03" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -322,36 +327,40 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e9ec-00f4-3c2c-5542" name="Red Carnaghs" publicationId="c2bc-5f69-7933-127a" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="f2b9-0625-50d9-a116" name="Savage" hidden="false" targetId="f0cd-1666-22b6-16b8" type="profile"/>
+        <infoLink id="eb13-d4a5-4609-5b32" name="Born Killer" hidden="false" targetId="76a8-e12b-9714-69f4" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="7cd8-30b7-4258-3a72" name="Infantry" hidden="false" targetId="7998-c623-9b44-d3d8" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="dc16-5f33-d8b8-9f65" name="Black Paladin" publicationId="c2bc-5f69-7933-127a" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="dc16-5f33-d8b8-9f65" name="Red Karnagh" publicationId="c2bc-5f69-7933-127a" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08be-a9b2-e811-b046" type="min"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="573b-22d8-2dc9-401b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="07c1-0f46-cb67-82e3" name="Black Paladin" publicationId="c2bc-5f69-7933-127a" page="51" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
+            <profile id="07c1-0f46-cb67-82e3" name="Red Karnagh" publicationId="c2bc-5f69-7933-127a" page="4" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
               <characteristics>
                 <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">3</characteristic>
                 <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">10</characteristic>
                 <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">7</characteristic>
                 <characteristic name="RES" typeId="a373-791b-b75c-1e95">7</characteristic>
                 <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">1</characteristic>
-                <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">7</characteristic>
-                <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">5</characteristic>
+                <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">5</characteristic>
+                <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">9</characteristic>
                 <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb"/>
                 <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a"/>
                 <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
-                <characteristic name="WL" typeId="70ec-23cf-9831-be85">2</characteristic>
-                <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
+                <characteristic name="WL" typeId="70ec-23cf-9831-be85">3</characteristic>
+                <characteristic name="COU" typeId="89e0-8ba1-781b-2456">5</characteristic>
                 <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="80.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="62.0"/>
             <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -362,145 +371,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e945-eb90-702a-547b" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="7300-1d09-8823-cbcd" name="Incarnate: The Almigthy Skull" hidden="false" collective="false" import="true" targetId="ce4b-695e-1712-1cac" type="selectionEntry"/>
+            <entryLink id="7300-1d09-8823-cbcd" name="Incarnate: Wandyr" hidden="false" collective="false" import="true" targetId="8b5b-9318-22f8-99e9" type="selectionEntry"/>
             <entryLink id="04c8-0efa-ba83-091c" name="Incarnate: Azael the Infidel" hidden="false" collective="false" import="true" targetId="7e93-b3aa-52b4-eb24" type="selectionEntry"/>
             <entryLink id="6505-1dc4-7ccc-c90b" name="Incarnate: Rhea Of Brisis" hidden="false" collective="false" import="true" targetId="bb8d-3610-80df-ab6b" type="selectionEntry"/>
             <entryLink id="8d66-1be8-76ec-1003" name="Incarnate: The Gorgon" hidden="false" collective="false" import="true" targetId="17f6-ea7c-daee-8af3" type="selectionEntry"/>
             <entryLink id="5c95-8014-1aec-d057" name="Incarnate: Ejhin Of Vanth" publicationId="c2bc-5f69-7933-127a" page="42" hidden="false" collective="false" import="true" targetId="6e99-2aad-7fb0-d673" type="selectionEntry"/>
-            <entryLink id="a19b-69e7-71d9-41f5" name="Incarnate: Feyd Mantis" publicationId="c2bc-5f69-7933-127a" page="38" hidden="false" collective="false" import="true" targetId="6070-cda8-0da5-941a" type="selectionEntry"/>
+            <entryLink id="9a17-3f54-beee-d43e" name="Incarnate: Balkrón" hidden="false" collective="false" import="true" targetId="ce4b-695e-1712-1cac" type="selectionEntry"/>
           </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="ce15-6ec3-fb14-7ed0" name="Skull Paladins" publicationId="c2bc-5f69-7933-127a" page="49" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="145c-7e4c-2b0b-6669" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f23-33af-e8e8-b4fd" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="abf4-2f0d-999e-86d9" name="Abyssal Paladin Skull" publicationId="c2bc-5f69-7933-127a" page="52" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6e6-743f-34f7-acef" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="3e51-e9a5-63ab-99f3" name="Abyssal Paladin Skull" publicationId="c2bc-5f69-7933-127a" page="52" hidden="false" typeId="7275-7892-cf1b-ed70" typeName="Unit - Faithful">
-                  <characteristics>
-                    <characteristic name="RANK" typeId="37de-dc2d-59d2-fa01">3</characteristic>
-                    <characteristic name="MOV" typeId="6b80-fa0d-222f-d791">10</characteristic>
-                    <characteristic name="DEF" typeId="7c96-8762-f9b7-36d8">7</characteristic>
-                    <characteristic name="RES" typeId="d313-2903-95ba-5068">8</characteristic>
-                    <characteristic name="HTHDICE" typeId="cb91-b72c-61e0-e6eb">2</characteristic>
-                    <characteristic name="HTH" typeId="34fd-056e-119b-8e7f">7</characteristic>
-                    <characteristic name="HTHSTR" typeId="7c8f-90f8-0bf5-93ae">7</characteristic>
-                    <characteristic name="RNG" typeId="cd0b-6ab3-4c7b-7765"/>
-                    <characteristic name="RNGDICE" typeId="391f-aa1f-bc20-f88d"/>
-                    <characteristic name="RNGSTR" typeId="f026-320a-7185-28e8"/>
-                    <characteristic name="WL" typeId="24ce-d500-47cd-9080">2</characteristic>
-                    <characteristic name="FRV" typeId="f864-3d2d-11da-0b09">3</characteristic>
-                    <characteristic name="COU" typeId="1816-4c36-fd3b-179b"/>
-                    <characteristic name="FEAR" typeId="6a97-4955-9d58-f24a"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="105.0"/>
-                <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="547e-cb73-af60-5ae2" name="Necromancer Paladin Skull" publicationId="c2bc-5f69-7933-127a" page="49" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdfb-e4ea-b7f8-94c1" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="66de-30aa-1e42-3ea6" name="Necromancer Paladin Skull" publicationId="c2bc-5f69-7933-127a" page="52" hidden="false" typeId="8bb4-b272-f08c-0dc1" typeName="Unit - Magician">
-                  <characteristics>
-                    <characteristic name="RANK" typeId="a141-6125-7c44-80e4">3</characteristic>
-                    <characteristic name="MOV" typeId="45e2-0962-5bba-47d4">10</characteristic>
-                    <characteristic name="DEF" typeId="c3f9-fe10-230e-299c">7</characteristic>
-                    <characteristic name="RES" typeId="c464-635e-0189-3290">8</characteristic>
-                    <characteristic name="HTHDICE" typeId="a9d1-937d-bb6e-3fb2">2</characteristic>
-                    <characteristic name="HTH" typeId="ccf1-084b-fc1b-2639">7</characteristic>
-                    <characteristic name="HTHSTR" typeId="838e-d3d7-b574-2754">7</characteristic>
-                    <characteristic name="RNG" typeId="e599-a843-7042-4d3e"/>
-                    <characteristic name="RNGDICE" typeId="9b3a-d316-a280-1af2"/>
-                    <characteristic name="RNGSTR" typeId="7a79-acef-4bcc-686d"/>
-                    <characteristic name="WL" typeId="43e4-a4ec-68be-4597">2</characteristic>
-                    <characteristic name="ENG" typeId="a08c-d341-e2d0-9b12">4</characteristic>
-                    <characteristic name="COU" typeId="46b9-76e0-489f-9bb6"/>
-                    <characteristic name="FEAR" typeId="fe46-7177-eacc-10f4"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="a054-8734-49ec-eac3" name="Drain Life" publicationId="c2bc-5f69-7933-127a" page="49" hidden="false" targetId="bdbf-fa85-9bc7-5662" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="105.0"/>
-                <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c1ee-3596-a3dd-765f" name="Toxic Paladin Skull" publicationId="c2bc-5f69-7933-127a" page="49" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c12-5987-871f-8a21" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="349f-cd79-28fa-e5f7" name="Toxic Skull" publicationId="c2bc-5f69-7933-127a" page="49" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">3</characteristic>
-                    <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">10</characteristic>
-                    <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">7</characteristic>
-                    <characteristic name="RES" typeId="a373-791b-b75c-1e95">8</characteristic>
-                    <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">2</characteristic>
-                    <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">7</characteristic>
-                    <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">9</characteristic>
-                    <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb"/>
-                    <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a"/>
-                    <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
-                    <characteristic name="WL" typeId="70ec-23cf-9831-be85">2</characteristic>
-                    <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
-                    <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="b3a3-d6de-25e5-f771" name="Toxic" publicationId="c2bc-5f69-7933-127a" page="49" hidden="false" targetId="3fd6-231c-fd00-3bbe" type="profile"/>
-                <infoLink id="22ac-0e70-1ba3-57f4" name="Reach" publicationId="c2bc-5f69-7933-127a" hidden="false" targetId="26a2-b0f2-f774-e44b" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="105.0"/>
-                <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a62c-f652-d667-5174" name="Undying Paladin Skull" publicationId="c2bc-5f69-7933-127a" page="52" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ab0-38f9-9af7-7295" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="86fc-9e97-0ae2-4920" name="Undying Paladin Skull" publicationId="c2bc-5f69-7933-127a" page="52" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">3</characteristic>
-                    <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">10</characteristic>
-                    <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">7</characteristic>
-                    <characteristic name="RES" typeId="a373-791b-b75c-1e95">8</characteristic>
-                    <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">2</characteristic>
-                    <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">7</characteristic>
-                    <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">9</characteristic>
-                    <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb"/>
-                    <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a"/>
-                    <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
-                    <characteristic name="WL" typeId="70ec-23cf-9831-be85">2</characteristic>
-                    <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
-                    <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="8c92-ee74-8dd9-390a" name="Regeneration" publicationId="c2bc-5f69-7933-127a" page="49" hidden="false" targetId="445f-1270-320a-aa22" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="105.0"/>
-                <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -513,39 +390,31 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0f7e-3fd2-f847-1ddd" type="max"/>
       </constraints>
       <profiles>
-        <profile id="bab9-0acf-f2cb-c601" name="The Almigthy Skull" publicationId="c2bc-5f69-7933-127a" page="25" hidden="false" typeId="7fbe-7f49-81ba-0fcf" typeName="Incarnate">
+        <profile id="bab9-0acf-f2cb-c601" name="Balkron" publicationId="c2bc-5f69-7933-127a" page="25" hidden="false" typeId="7fbe-7f49-81ba-0fcf" typeName="Incarnate">
           <characteristics>
             <characteristic name="RANK" typeId="87c8-7716-1bdb-856f">3</characteristic>
-            <characteristic name="MOV" typeId="5ceb-cf8e-bb92-d23a">7</characteristic>
-            <characteristic name="DEF" typeId="912a-a4d7-39c7-5c18">3</characteristic>
-            <characteristic name="RES" typeId="0d16-6fb1-412c-3dbd">10</characteristic>
+            <characteristic name="MOV" typeId="5ceb-cf8e-bb92-d23a">10</characteristic>
+            <characteristic name="DEF" typeId="912a-a4d7-39c7-5c18">5</characteristic>
+            <characteristic name="RES" typeId="0d16-6fb1-412c-3dbd">9</characteristic>
             <characteristic name="HTHDICE" typeId="0fb2-bd3c-ae0c-c7dc">3</characteristic>
-            <characteristic name="HTH" typeId="0fe2-bc96-a8c8-41a2">5</characteristic>
-            <characteristic name="HTHSTR" typeId="b61b-40b7-d15d-275f">8</characteristic>
+            <characteristic name="HTH" typeId="0fe2-bc96-a8c8-41a2">7</characteristic>
+            <characteristic name="HTHSTR" typeId="b61b-40b7-d15d-275f">9</characteristic>
             <characteristic name="RNG" typeId="2b53-84a7-c5d9-f4b8"/>
             <characteristic name="RNGDICE" typeId="1efa-aca9-9417-4497"/>
             <characteristic name="RNGSTR" typeId="fe6b-f4e1-3748-82fd"/>
             <characteristic name="WL" typeId="ce05-8d55-4750-7db5">4</characteristic>
             <characteristic name="AUTH" typeId="c1b3-03a7-17ad-7e7a">5</characteristic>
-            <characteristic name="ELIXIR/DUEL" typeId="b9ea-bc8d-91d9-ce13">7</characteristic>
+            <characteristic name="ELIXIR/DUEL" typeId="b9ea-bc8d-91d9-ce13">9</characteristic>
             <characteristic name="COU" typeId="52dd-1e85-a7a4-cdc8"/>
-            <characteristic name="FEAR" typeId="ed90-ab0e-8d4a-1549"/>
-          </characteristics>
-        </profile>
-        <profile id="98ae-0adc-7f2d-642d" name="Necromantic aura" publicationId="c2bc-5f69-7933-127a" page="25" hidden="false" typeId="8053-ee84-9434-dbdb" typeName="Spell">
-          <characteristics>
-            <characteristic name="Mana Cost" typeId="ff67-5aaf-cdb6-9933">0</characteristic>
-            <characteristic name="Effect" typeId="2eac-208c-cd38-951c">The Almighty skull always cast &quot;drain life&quot; when an enemy fighter is eleminated by his unit. The spell does not cost any mana when cast though this ability.</characteristic>
+            <characteristic name="FEAR" typeId="ed90-ab0e-8d4a-1549">9</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1747-1140-f917-f5ae" name="Born Killer" hidden="false" targetId="76a8-e12b-9714-69f4" type="profile"/>
-        <infoLink id="496a-e6e1-41ca-9c61" name="Black Weapon" hidden="false" targetId="47f7-5325-72da-b32a" type="profile"/>
-        <infoLink id="98bc-f904-ce77-6a12" name="Implacable" hidden="false" targetId="a915-0ec2-e265-7b12" type="profile"/>
-        <infoLink id="7f2b-9143-69fd-bb6f" name="Black Armor" hidden="false" targetId="be9e-6c0c-0236-93cb" type="profile"/>
-        <infoLink id="0b03-7043-da59-9b00" name="Drain Life" hidden="false" targetId="bdbf-fa85-9bc7-5662" type="profile"/>
-        <infoLink id="6999-f512-0ab4-c9b4" name="Feat: Hidden Weakness" hidden="false" targetId="08d0-b8ee-11d5-718f" type="profile"/>
+        <infoLink id="1747-1140-f917-f5ae" name="War Fury" hidden="false" targetId="6579-7d10-f74e-2240" type="profile"/>
+        <infoLink id="496a-e6e1-41ca-9c61" name="Reach" hidden="false" targetId="26a2-b0f2-f774-e44b" type="profile"/>
+        <infoLink id="98bc-f904-ce77-6a12" name="Regeneration" hidden="false" targetId="445f-1270-320a-aa22" type="profile"/>
+        <infoLink id="6999-f512-0ab4-c9b4" name="Feat: Truth of the Gnosis" hidden="false" targetId="08d0-b8ee-11d5-718f" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="011c-4acd-1249-52f0" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
@@ -602,6 +471,16 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fd4e-664a-92d8-5aed" name="Incarnate" publicationId="c2bc-5f69-7933-127a" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0599-2431-508e-f601" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2e9e-4db3-81b9-deb5" name="Incarnate: Ychor" publicationId="c2bc-5f69-7933-127a" page="1" hidden="false" collective="false" import="true" targetId="dc92-dbc1-3d5c-6702" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
         <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
@@ -649,6 +528,17 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e8df-6985-f527-99a0" name="Incarnate" publicationId="c2bc-5f69-7933-127a" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c7c-a889-b9b6-39f7" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3b48-f0ef-a6b4-720c" name="Incarnate: Balkrón" publicationId="c2bc-5f69-7933-127a" page="1" hidden="false" collective="false" import="true" targetId="ce4b-695e-1712-1cac" type="selectionEntry"/>
+            <entryLink id="dd43-391b-04c1-0f48" name="Incarnate: Tyramon" publicationId="c2bc-5f69-7933-127a" page="1" hidden="false" collective="false" import="true" targetId="4caf-7da2-6c14-aa03" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
         <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
@@ -661,7 +551,7 @@
       <selectionEntries>
         <selectionEntry id="9be0-ae8d-2dee-8b36" name="Horned Raiders" publicationId="c2bc-5f69-7933-127a" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fed-b531-7cc2-2b4b" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fed-b531-7cc2-2b4b" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a79-377c-e08a-bc4b" type="min"/>
           </constraints>
           <profiles>
@@ -707,13 +597,13 @@
         <categoryLink id="0b4c-9868-1265-d2b6" name="Light Cavalry" hidden="false" targetId="92f3-1c61-ec1f-c3cd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a384-f851-6e83-5ef0" name="Scavenger" publicationId="c2bc-5f69-7933-127a" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a384-f851-6e83-5ef0" name="Wraith Rider" publicationId="c2bc-5f69-7933-127a" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59c3-5446-b7c5-c831" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a6f-95f0-73e6-e59e" type="min"/>
           </constraints>
           <profiles>
-            <profile id="4fdf-ac1f-21d3-2561" name="Scavenger" publicationId="c2bc-5f69-7933-127a" page="56" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
+            <profile id="4fdf-ac1f-21d3-2561" name="Wraith Rider" publicationId="c2bc-5f69-7933-127a" page="56" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
               <characteristics>
                 <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">2</characteristic>
                 <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">15</characteristic>
@@ -830,15 +720,15 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="9a5c-b71e-e861-97fc" type="max"/>
       </constraints>
       <profiles>
-        <profile id="3357-1ec5-2a4d-6507" name="Ganzhyr Of Hestia" publicationId="c2bc-5f69-7933-127a" page="30" hidden="false" typeId="f21c-0f5b-4807-bb7f" typeName="Incarnate - Magician">
+        <profile id="3357-1ec5-2a4d-6507" name="Tyramon" publicationId="c2bc-5f69-7933-127a" page="4" hidden="false" typeId="f21c-0f5b-4807-bb7f" typeName="Incarnate - Magician">
           <characteristics>
             <characteristic name="RANK" typeId="8765-c836-f7b7-fbe9">3</characteristic>
-            <characteristic name="MOV" typeId="dd48-412c-a827-4c45">15</characteristic>
-            <characteristic name="DEF" typeId="4c71-f7da-7785-8d0b">3</characteristic>
-            <characteristic name="RES" typeId="b982-d3fc-300f-7a3f">8</characteristic>
-            <characteristic name="HTHDICE" typeId="1b69-0728-3c38-fd7d">3</characteristic>
-            <characteristic name="HTH" typeId="efc6-9cec-ad35-cab7">5</characteristic>
-            <characteristic name="HTHSTR" typeId="d527-4703-4777-133e">10</characteristic>
+            <characteristic name="MOV" typeId="dd48-412c-a827-4c45">10</characteristic>
+            <characteristic name="DEF" typeId="4c71-f7da-7785-8d0b">5</characteristic>
+            <characteristic name="RES" typeId="b982-d3fc-300f-7a3f">7</characteristic>
+            <characteristic name="HTHDICE" typeId="1b69-0728-3c38-fd7d">2</characteristic>
+            <characteristic name="HTH" typeId="efc6-9cec-ad35-cab7">7</characteristic>
+            <characteristic name="HTHSTR" typeId="d527-4703-4777-133e">11</characteristic>
             <characteristic name="RNG" typeId="7452-b1c8-1fcd-886b"/>
             <characteristic name="RNGDICE" typeId="572e-6bdf-ab2b-acdd"/>
             <characteristic name="RNGSTR" typeId="6990-84da-0126-e694"/>
@@ -846,18 +736,19 @@
             <characteristic name="ENG" typeId="b371-3bce-de80-663d">6</characteristic>
             <characteristic name="AUTH" typeId="d3ef-4b64-b5c6-236e">5</characteristic>
             <characteristic name="ELIXIR/DUEL" typeId="9dd3-9098-b0d9-3aec">10</characteristic>
-            <characteristic name="PATHS" typeId="9133-8054-0968-316f">Necromancy</characteristic>
+            <characteristic name="PATHS" typeId="9133-8054-0968-316f">Torments</characteristic>
             <characteristic name="ELEMENTS" typeId="c6c8-ed9c-c7b5-22e6">Darkness
-Fire</characteristic>
+Water</characteristic>
             <characteristic name="COU" typeId="e1f8-5f90-b4e2-7b49"/>
-            <characteristic name="FEAR" typeId="1019-8fea-8981-67fd"/>
+            <characteristic name="FEAR" typeId="1019-8fea-8981-67fd">9</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="33a2-372a-0ca0-6112" name="Feat: Hidden Weakness" hidden="false" targetId="08d0-b8ee-11d5-718f" type="profile"/>
+        <infoLink id="33a2-372a-0ca0-6112" name="Feat: Truth of the Gnosis" hidden="false" targetId="08d0-b8ee-11d5-718f" type="profile"/>
         <infoLink id="4789-a497-5293-3f9c" name="Reach" hidden="false" targetId="26a2-b0f2-f774-e44b" type="profile"/>
-        <infoLink id="522e-d72e-a56f-5f1f" name="Black Armor" hidden="false" targetId="be9e-6c0c-0236-93cb" type="profile"/>
+        <infoLink id="522e-d72e-a56f-5f1f" name="Black Weapon" hidden="false" targetId="47f7-5325-72da-b32a" type="profile"/>
+        <infoLink id="4d77-43f0-3051-e41a" name="War Fury" hidden="false" targetId="6579-7d10-f74e-2240" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e3a7-9307-a98f-2441" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
@@ -1089,7 +980,7 @@ Water</characteristic>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="4989-1fd6-a45f-8b6e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="a563-eb97-9790-c24d" name="The Gorgon" publicationId="c2bc-5f69-7933-127a" page="30" hidden="false" typeId="f21c-0f5b-4807-bb7f" typeName="Incarnate - Magician">
+        <profile id="a563-eb97-9790-c24d" name="Damralh" publicationId="c2bc-5f69-7933-127a" page="30" hidden="false" typeId="f21c-0f5b-4807-bb7f" typeName="Incarnate - Magician">
           <characteristics>
             <characteristic name="RANK" typeId="8765-c836-f7b7-fbe9">2</characteristic>
             <characteristic name="MOV" typeId="dd48-412c-a827-4c45">10</characteristic>
@@ -1097,25 +988,25 @@ Water</characteristic>
             <characteristic name="RES" typeId="b982-d3fc-300f-7a3f">3</characteristic>
             <characteristic name="HTHDICE" typeId="1b69-0728-3c38-fd7d">2</characteristic>
             <characteristic name="HTH" typeId="efc6-9cec-ad35-cab7">5</characteristic>
-            <characteristic name="HTHSTR" typeId="d527-4703-4777-133e">5</characteristic>
+            <characteristic name="HTHSTR" typeId="d527-4703-4777-133e">7</characteristic>
             <characteristic name="RNG" typeId="7452-b1c8-1fcd-886b"/>
             <characteristic name="RNGDICE" typeId="572e-6bdf-ab2b-acdd"/>
             <characteristic name="RNGSTR" typeId="6990-84da-0126-e694"/>
             <characteristic name="WL" typeId="e077-5a2b-7172-5fc8">4</characteristic>
-            <characteristic name="ENG" typeId="b371-3bce-de80-663d">6</characteristic>
+            <characteristic name="ENG" typeId="b371-3bce-de80-663d">5</characteristic>
             <characteristic name="AUTH" typeId="d3ef-4b64-b5c6-236e">3</characteristic>
             <characteristic name="ELIXIR/DUEL" typeId="9dd3-9098-b0d9-3aec">4</characteristic>
-            <characteristic name="PATHS" typeId="9133-8054-0968-316f">Necromancy</characteristic>
+            <characteristic name="PATHS" typeId="9133-8054-0968-316f">Torments</characteristic>
             <characteristic name="ELEMENTS" typeId="c6c8-ed9c-c7b5-22e6">Darkness
-Fire</characteristic>
-            <characteristic name="COU" typeId="e1f8-5f90-b4e2-7b49"/>
+Water</characteristic>
+            <characteristic name="COU" typeId="e1f8-5f90-b4e2-7b49">5</characteristic>
             <characteristic name="FEAR" typeId="1019-8fea-8981-67fd"/>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="723a-0192-7da3-2714" name="Feat: Hidden Weakness" hidden="false" targetId="08d0-b8ee-11d5-718f" type="profile"/>
-        <infoLink id="ad03-0c2f-290a-a980" name="Abomination" hidden="false" targetId="9cff-3376-ab26-0f84" type="profile"/>
+        <infoLink id="ad03-0c2f-290a-a980" name="Mastery of the Arcana" hidden="false" targetId="f514-5d7d-fd41-0d8a" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3338-970f-994d-0f5a" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
@@ -1251,23 +1142,23 @@ Destruction</characteristic>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="dee7-9753-0902-27e4" type="max"/>
       </constraints>
       <profiles>
-        <profile id="c878-4bc2-65d8-4a39" name="Feyd Mantis" publicationId="c2bc-5f69-7933-127a" page="38" hidden="false" typeId="d405-24e7-f09f-a16c" typeName="Incarnate - Faithful">
+        <profile id="c878-4bc2-65d8-4a39" name="Ardokath" publicationId="c2bc-5f69-7933-127a" page="38" hidden="false" typeId="d405-24e7-f09f-a16c" typeName="Incarnate - Faithful">
           <characteristics>
             <characteristic name="RANK" typeId="c2fc-f025-924a-a2c2">3</characteristic>
-            <characteristic name="MOV" typeId="0733-a1f1-57b5-cde3">10</characteristic>
+            <characteristic name="MOV" typeId="0733-a1f1-57b5-cde3">7</characteristic>
             <characteristic name="DEF" typeId="dba4-abc8-375a-a012">5</characteristic>
-            <characteristic name="RES" typeId="98e2-9ca6-4a5c-ff6e">7</characteristic>
+            <characteristic name="RES" typeId="98e2-9ca6-4a5c-ff6e">6</characteristic>
             <characteristic name="HTHDICE" typeId="ef29-4669-5ed2-b148">2</characteristic>
             <characteristic name="HTH" typeId="ddf7-9c6d-d5af-7017">7</characteristic>
-            <characteristic name="HTHSTR" typeId="4748-7a56-4fb1-7d07">5</characteristic>
+            <characteristic name="HTHSTR" typeId="4748-7a56-4fb1-7d07">7</characteristic>
             <characteristic name="RNG" typeId="0dfc-e1b8-c3d5-daab"/>
             <characteristic name="RNGDICE" typeId="6955-924b-d208-8b2d"/>
             <characteristic name="RNGSTR" typeId="784e-7f5e-dd7a-425b"/>
             <characteristic name="WL" typeId="b7f4-e601-c656-adb9">4</characteristic>
             <characteristic name="FRV" typeId="351e-46b3-020b-5884"/>
             <characteristic name="AUTH" typeId="9d21-62e6-8ec2-011d">5</characteristic>
-            <characteristic name="ELIXIR/DUEL" typeId="1a85-e04f-b6ab-eeb8">8</characteristic>
-            <characteristic name="CULTS" typeId="e970-9ca6-6f98-9bab">Trinity of the Abyss</characteristic>
+            <characteristic name="ELIXIR/DUEL" typeId="1a85-e04f-b6ab-eeb8">7</characteristic>
+            <characteristic name="CULTS" typeId="e970-9ca6-6f98-9bab">Cernunnos</characteristic>
             <characteristic name="ASPECTS" typeId="794a-7ee5-da99-16ef">Creation
 Alteration
 Destruction</characteristic>
@@ -1277,11 +1168,10 @@ Destruction</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="e411-afb5-7783-4328" name="Feat: Hidden Weakness" hidden="false" targetId="08d0-b8ee-11d5-718f" type="profile"/>
-        <infoLink id="3f7e-7523-579e-52c5" name="Black Weapon" hidden="false" targetId="47f7-5325-72da-b32a" type="profile"/>
-        <infoLink id="530b-39e5-84c4-6046" name="Black Armor" hidden="false" targetId="be9e-6c0c-0236-93cb" type="profile"/>
-        <infoLink id="9089-0153-dce2-3844" name="Strategist" hidden="false" targetId="46b7-b9f3-a54e-62cc" type="profile"/>
-        <infoLink id="ecfb-d82b-22f6-da15" name="Devotion" hidden="false" targetId="7c71-eeb2-e7db-c0a6" type="profile"/>
+        <infoLink id="e411-afb5-7783-4328" name="Feat: Truth of the Gnosis" hidden="false" targetId="08d0-b8ee-11d5-718f" type="profile"/>
+        <infoLink id="9089-0153-dce2-3844" name="Illumination" hidden="false" targetId="61e9-7ae2-f3a9-a36d" type="profile"/>
+        <infoLink id="ecfb-d82b-22f6-da15" name="Iconoclast" hidden="false" targetId="e156-bf7c-4efb-a84e" type="profile"/>
+        <infoLink id="807f-8ba3-fc06-f796" name="Black Weapon" hidden="false" targetId="47f7-5325-72da-b32a" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="cbb4-68fc-6024-f5d9" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
@@ -1321,7 +1211,7 @@ Destruction</characteristic>
             <entryLink id="386d-6b04-741b-3321" name="Rank 2 Communions" hidden="false" collective="false" import="true" targetId="4e6f-f552-bcbf-1c1e" type="selectionEntryGroup"/>
             <entryLink id="ee2d-e15e-a4aa-5d1d" name="Rank 3 Communions" hidden="false" collective="false" import="true" targetId="dd2c-4c19-46f3-a5e7" type="selectionEntryGroup">
               <selectionEntries>
-                <selectionEntry id="ffe1-e747-ef03-ffc7" name="Call for Belial (3)" publicationId="c2bc-5f69-7933-127a" page="38" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="ffe1-e747-ef03-ffc7" name="Summoning of Na&apos;Goth (3)" publicationId="c2bc-5f69-7933-127a" page="4" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0052-576d-619c-4d24" type="max"/>
                   </constraints>
@@ -1437,9 +1327,9 @@ Belial comes into play for free, unharmed, and equipped with its reserved artifa
           <characteristics>
             <characteristic name="RANK" typeId="87c8-7716-1bdb-856f">2</characteristic>
             <characteristic name="MOV" typeId="5ceb-cf8e-bb92-d23a">15</characteristic>
-            <characteristic name="DEF" typeId="912a-a4d7-39c7-5c18">3</characteristic>
-            <characteristic name="RES" typeId="0d16-6fb1-412c-3dbd">5</characteristic>
-            <characteristic name="HTHDICE" typeId="0fb2-bd3c-ae0c-c7dc">5</characteristic>
+            <characteristic name="DEF" typeId="912a-a4d7-39c7-5c18">5</characteristic>
+            <characteristic name="RES" typeId="0d16-6fb1-412c-3dbd">3</characteristic>
+            <characteristic name="HTHDICE" typeId="0fb2-bd3c-ae0c-c7dc">2</characteristic>
             <characteristic name="HTH" typeId="0fe2-bc96-a8c8-41a2">5</characteristic>
             <characteristic name="HTHSTR" typeId="b61b-40b7-d15d-275f">5</characteristic>
             <characteristic name="RNG" typeId="2b53-84a7-c5d9-f4b8"/>
@@ -1461,7 +1351,7 @@ Belial comes into play for free, unharmed, and equipped with its reserved artifa
       </infoLinks>
       <categoryLinks>
         <categoryLink id="952d-3e58-ca5b-4195" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
-        <categoryLink id="467e-9db1-3b66-b1f0" name="Incarnate" hidden="false" targetId="b1bb-d6b8-9798-c7aa" primary="false"/>
+        <categoryLink id="e786-9ac6-232d-3898" name="Incarnate" hidden="false" targetId="b1bb-d6b8-9798-c7aa" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8961-9da8-39e1-cb08" name="Rank 1 Artifacts" hidden="false" collective="false" import="true" targetId="2fce-70dc-028a-c15b" type="selectionEntryGroup"/>
@@ -1532,31 +1422,30 @@ Belial comes into play for free, unharmed, and equipped with its reserved artifa
       <selectionEntries>
         <selectionEntry id="cb95-1c76-3dc9-bcd6" name="Drune Minotaurs" publicationId="c2bc-5f69-7933-127a" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5022-1159-d935-9928" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5022-1159-d935-9928" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42bf-5c83-e6aa-dc16" type="min"/>
           </constraints>
           <profiles>
-            <profile id="6803-8604-1526-2303" name="Cerberus" publicationId="c2bc-5f69-7933-127a" page="55" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
+            <profile id="6803-8604-1526-2303" name="Drune Minotaur" publicationId="c2bc-5f69-7933-127a" page="4" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
               <characteristics>
-                <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">2</characteristic>
-                <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">10</characteristic>
+                <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">1</characteristic>
+                <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">15</characteristic>
                 <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">3</characteristic>
-                <characteristic name="RES" typeId="a373-791b-b75c-1e95">4</characteristic>
-                <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">2</characteristic>
+                <characteristic name="RES" typeId="a373-791b-b75c-1e95">5</characteristic>
+                <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">1</characteristic>
                 <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">5</characteristic>
-                <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">5</characteristic>
+                <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">9</characteristic>
                 <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb"/>
                 <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a"/>
                 <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
                 <characteristic name="WL" typeId="70ec-23cf-9831-be85">2</characteristic>
                 <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
-                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37">3</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="488c-1d6c-d418-679c" name="Scout" hidden="false" targetId="b49b-3b0d-2c48-b3af" type="profile"/>
-            <infoLink id="bda0-ec0b-642e-7943" name="Hide" hidden="false" targetId="fb58-095e-9810-dd39" type="profile"/>
+            <infoLink id="488c-1d6c-d418-679c" name="Fierce" hidden="false" targetId="d523-ee8a-8be8-d7c2" type="profile"/>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="dd64-ae48-5cc5-e49b" name="Creature" hidden="false" targetId="1cb7-380d-c30a-a4ad" primary="false"/>
@@ -1578,20 +1467,20 @@ Belial comes into play for free, unharmed, and equipped with its reserved artifa
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="110f-0ccf-4bc4-b09e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d611-a86a-c0a7-ac88" name="Chagall" publicationId="c2bc-5f69-7933-127a" page="30" hidden="false" typeId="7fbe-7f49-81ba-0fcf" typeName="Incarnate">
+        <profile id="d611-a86a-c0a7-ac88" name="Wandyr" publicationId="c2bc-5f69-7933-127a" page="30" hidden="false" typeId="7fbe-7f49-81ba-0fcf" typeName="Incarnate">
           <characteristics>
             <characteristic name="RANK" typeId="87c8-7716-1bdb-856f">2</characteristic>
             <characteristic name="MOV" typeId="5ceb-cf8e-bb92-d23a">10</characteristic>
             <characteristic name="DEF" typeId="912a-a4d7-39c7-5c18">3</characteristic>
-            <characteristic name="RES" typeId="0d16-6fb1-412c-3dbd">4</characteristic>
-            <characteristic name="HTHDICE" typeId="0fb2-bd3c-ae0c-c7dc">3</characteristic>
+            <characteristic name="RES" typeId="0d16-6fb1-412c-3dbd">6</characteristic>
+            <characteristic name="HTHDICE" typeId="0fb2-bd3c-ae0c-c7dc">2</characteristic>
             <characteristic name="HTH" typeId="0fe2-bc96-a8c8-41a2">5</characteristic>
-            <characteristic name="HTHSTR" typeId="b61b-40b7-d15d-275f">5</characteristic>
+            <characteristic name="HTHSTR" typeId="b61b-40b7-d15d-275f">9</characteristic>
             <characteristic name="RNG" typeId="2b53-84a7-c5d9-f4b8"/>
             <characteristic name="RNGDICE" typeId="1efa-aca9-9417-4497"/>
             <characteristic name="RNGSTR" typeId="fe6b-f4e1-3748-82fd"/>
-            <characteristic name="WL" typeId="ce05-8d55-4750-7db5">4</characteristic>
-            <characteristic name="AUTH" typeId="c1b3-03a7-17ad-7e7a">5</characteristic>
+            <characteristic name="WL" typeId="ce05-8d55-4750-7db5">6</characteristic>
+            <characteristic name="AUTH" typeId="c1b3-03a7-17ad-7e7a">3</characteristic>
             <characteristic name="ELIXIR/DUEL" typeId="b9ea-bc8d-91d9-ce13">3</characteristic>
             <characteristic name="COU" typeId="52dd-1e85-a7a4-cdc8"/>
             <characteristic name="FEAR" typeId="ed90-ab0e-8d4a-1549"/>
@@ -1599,8 +1488,9 @@ Belial comes into play for free, unharmed, and equipped with its reserved artifa
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="85ab-a6ef-88bb-3ede" name="Sequence" hidden="false" targetId="60b2-baf1-b838-a39b" type="profile"/>
-        <infoLink id="0df7-1662-98d2-f602" name="Feat: Hidden Weakness" hidden="false" targetId="08d0-b8ee-11d5-718f" type="profile"/>
+        <infoLink id="85ab-a6ef-88bb-3ede" name="Born Killer" hidden="false" targetId="76a8-e12b-9714-69f4" type="profile"/>
+        <infoLink id="0df7-1662-98d2-f602" name="Feat: Truth of the Gnosis" hidden="false" targetId="08d0-b8ee-11d5-718f" type="profile"/>
+        <infoLink id="6950-80a5-f541-7c0e" name="Savage" hidden="false" targetId="f0cd-1666-22b6-16b8" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="91de-b78a-c9c5-ee0d" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
@@ -1611,7 +1501,7 @@ Belial comes into play for free, unharmed, and equipped with its reserved artifa
         <entryLink id="2226-cee2-6fa5-ca03" name="Rank 2 Artifacts" hidden="false" collective="false" import="true" targetId="aebe-4bec-62d6-6bc1" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="175.0"/>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="185.0"/>
         <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1735,12 +1625,9 @@ Belial comes into play for free, unharmed, and equipped with its reserved artifa
           </constraints>
           <entryLinks>
             <entryLink id="aecf-2553-c1a6-9d6e" name="Incarnate: Balkrón" publicationId="c2bc-5f69-7933-127a" page="1" hidden="false" collective="false" import="true" targetId="ce4b-695e-1712-1cac" type="selectionEntry"/>
-            <entryLink id="bee9-c355-1046-0542" name="Incarnate: Brenthyr the Slaver" publicationId="c2bc-5f69-7933-127a" page="1" hidden="false" collective="false" import="true" targetId="4d81-7a95-c262-306f" type="selectionEntry"/>
-            <entryLink id="f0b5-b39b-6c97-af0e" name="Incarnate: Gwahyr" publicationId="c2bc-5f69-7933-127a" page="1" hidden="false" collective="false" import="true" targetId="7e93-b3aa-52b4-eb24" type="selectionEntry"/>
             <entryLink id="4e5a-a053-beb0-465a" name="Incarnate: Corwyn" publicationId="c2bc-5f69-7933-127a" page="1" hidden="false" collective="false" import="true" targetId="bb8d-3610-80df-ab6b" type="selectionEntry"/>
             <entryLink id="4d39-2f93-2312-1e08" name="Incarnate: Damralh" publicationId="c2bc-5f69-7933-127a" page="1" hidden="false" collective="false" import="true" targetId="17f6-ea7c-daee-8af3" type="selectionEntry"/>
             <entryLink id="4bf1-e3c4-2b67-3787" name="Incarnate: Gwernydd" publicationId="c2bc-5f69-7933-127a" page="1" hidden="false" collective="false" import="true" targetId="6e99-2aad-7fb0-d673" type="selectionEntry"/>
-            <entryLink id="8810-a262-2af7-990d" name="Incarnate: Ardokath" publicationId="c2bc-5f69-7933-127a" page="1" hidden="false" collective="false" import="true" targetId="6070-cda8-0da5-941a" type="selectionEntry"/>
             <entryLink id="d00a-72b8-ebd1-e6ed" name="Incarnate: Feylhin" publicationId="c2bc-5f69-7933-127a" page="1" hidden="false" collective="false" import="true" targetId="ee36-febb-fcb0-86fd" type="selectionEntry"/>
             <entryLink id="d567-92d2-42cd-36b3" name="Incarnate: Tyramon" publicationId="c2bc-5f69-7933-127a" page="1" hidden="false" collective="false" import="true" targetId="4caf-7da2-6c14-aa03" type="selectionEntry"/>
             <entryLink id="f3c7-52d0-c4bf-1b0f" name="Incarnate: Morgwen" publicationId="c2bc-5f69-7933-127a" page="1" hidden="false" collective="false" import="true" targetId="87bc-84b6-196f-750b" type="selectionEntry"/>
@@ -1758,13 +1645,13 @@ Belial comes into play for free, unharmed, and equipped with its reserved artifa
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="5d7b-df2f-1f60-a909" type="max"/>
       </constraints>
       <profiles>
-        <profile id="757e-c565-3c56-2620" name="Feylhin" publicationId="c2bc-5f69-7933-127a" page="6" hidden="false" typeId="7fbe-7f49-81ba-0fcf" typeName="Incarnate">
+        <profile id="757e-c565-3c56-2620" name="Morgwen" publicationId="c2bc-5f69-7933-127a" page="6" hidden="false" typeId="7fbe-7f49-81ba-0fcf" typeName="Incarnate">
           <characteristics>
             <characteristic name="RANK" typeId="87c8-7716-1bdb-856f">2</characteristic>
             <characteristic name="MOV" typeId="5ceb-cf8e-bb92-d23a">15</characteristic>
             <characteristic name="DEF" typeId="912a-a4d7-39c7-5c18">3</characteristic>
             <characteristic name="RES" typeId="0d16-6fb1-412c-3dbd">5</characteristic>
-            <characteristic name="HTHDICE" typeId="0fb2-bd3c-ae0c-c7dc">5</characteristic>
+            <characteristic name="HTHDICE" typeId="0fb2-bd3c-ae0c-c7dc">2</characteristic>
             <characteristic name="HTH" typeId="0fe2-bc96-a8c8-41a2">5</characteristic>
             <characteristic name="HTHSTR" typeId="b61b-40b7-d15d-275f">5</characteristic>
             <characteristic name="RNG" typeId="2b53-84a7-c5d9-f4b8"/>
@@ -1860,12 +1747,10 @@ When both Felyhin and Morgwen are in the same unit, they both gain the abilities
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe28-edd7-3cf5-a26e" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="0bf0-56be-9826-6de1" name="The Almigthy Skull" hidden="false" collective="false" import="true" targetId="ce4b-695e-1712-1cac" type="selectionEntry"/>
-            <entryLink id="d340-c41f-4397-af90" name="Incarnate: Melmoth" hidden="false" collective="false" import="true" targetId="4d81-7a95-c262-306f" type="selectionEntry"/>
-            <entryLink id="2cc2-86df-bfad-e57d" name="Incarnate: Azael the Infidel" hidden="false" collective="false" import="true" targetId="7e93-b3aa-52b4-eb24" type="selectionEntry"/>
-            <entryLink id="df68-f0e4-3584-bec2" name="Incarnate: Rhea Of Brisis" hidden="false" collective="false" import="true" targetId="bb8d-3610-80df-ab6b" type="selectionEntry"/>
-            <entryLink id="222a-aca5-765e-93a3" name="Incarnate: The Gorgon" hidden="false" collective="false" import="true" targetId="17f6-ea7c-daee-8af3" type="selectionEntry"/>
-            <entryLink id="890f-8702-4cef-86c4" name="Incarnate: Ejhin Of Vanth" publicationId="c2bc-5f69-7933-127a" page="42" hidden="false" collective="false" import="true" targetId="6e99-2aad-7fb0-d673" type="selectionEntry"/>
+            <entryLink id="0bf0-56be-9826-6de1" name="Incarnate: Balkrón" hidden="false" collective="false" import="true" targetId="ce4b-695e-1712-1cac" type="selectionEntry"/>
+            <entryLink id="df68-f0e4-3584-bec2" name="Incarnate: Corwyn" hidden="false" collective="false" import="true" targetId="bb8d-3610-80df-ab6b" type="selectionEntry"/>
+            <entryLink id="222a-aca5-765e-93a3" name="Incarnate: Damralh" hidden="false" collective="false" import="true" targetId="17f6-ea7c-daee-8af3" type="selectionEntry"/>
+            <entryLink id="890f-8702-4cef-86c4" name="Incarnate: Gwernydd" publicationId="c2bc-5f69-7933-127a" page="42" hidden="false" collective="false" import="true" targetId="6e99-2aad-7fb0-d673" type="selectionEntry"/>
             <entryLink id="7592-dcad-f697-833e" name="Incarnate: Ardokath" publicationId="c2bc-5f69-7933-127a" page="38" hidden="false" collective="false" import="true" targetId="6070-cda8-0da5-941a" type="selectionEntry"/>
             <entryLink id="33b0-06ec-85aa-adc4" name="Incarnate: Tyramon" publicationId="c2bc-5f69-7933-127a" page="38" hidden="false" collective="false" import="true" targetId="4caf-7da2-6c14-aa03" type="selectionEntry"/>
           </entryLinks>
@@ -1912,6 +1797,50 @@ When both Felyhin and Morgwen are in the same unit, they both gain the abilities
       </selectionEntryGroups>
       <costs>
         <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dc92-dbc1-3d5c-6702" name="Incarnate: Ychor" publicationId="c2bc-5f69-7933-127a" page="25" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3fbd-5f87-bad6-3781" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="90cb-6d02-cfeb-2199" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="dadc-51f6-ec78-f4bc" name="Ychor" publicationId="c2bc-5f69-7933-127a" page="6" hidden="false" typeId="7fbe-7f49-81ba-0fcf" typeName="Incarnate">
+          <characteristics>
+            <characteristic name="RANK" typeId="87c8-7716-1bdb-856f">2</characteristic>
+            <characteristic name="MOV" typeId="5ceb-cf8e-bb92-d23a">15</characteristic>
+            <characteristic name="DEF" typeId="912a-a4d7-39c7-5c18">3</characteristic>
+            <characteristic name="RES" typeId="0d16-6fb1-412c-3dbd">5</characteristic>
+            <characteristic name="HTHDICE" typeId="0fb2-bd3c-ae0c-c7dc">2</characteristic>
+            <characteristic name="HTH" typeId="0fe2-bc96-a8c8-41a2">7</characteristic>
+            <characteristic name="HTHSTR" typeId="b61b-40b7-d15d-275f">9</characteristic>
+            <characteristic name="RNG" typeId="2b53-84a7-c5d9-f4b8"/>
+            <characteristic name="RNGDICE" typeId="1efa-aca9-9417-4497"/>
+            <characteristic name="RNGSTR" typeId="fe6b-f4e1-3748-82fd"/>
+            <characteristic name="WL" typeId="ce05-8d55-4750-7db5">4</characteristic>
+            <characteristic name="AUTH" typeId="c1b3-03a7-17ad-7e7a">3</characteristic>
+            <characteristic name="ELIXIR/DUEL" typeId="b9ea-bc8d-91d9-ce13">4</characteristic>
+            <characteristic name="COU" typeId="52dd-1e85-a7a4-cdc8"></characteristic>
+            <characteristic name="FEAR" typeId="ed90-ab0e-8d4a-1549">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e86c-5658-91f7-3ed0" name="Feat: Truth of the Gnosis" hidden="false" targetId="08d0-b8ee-11d5-718f" type="profile"/>
+        <infoLink id="4440-52bd-7e4a-d84f" name="Regeneration" hidden="false" targetId="445f-1270-320a-aa22" type="profile"/>
+        <infoLink id="130b-ad69-8434-a629" name="Reach" hidden="false" targetId="26a2-b0f2-f774-e44b" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ccf5-33d9-9fb5-d287" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
+        <categoryLink id="c75a-d282-d204-3843" name="Incarnate" hidden="false" targetId="b1bb-d6b8-9798-c7aa" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1711-4349-e717-5e9b" name="Rank 1 Artifacts" hidden="false" collective="false" import="true" targetId="2fce-70dc-028a-c15b" type="selectionEntryGroup"/>
+        <entryLink id="8731-fc14-3727-4a9d" name="Rank 2 Artifacts" hidden="false" collective="false" import="true" targetId="aebe-4bec-62d6-6bc1" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="225.0"/>
         <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
       </costs>
     </selectionEntry>

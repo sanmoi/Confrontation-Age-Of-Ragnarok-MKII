@@ -383,5 +383,10 @@ If it recovers enough hit points to be above 0 when the phase end it will howeve
         <characteristic name="Effect" typeId="ff52-3103-6a52-768b">Successes on Strength tests against units composed of fighters with Survival Instinct are rerolled once more.</characteristic>
       </characteristics>
     </profile>
+    <profile id="f0cd-1666-22b6-16b8" name="Savage" publicationId="cd43-c32f-bcee-dc77" hidden="false" typeId="ff04-985d-f382-aa2a" typeName="Ability">
+      <characteristics>
+        <characteristic name="Effect" typeId="ff52-3103-6a52-768b">Each 5 or 6 on a strength test performed by a fighter with this ability generates a bonus dice.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
 </gameSystem>
