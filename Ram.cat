@@ -3,13 +3,20 @@
   <publications>
     <publication id="0b09-f1f3-14cc-6506" name="Army book: The Ram of Acheron" shortName="RAM:ARB" publisher="Army book: The Ram of Acheron"/>
     <publication id="ca4d-74be-154b-2e2d" name="Cry Havoc Online pdf supplement: Belial&apos;s legion" shortName="Belial&apos;s legion CHO pdf"/>
+    <publication id="0847-9755-9525-70b1" name="Cry Havoc Online pdf supplement: Golem de Chair" shortName="Golem de Chair CHO pdf"/>
+    <publication id="ef75-6584-d0ae-3406" name="Web Army book: The Ram of Acheron" shortName="RAM:WARB" publisher="2009"/>
   </publications>
   <categoryEntries>
     <categoryEntry id="5bc4-848f-8491-7f8b" name="Std Priority choice" publicationId="0b09-f1f3-14cc-6506" page="21" hidden="false"/>
-    <categoryEntry id="43ba-4fbc-ad58-e60d" name="Std 2nd Choice" publicationId="0b09-f1f3-14cc-6506" page="21" hidden="false"/>
+    <categoryEntry id="43ba-4fbc-ad58-e60d" name="Brisis 2nd Choice" publicationId="0b09-f1f3-14cc-6506" page="26" hidden="false"/>
     <categoryEntry id="2936-62cd-b76c-4740" name="Std 3rd Choice" publicationId="0b09-f1f3-14cc-6506" hidden="false"/>
     <categoryEntry id="e8e5-bdc6-8b13-f611" name="Std 4th Choice" publicationId="0b09-f1f3-14cc-6506" page="21" hidden="false"/>
     <categoryEntry id="a006-cb89-8f63-26be" name="Std 5th Choice" publicationId="0b09-f1f3-14cc-6506" page="21" hidden="false"/>
+    <categoryEntry id="f005-4dea-6931-b83c" name="Brisis 3rd Choice" publicationId="0b09-f1f3-14cc-6506" page="26" hidden="false"/>
+    <categoryEntry id="f02f-7540-5d1d-eb37" name="Brisis 4th Choice" publicationId="0b09-f1f3-14cc-6506" page="26" hidden="false"/>
+    <categoryEntry id="f000-2ff6-0ca1-8959" name="Brisis 5th Choice" publicationId="0b09-f1f3-14cc-6506" page="26" hidden="false"/>
+    <categoryEntry id="31a6-b0dd-678a-51be" name="Std 2nd Choice" publicationId="0b09-f1f3-14cc-6506" page="21" hidden="false"/>
+    <categoryEntry id="70f6-b495-d501-691e" name="Brisis Priority choice" publicationId="0b09-f1f3-14cc-6506" page="26" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="5474-0571-8b6e-1613" name="Standard Banner" publicationId="0b09-f1f3-14cc-6506" hidden="false">
@@ -20,7 +27,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f74-a906-f242-efd2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="2e97-65b0-9d80-604f" name="Std 2nd Choice" hidden="false" targetId="43ba-4fbc-ad58-e60d" primary="false">
+        <categoryLink id="2e97-65b0-9d80-604f" name="Std 2nd Choice" hidden="false" targetId="31a6-b0dd-678a-51be" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c94-182c-5ef9-2435" type="max"/>
           </constraints>
@@ -42,12 +49,51 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="0fc0-6aed-724c-7715" name="House Hestia" hidden="false"/>
+    <forceEntry id="0fc0-6aed-724c-7715" name="House Brisis" publicationId="0b09-f1f3-14cc-6506" hidden="false">
+      <rules>
+        <rule id="2f0c-21e9-10c8-9dc6" name="Advantage: House Brisis" hidden="false">
+          <description>Who dares defy the never-ending tide of undead?
+Any unit of the House of Brisis can disengage without any of its fighters being eliminated and can still declare an assault complex action after this movement but only against the unit from which it just disengaged.
+This supersedes the Disengagement Rule.</description>
+        </rule>
+        <rule id="2dbd-2eee-febb-5485" name="Disdvantage: House Brisis" hidden="false">
+          <description>Whenever a friendly Incarnate is eliminated it must be resurrected as soon as conditions permit (based on the Incarnates description).</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="813f-51d2-d98c-3c1e" name="Brisis Priority choice" hidden="false" targetId="70f6-b495-d501-691e" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83af-88ff-49fb-b252" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="657d-9b92-345b-0780" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="6767-0e23-97f6-5d81" name="Brisis 2nd Choice" hidden="false" targetId="43ba-4fbc-ad58-e60d" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9cc-1575-c688-e64b" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3c97-8b16-6b55-352b" name="Brisis 3rd Choice" hidden="false" targetId="f005-4dea-6931-b83c" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcad-d091-dea0-2721" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="6ecb-6fe4-a4d0-6c76" name="Brisis 4th Choice" hidden="false" targetId="f02f-7540-5d1d-eb37" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5814-03ff-319b-e8f1" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="e428-9998-d0bb-2388" name="Brisis 5th Choice" hidden="false" targetId="f000-2ff6-0ca1-8959" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e5d-828b-09e7-3273" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
   <entryLinks>
     <entryLink id="0edc-3a50-af1c-73cf" name="Ghouls" hidden="false" collective="false" import="true" targetId="eb4a-aec9-521a-b054" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="33b6-9dfd-fb4a-e31a" name="Std 2nd Choice" hidden="false" targetId="43ba-4fbc-ad58-e60d" primary="true"/>
+        <categoryLink id="35c9-738f-d809-c731" name="New CategoryLink" hidden="false" targetId="31a6-b0dd-678a-51be" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6a60-d853-e792-b4ef" name="Undead Tralls" hidden="false" collective="false" import="true" targetId="359e-b2be-bf58-c705" type="selectionEntry">
@@ -57,7 +103,7 @@
     </entryLink>
     <entryLink id="34a1-504f-fd83-3c14" name="Undead Tralls" hidden="false" collective="false" import="true" targetId="359e-b2be-bf58-c705" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="d013-c5b9-2da8-35b5" name="Std 2nd Choice" hidden="false" targetId="43ba-4fbc-ad58-e60d" primary="true"/>
+        <categoryLink id="ec5d-53c0-92ad-f4d3" name="New CategoryLink" hidden="false" targetId="31a6-b0dd-678a-51be" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="610b-8e17-49b2-a881" name="Black Paladins" publicationId="0b09-f1f3-14cc-6506" page="51" hidden="false" collective="false" import="true" targetId="e9ec-00f4-3c2c-5542" type="selectionEntry">
@@ -108,6 +154,96 @@
     <entryLink id="49f8-c936-0f87-67df" name="Scavengers of Acheron" hidden="false" collective="false" import="true" targetId="9767-900d-979f-7f0a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="d86b-8a16-7efe-5069" name="New CategoryLink" hidden="false" targetId="e8e5-bdc6-8b13-f611" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3a4f-4c3b-350b-1b1a" name="Undead Tralls" hidden="false" collective="false" import="true" targetId="359e-b2be-bf58-c705" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="28db-ba98-8e80-a4de" name="New CategoryLink" hidden="false" targetId="70f6-b495-d501-691e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f5ff-ac26-f905-81a5" name="Flesh Golem" hidden="false" collective="false" import="true" targetId="e96d-0088-ae15-af86" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="44ad-30dc-577d-c31d" name="New CategoryLink" hidden="false" targetId="e8e5-bdc6-8b13-f611" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6a67-38f1-c6a9-d56d" name="Undead Tralls" hidden="false" collective="false" import="true" targetId="359e-b2be-bf58-c705" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2ead-c9d6-da38-0521" name="New CategoryLink" hidden="false" targetId="43ba-4fbc-ad58-e60d" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e7ad-6bde-d962-21ea" name="Undead Tralls" hidden="false" collective="false" import="true" targetId="359e-b2be-bf58-c705" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0ab1-2184-777e-b162" name="New CategoryLink" hidden="false" targetId="f005-4dea-6931-b83c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e08d-14a7-4d38-5db0" name="Ghouls" hidden="false" collective="false" import="true" targetId="eb4a-aec9-521a-b054" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9556-c54b-c28b-89c7" name="New CategoryLink" hidden="false" targetId="f005-4dea-6931-b83c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="aabc-4535-8ccd-6b7d" name="Undead Tralls" hidden="false" collective="false" import="true" targetId="359e-b2be-bf58-c705" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3af9-68d3-3936-f139" name="New CategoryLink" hidden="false" targetId="f02f-7540-5d1d-eb37" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fba9-6907-2fbf-b02b" name="Ghouls" hidden="false" collective="false" import="true" targetId="eb4a-aec9-521a-b054" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="dae2-7ecc-e6ab-8d6d" name="New CategoryLink" hidden="false" targetId="f02f-7540-5d1d-eb37" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f162-2d4f-5107-4b6f" name="Cerberus" hidden="false" collective="false" import="true" targetId="dec1-f5a4-be71-37bf" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6ad8-d31d-adb5-b250" name="New CategoryLink" hidden="false" targetId="f02f-7540-5d1d-eb37" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0c4a-46b0-5c21-4828" name="Flesh Golem" hidden="false" collective="false" import="true" targetId="e96d-0088-ae15-af86" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="13ee-9526-99e6-9db3" name="New CategoryLink" hidden="false" targetId="f02f-7540-5d1d-eb37" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6f94-7287-162c-ce91" name="Gargoyles" hidden="false" collective="false" import="true" targetId="1ad4-2043-d8eb-3efd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b03f-ea62-9bc5-5c52" name="New CategoryLink" hidden="false" targetId="f02f-7540-5d1d-eb37" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="93c5-516a-062e-9421" name="Scavengers of Acheron" hidden="false" collective="false" import="true" targetId="9767-900d-979f-7f0a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="23df-b633-f4a4-5144" name="New CategoryLink" hidden="false" targetId="f000-2ff6-0ca1-8959" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6fdc-1358-8cec-5c6d" name="Heavy Centaurs" hidden="false" collective="false" import="true" targetId="8b9c-c586-7a35-60b5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bf96-393a-85d0-ed5f" name="New CategoryLink" hidden="false" targetId="f000-2ff6-0ca1-8959" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ab53-f5ea-33e8-bb16" name="Portal of the Abyss" hidden="false" collective="false" import="true" targetId="d9c1-9801-54ce-a537" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6cb9-5357-2e38-39f9" name="New CategoryLink" hidden="false" targetId="f000-2ff6-0ca1-8959" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8ecf-34aa-2fab-1a4a" name="Black Paladins" publicationId="0b09-f1f3-14cc-6506" page="51" hidden="false" collective="false" import="true" targetId="e9ec-00f4-3c2c-5542" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e8b5-cb37-a184-2697" name="New CategoryLink" hidden="false" targetId="f02f-7540-5d1d-eb37" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="50eb-7f2c-7072-348f" name="Wamphyrs" hidden="false" collective="false" import="true" targetId="7530-29bf-992f-6b48" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fbb8-4020-d31a-aa64" name="New CategoryLink" hidden="false" targetId="f02f-7540-5d1d-eb37" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6f23-b5e2-4c55-f045" name="Spectres of Acheron" hidden="false" collective="false" import="true" targetId="c34b-86d6-f636-f364" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7478-437c-d4bc-237c" name="New CategoryLink" hidden="false" targetId="2936-62cd-b76c-4740" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9303-b1fd-f484-ecd7" name="Spectres of Acheron" hidden="false" collective="false" import="true" targetId="c34b-86d6-f636-f364" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5b39-a8c0-9e87-6796" name="New CategoryLink" hidden="false" targetId="a006-cb89-8f63-26be" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="639f-6bf5-20d8-fe39" name="Spectres of Acheron" hidden="false" collective="false" import="true" targetId="c34b-86d6-f636-f364" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="589e-15d6-527f-7129" name="New CategoryLink" hidden="false" targetId="f02f-7540-5d1d-eb37" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -697,7 +833,7 @@
         <categoryLink id="202f-157d-26a4-80ec" name="Creature" hidden="false" targetId="1cb7-380d-c30a-a4ad" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2076-2539-52b9-c074" name="Gargolye" publicationId="0b09-f1f3-14cc-6506" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="2076-2539-52b9-c074" name="Gargoyle" publicationId="0b09-f1f3-14cc-6506" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="964b-5e96-a1ae-8882" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="970c-d5ca-c42d-b058" type="min"/>
@@ -1773,6 +1909,161 @@ Belial comes into play for free, unharmed, and equipped with its reserved artifa
       <costs>
         <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="405.0"/>
         <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e96d-0088-ae15-af86" name="Flesh Golem" publicationId="0847-9755-9525-70b1" page="1" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="9127-5fef-3c5d-d3c6" name="Creature" hidden="false" targetId="1cb7-380d-c30a-a4ad" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="bd9e-4482-cf87-41e5" name="Flesh Golem" publicationId="0847-9755-9525-70b1" page="1" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70e1-4645-80c6-9e86" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d84c-1765-f91f-40cd" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="61f8-0336-be72-d77a" name="Flesh Golem" publicationId="0b09-f1f3-14cc-6506" page="1" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
+              <characteristics>
+                <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">3</characteristic>
+                <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">15</characteristic>
+                <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">3</characteristic>
+                <characteristic name="RES" typeId="a373-791b-b75c-1e95">10</characteristic>
+                <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">3</characteristic>
+                <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">7</characteristic>
+                <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">11</characteristic>
+                <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb"/>
+                <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a"/>
+                <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
+                <characteristic name="WL" typeId="70ec-23cf-9831-be85">4</characteristic>
+                <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37">7</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6d01-8677-2e88-a3ff" name="Abomination" hidden="false" targetId="9cff-3376-ab26-0f84" type="profile"/>
+            <infoLink id="8885-2e6c-d60e-ba92" name="Regeneration" hidden="false" targetId="445f-1270-320a-aa22" type="profile"/>
+            <infoLink id="6f8e-0c5e-f9ab-fa40" name="Reach" hidden="false" targetId="26a2-b0f2-f774-e44b" type="profile"/>
+            <infoLink id="6b98-db42-09db-8013" name="Savage" hidden="false" targetId="f0cd-1666-22b6-16b8" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="b6cb-59c8-72dd-bb1a" name="Creature" hidden="false" targetId="1cb7-380d-c30a-a4ad" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="450.0"/>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d9c1-9801-54ce-a537" name="Portal of the Abyss" publicationId="0b09-f1f3-14cc-6506" page="57" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="70d4-65c1-8894-faa8" name="Creature" hidden="false" targetId="1cb7-380d-c30a-a4ad" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0504-872e-ea0a-1909" name="Portal of the Abyss" publicationId="0b09-f1f3-14cc-6506" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0459-0b34-d708-88fb" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5ef-9c79-58c0-2c9b" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="7782-0d19-6d8b-f502" name="Cerberus" publicationId="0b09-f1f3-14cc-6506" page="55" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
+              <characteristics>
+                <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">2</characteristic>
+                <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">10</characteristic>
+                <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">3</characteristic>
+                <characteristic name="RES" typeId="a373-791b-b75c-1e95">4</characteristic>
+                <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">2</characteristic>
+                <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">5</characteristic>
+                <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">5</characteristic>
+                <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb"/>
+                <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a"/>
+                <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
+                <characteristic name="WL" typeId="70ec-23cf-9831-be85">2</characteristic>
+                <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
+              </characteristics>
+            </profile>
+            <profile id="0451-fa66-6e48-cf45" name="Hell Gate" publicationId="0b09-f1f3-14cc-6506" page="57" hidden="false" typeId="ff04-985d-f382-aa2a" typeName="Ability">
+              <characteristics>
+                <characteristic name="Effect" typeId="ff52-3103-6a52-768b">At the beginning or the end of its movement, a unit that has at least one member that is in contact with a Portal of the Abyss (from the same company) can be deployed in contact with any other Portal of the Abyss (from the same company). Any fi ghters whose destination is a Portal of the Abyss and which cannot be deployed in contact with the Portal of the Abyss are eliminated.
+
+Tall structure: This unit cannot receive the Hide Ability ot deploy within buildings
+
+Movement: The Portal of the Abyss cannot move.
+Engagement: The Portal of the Abyss does not represent a threat in contact. It can not engage enemies, but it can be engaged by them. Any fighters who disengage from it are not eliminated.
+Incarnate: Incarnates cannot join a Portal of the Abyss unit.
+No formation: Th e Portals of the Abyss are not required to comply with the rules of formation.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6391-c53f-b699-e67b" name="Scout" hidden="false" targetId="b49b-3b0d-2c48-b3af" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="278c-d23e-f42f-4234" name="Creature" hidden="false" targetId="1cb7-380d-c30a-a4ad" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="50.0"/>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c34b-86d6-f636-f364" name="Spectres of Acheron" publicationId="0b09-f1f3-14cc-6506" page="55" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="64e8-e048-68cc-df29" name="Creature" hidden="false" targetId="1cb7-380d-c30a-a4ad" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e565-c0f6-3a95-74f2" name="Spectre" publicationId="0b09-f1f3-14cc-6506" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d7d-89e5-5ba2-b2b6" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bbf-aa7a-9c4c-66bb" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="20cb-8d62-8378-c20d" name="Specter" publicationId="0b09-f1f3-14cc-6506" page="55" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
+              <characteristics>
+                <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">3</characteristic>
+                <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">15</characteristic>
+                <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">3</characteristic>
+                <characteristic name="RES" typeId="a373-791b-b75c-1e95">7</characteristic>
+                <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">1</characteristic>
+                <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">7</characteristic>
+                <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">11</characteristic>
+                <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb"/>
+                <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a"/>
+                <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
+                <characteristic name="WL" typeId="70ec-23cf-9831-be85">2</characteristic>
+                <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37">5</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7d3f-527e-8cfc-16c7" name="Ethereal" hidden="false" targetId="ec21-217b-8adf-7ca6" type="profile"/>
+            <infoLink id="0011-84fc-dcec-dde7" name="Flight" hidden="false" targetId="9964-3dd6-70ec-d182" type="profile"/>
+            <infoLink id="710c-7b86-f468-1d74" name="Reach" hidden="false" targetId="26a2-b0f2-f774-e44b" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="3547-a693-5b90-4d49" name="Creature" hidden="false" targetId="1cb7-380d-c30a-a4ad" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="150.0"/>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
