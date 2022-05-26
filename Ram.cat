@@ -273,7 +273,7 @@ This supersedes the Disengagement Rule.</description>
                 <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
                 <characteristic name="WL" typeId="70ec-23cf-9831-be85"/>
                 <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
-                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37">3</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -333,7 +333,7 @@ This supersedes the Disengagement Rule.</description>
                 <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
                 <characteristic name="WL" typeId="70ec-23cf-9831-be85">1</characteristic>
                 <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
-                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37">3</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -370,7 +370,7 @@ This supersedes the Disengagement Rule.</description>
                     <characteristic name="WL" typeId="24ce-d500-47cd-9080">1</characteristic>
                     <characteristic name="FRV" typeId="f864-3d2d-11da-0b09">3</characteristic>
                     <characteristic name="COU" typeId="1816-4c36-fd3b-179b"/>
-                    <characteristic name="FEAR" typeId="6a97-4955-9d58-f24a"/>
+                    <characteristic name="FEAR" typeId="6a97-4955-9d58-f24a">3</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -403,7 +403,7 @@ This supersedes the Disengagement Rule.</description>
                     <characteristic name="WL" typeId="43e4-a4ec-68be-4597">1</characteristic>
                     <characteristic name="ENG" typeId="a08c-d341-e2d0-9b12">4</characteristic>
                     <characteristic name="COU" typeId="46b9-76e0-489f-9bb6"/>
-                    <characteristic name="FEAR" typeId="fe46-7177-eacc-10f4"/>
+                    <characteristic name="FEAR" typeId="fe46-7177-eacc-10f4">3</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -435,7 +435,7 @@ This supersedes the Disengagement Rule.</description>
                     <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
                     <characteristic name="WL" typeId="70ec-23cf-9831-be85">1</characteristic>
                     <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
-                    <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
+                    <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37">3</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -468,7 +468,7 @@ This supersedes the Disengagement Rule.</description>
                     <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
                     <characteristic name="WL" typeId="70ec-23cf-9831-be85">1</characteristic>
                     <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
-                    <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
+                    <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37">3</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -528,7 +528,7 @@ This supersedes the Disengagement Rule.</description>
                 <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
                 <characteristic name="WL" typeId="70ec-23cf-9831-be85">2</characteristic>
                 <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
-                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37">5</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -578,7 +578,7 @@ This supersedes the Disengagement Rule.</description>
                     <characteristic name="WL" typeId="24ce-d500-47cd-9080">2</characteristic>
                     <characteristic name="FRV" typeId="f864-3d2d-11da-0b09">3</characteristic>
                     <characteristic name="COU" typeId="1816-4c36-fd3b-179b"/>
-                    <characteristic name="FEAR" typeId="6a97-4955-9d58-f24a"/>
+                    <characteristic name="FEAR" typeId="6a97-4955-9d58-f24a">5</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -643,7 +643,7 @@ This supersedes the Disengagement Rule.</description>
                     <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
                     <characteristic name="WL" typeId="70ec-23cf-9831-be85">2</characteristic>
                     <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
-                    <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
+                    <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37">5</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -676,7 +676,7 @@ This supersedes the Disengagement Rule.</description>
                     <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
                     <characteristic name="WL" typeId="70ec-23cf-9831-be85">2</characteristic>
                     <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
-                    <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
+                    <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37">5</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -718,7 +718,7 @@ This supersedes the Disengagement Rule.</description>
             <characteristic name="AUTH" typeId="c1b3-03a7-17ad-7e7a">5</characteristic>
             <characteristic name="ELIXIR/DUEL" typeId="b9ea-bc8d-91d9-ce13">7</characteristic>
             <characteristic name="COU" typeId="52dd-1e85-a7a4-cdc8"/>
-            <characteristic name="FEAR" typeId="ed90-ab0e-8d4a-1549"/>
+            <characteristic name="FEAR" typeId="ed90-ab0e-8d4a-1549">7</characteristic>
           </characteristics>
         </profile>
         <profile id="98ae-0adc-7f2d-642d" name="Necromantic aura" publicationId="0b09-f1f3-14cc-6506" page="25" hidden="false" typeId="8053-ee84-9434-dbdb" typeName="Spell">
@@ -806,7 +806,7 @@ This supersedes the Disengagement Rule.</description>
                 <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
                 <characteristic name="WL" typeId="70ec-23cf-9831-be85">2</characteristic>
                 <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
-                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37">3</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -853,7 +853,7 @@ This supersedes the Disengagement Rule.</description>
                 <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
                 <characteristic name="WL" typeId="70ec-23cf-9831-be85">2</characteristic>
                 <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
-                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37">3</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -900,7 +900,7 @@ This supersedes the Disengagement Rule.</description>
                 <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
                 <characteristic name="WL" typeId="70ec-23cf-9831-be85">2</characteristic>
                 <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
-                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37">5</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -947,7 +947,7 @@ This supersedes the Disengagement Rule.</description>
                 <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
                 <characteristic name="WL" typeId="70ec-23cf-9831-be85">3</characteristic>
                 <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
-                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37">7</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1006,15 +1006,18 @@ This supersedes the Disengagement Rule.</description>
                 <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
                 <characteristic name="WL" typeId="70ec-23cf-9831-be85">3</characteristic>
                 <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
-                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37">5</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="55fa-ed67-92b5-4aa4" name="Regeneration" hidden="false" targetId="445f-1270-320a-aa22" type="profile"/>
+            <infoLink id="ee51-487a-2def-2fa7" name="Reach" hidden="false" targetId="26a2-b0f2-f774-e44b" type="profile"/>
+            <infoLink id="58c8-3c25-94e3-0e29" name="Jump" hidden="false" targetId="abfd-6955-8cb6-0561" type="profile"/>
+            <infoLink id="2aee-d460-9bad-6595" name="Disengagement" hidden="false" targetId="cf57-4474-fcbb-c0a4" type="profile"/>
           </infoLinks>
           <categoryLinks>
-            <categoryLink id="fbff-ff2a-5f0f-a736" name="Creature" hidden="false" targetId="1cb7-380d-c30a-a4ad" primary="false"/>
+            <categoryLink id="a01c-c8db-1717-eb6e" name="Light Cavalry" hidden="false" targetId="92f3-1c61-ec1f-c3cd" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="155.0"/>
@@ -1046,10 +1049,10 @@ This supersedes the Disengagement Rule.</description>
             <characteristic name="RNGDICE" typeId="1efa-aca9-9417-4497"/>
             <characteristic name="RNGSTR" typeId="fe6b-f4e1-3748-82fd"/>
             <characteristic name="WL" typeId="ce05-8d55-4750-7db5">4</characteristic>
-            <characteristic name="AUTH" typeId="c1b3-03a7-17ad-7e7a">5</characteristic>
-            <characteristic name="ELIXIR/DUEL" typeId="b9ea-bc8d-91d9-ce13">3</characteristic>
+            <characteristic name="AUTH" typeId="c1b3-03a7-17ad-7e7a">3</characteristic>
+            <characteristic name="ELIXIR/DUEL" typeId="b9ea-bc8d-91d9-ce13">4</characteristic>
             <characteristic name="COU" typeId="52dd-1e85-a7a4-cdc8"/>
-            <characteristic name="FEAR" typeId="ed90-ab0e-8d4a-1549"/>
+            <characteristic name="FEAR" typeId="ed90-ab0e-8d4a-1549">5</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1111,7 +1114,7 @@ This supersedes the Disengagement Rule.</description>
             <characteristic name="PATHS" typeId="9133-8054-0968-316f">Necromancy</characteristic>
             <characteristic name="ELEMENTS" typeId="c6c8-ed9c-c7b5-22e6">Darkness</characteristic>
             <characteristic name="COU" typeId="e1f8-5f90-b4e2-7b49"/>
-            <characteristic name="FEAR" typeId="1019-8fea-8981-67fd"/>
+            <characteristic name="FEAR" typeId="1019-8fea-8981-67fd">5</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1191,7 +1194,7 @@ This supersedes the Disengagement Rule.</description>
             <characteristic name="ELEMENTS" typeId="c6c8-ed9c-c7b5-22e6">Darkness
 Fire</characteristic>
             <characteristic name="COU" typeId="e1f8-5f90-b4e2-7b49"/>
-            <characteristic name="FEAR" typeId="1019-8fea-8981-67fd"/>
+            <characteristic name="FEAR" typeId="1019-8fea-8981-67fd">7</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1324,7 +1327,7 @@ Fire</characteristic>
             <characteristic name="AUTH" typeId="c1b3-03a7-17ad-7e7a">5</characteristic>
             <characteristic name="ELIXIR/DUEL" typeId="b9ea-bc8d-91d9-ce13">5</characteristic>
             <characteristic name="COU" typeId="52dd-1e85-a7a4-cdc8"/>
-            <characteristic name="FEAR" typeId="ed90-ab0e-8d4a-1549"/>
+            <characteristic name="FEAR" typeId="ed90-ab0e-8d4a-1549">5</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1398,9 +1401,9 @@ Fire</characteristic>
             <characteristic name="MOV" typeId="dd48-412c-a827-4c45">10</characteristic>
             <characteristic name="DEF" typeId="4c71-f7da-7785-8d0b">5</characteristic>
             <characteristic name="RES" typeId="b982-d3fc-300f-7a3f">3</characteristic>
-            <characteristic name="HTHDICE" typeId="1b69-0728-3c38-fd7d">3</characteristic>
+            <characteristic name="HTHDICE" typeId="1b69-0728-3c38-fd7d">2</characteristic>
             <characteristic name="HTH" typeId="efc6-9cec-ad35-cab7">5</characteristic>
-            <characteristic name="HTHSTR" typeId="d527-4703-4777-133e">10</characteristic>
+            <characteristic name="HTHSTR" typeId="d527-4703-4777-133e">3</characteristic>
             <characteristic name="RNG" typeId="7452-b1c8-1fcd-886b"/>
             <characteristic name="RNGDICE" typeId="572e-6bdf-ab2b-acdd"/>
             <characteristic name="RNGSTR" typeId="6990-84da-0126-e694"/>
@@ -1413,7 +1416,7 @@ Fire</characteristic>
 Air
 Water</characteristic>
             <characteristic name="COU" typeId="e1f8-5f90-b4e2-7b49"/>
-            <characteristic name="FEAR" typeId="1019-8fea-8981-67fd"/>
+            <characteristic name="FEAR" typeId="1019-8fea-8981-67fd">7</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1535,7 +1538,7 @@ Water</characteristic>
             <characteristic name="ELEMENTS" typeId="c6c8-ed9c-c7b5-22e6">Darkness
 Fire</characteristic>
             <characteristic name="COU" typeId="e1f8-5f90-b4e2-7b49"/>
-            <characteristic name="FEAR" typeId="1019-8fea-8981-67fd"/>
+            <characteristic name="FEAR" typeId="1019-8fea-8981-67fd">5</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1645,7 +1648,7 @@ Fire</characteristic>
             <characteristic name="ASPECTS" typeId="794a-7ee5-da99-16ef">Alteration
 Destruction</characteristic>
             <characteristic name="COU" typeId="7b8a-9165-d054-9dc7"/>
-            <characteristic name="FEAR" typeId="77cb-998f-0191-faf7"/>
+            <characteristic name="FEAR" typeId="77cb-998f-0191-faf7">5</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1748,7 +1751,7 @@ Destruction</characteristic>
             <characteristic name="RNGDICE" typeId="6955-924b-d208-8b2d"/>
             <characteristic name="RNGSTR" typeId="784e-7f5e-dd7a-425b"/>
             <characteristic name="WL" typeId="b7f4-e601-c656-adb9">4</characteristic>
-            <characteristic name="FRV" typeId="351e-46b3-020b-5884"/>
+            <characteristic name="FRV" typeId="351e-46b3-020b-5884">9</characteristic>
             <characteristic name="AUTH" typeId="9d21-62e6-8ec2-011d">5</characteristic>
             <characteristic name="ELIXIR/DUEL" typeId="1a85-e04f-b6ab-eeb8">8</characteristic>
             <characteristic name="CULTS" typeId="e970-9ca6-6f98-9bab">Trinity of the Abyss</characteristic>
@@ -1756,7 +1759,7 @@ Destruction</characteristic>
 Alteration
 Destruction</characteristic>
             <characteristic name="COU" typeId="7b8a-9165-d054-9dc7"/>
-            <characteristic name="FEAR" typeId="77cb-998f-0191-faf7"/>
+            <characteristic name="FEAR" typeId="77cb-998f-0191-faf7">7</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1971,23 +1974,6 @@ Belial comes into play for free, unharmed, and equipped with its reserved artifa
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5ef-9c79-58c0-2c9b" type="min"/>
           </constraints>
           <profiles>
-            <profile id="7782-0d19-6d8b-f502" name="Cerberus" publicationId="0b09-f1f3-14cc-6506" page="55" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
-              <characteristics>
-                <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">2</characteristic>
-                <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">10</characteristic>
-                <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">3</characteristic>
-                <characteristic name="RES" typeId="a373-791b-b75c-1e95">4</characteristic>
-                <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">2</characteristic>
-                <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">5</characteristic>
-                <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">5</characteristic>
-                <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb"/>
-                <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a"/>
-                <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
-                <characteristic name="WL" typeId="70ec-23cf-9831-be85">2</characteristic>
-                <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
-                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
-              </characteristics>
-            </profile>
             <profile id="0451-fa66-6e48-cf45" name="Hell Gate" publicationId="0b09-f1f3-14cc-6506" page="57" hidden="false" typeId="ff04-985d-f382-aa2a" typeName="Ability">
               <characteristics>
                 <characteristic name="Effect" typeId="ff52-3103-6a52-768b">At the beginning or the end of its movement, a unit that has at least one member that is in contact with a Portal of the Abyss (from the same company) can be deployed in contact with any other Portal of the Abyss (from the same company). Any fi ghters whose destination is a Portal of the Abyss and which cannot be deployed in contact with the Portal of the Abyss are eliminated.
@@ -1997,7 +1983,7 @@ Tall structure: This unit cannot receive the Hide Ability ot deploy within build
 Movement: The Portal of the Abyss cannot move.
 Engagement: The Portal of the Abyss does not represent a threat in contact. It can not engage enemies, but it can be engaged by them. Any fighters who disengage from it are not eliminated.
 Incarnate: Incarnates cannot join a Portal of the Abyss unit.
-No formation: Th e Portals of the Abyss are not required to comply with the rules of formation.</characteristic>
+No formation: The Portals of the Abyss are not required to comply with the rules of formation.</characteristic>
               </characteristics>
             </profile>
           </profiles>

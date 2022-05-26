@@ -1,0 +1,2241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="5fbc-9480-6640-26f1" name="The Wolf of Disha" revision="1" battleScribeVersion="2.03" authorName="Jeremie DELASSUS" authorContact="" library="false" gameSystemId="2eeb-3ef6-1863-6305" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="ae64-df01-f3cc-62f4" name="Army book: Wolf" shortName="ARB:WOLF" publisher="Rackham"/>
+    <publication id="ca4d-74be-154b-2e2d" name="Wolf web supplement: " shortName="Wolf complement pdf"/>
+  </publications>
+  <profileTypes>
+    <profileType id="b156-07ec-b636-802b" name="Howl">
+      <characteristicTypes>
+        <characteristicType id="2bcb-5382-d59a-7a85" name="New CharacteristicType"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+  <categoryEntries>
+    <categoryEntry id="5bc4-848f-8491-7f8b" name="Std Priority choice" publicationId="ae64-df01-f3cc-62f4" page="21" hidden="false"/>
+    <categoryEntry id="43ba-4fbc-ad58-e60d" name="Std 2nd Choice" publicationId="ae64-df01-f3cc-62f4" page="1" hidden="false"/>
+    <categoryEntry id="2936-62cd-b76c-4740" name="Std 3rd Choice" publicationId="ae64-df01-f3cc-62f4" hidden="false"/>
+    <categoryEntry id="e8e5-bdc6-8b13-f611" name="Std 4th Choice" publicationId="ae64-df01-f3cc-62f4" page="21" hidden="false"/>
+    <categoryEntry id="a006-cb89-8f63-26be" name="Std 5th Choice" publicationId="ae64-df01-f3cc-62f4" page="21" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="ec07-282e-b0f0-7dfc" name="Standard Banner" publicationId="ae64-df01-f3cc-62f4" hidden="false">
+      <rules>
+        <rule id="ebcc-9bc5-4f52-0e69" name="Gift of The Spirit Tree" publicationId="cd43-c32f-bcee-dc77" page="1" hidden="false">
+          <description>This gift can be used each time a Spirit Tree fighter performs an HTH Strenght test against an enemy unit. For each succes, up to the number of Spirit Tree fighters in contact with an enemy fighter from the unit targeted byt the HTH Strenght test, add a bonus succes to the total.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="072f-a97d-e423-02d4" name="Std Priority choice" publicationId="ae64-df01-f3cc-62f4" hidden="false" targetId="5bc4-848f-8491-7f8b" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeed-c126-1b0d-e3ea" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f74-a906-f242-efd2" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="522b-8821-1438-e8ec" name="Std 2nd Choice" hidden="false" targetId="43ba-4fbc-ad58-e60d" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c94-182c-5ef9-2435" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="38c2-bfc4-3c6d-a76b" name="Std 3rd Choice" hidden="false" targetId="2936-62cd-b76c-4740" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e50-fead-d1c7-4862" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="6351-cc06-e210-5575" name="Std 4th Choice" hidden="false" targetId="e8e5-bdc6-8b13-f611" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3285-b5e5-2166-9658" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="cff5-2968-e90a-8630" name="Std 5th Choice" hidden="false" targetId="a006-cb89-8f63-26be" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8227-e8cb-402d-6f6f" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink id="6a60-d853-e792-b4ef" name="Fang Warriors" hidden="false" collective="false" import="true" targetId="359e-b2be-bf58-c705" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b58e-f7b6-94e9-8733" name="Std Mandatory Choice" hidden="false" targetId="5bc4-848f-8491-7f8b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bc71-3541-6b94-a44e" name="Braves of Bran O Kor" hidden="false" collective="false" import="true" targetId="359e-b2be-bf58-c705" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5c8b-ee53-15b9-89d9" name="New CategoryLink" hidden="false" targetId="2936-62cd-b76c-4740" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2618-2e12-b4c7-e420" name="Braves of Bran O Kor" hidden="false" collective="false" import="true" targetId="359e-b2be-bf58-c705" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="91ab-3e0d-1b58-2e0a" name="New CategoryLink" hidden="false" targetId="a006-cb89-8f63-26be" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3246-b71d-5cdd-beb4" name="Braves of Bran O Kor" hidden="false" collective="false" import="true" targetId="359e-b2be-bf58-c705" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ca80-bac2-08d2-ca8b" name="New CategoryLink" hidden="false" targetId="43ba-4fbc-ad58-e60d" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="18ba-fe8f-8ecb-6f84" name="Crossbowmen" hidden="false" collective="false" import="true" targetId="2a84-ed92-4cd6-8220" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e8ec-1576-435c-f2f1" name="New CategoryLink" hidden="false" targetId="5bc4-848f-8491-7f8b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="10ec-42b4-ae0c-9762" name="Crossbowmen" hidden="false" collective="false" import="true" targetId="2a84-ed92-4cd6-8220" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="476d-d57c-65b7-fb40" name="New CategoryLink" hidden="false" targetId="43ba-4fbc-ad58-e60d" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0c53-9bb6-e2a1-e965" name="Crossbowmen" hidden="false" collective="false" import="true" targetId="2a84-ed92-4cd6-8220" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d0a0-5936-ed77-cfa0" name="New CategoryLink" hidden="false" targetId="2936-62cd-b76c-4740" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0432-f181-998f-4b6c" name="Crossbowmen" hidden="false" collective="false" import="true" targetId="2a84-ed92-4cd6-8220" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d92d-9a5c-beab-f5b2" name="New CategoryLink" hidden="false" targetId="a006-cb89-8f63-26be" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c0c6-ee44-dac3-33f0" name="Jackal Warriors" hidden="false" collective="false" import="true" targetId="ce8c-2e8a-498e-9816" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cbd1-c9ee-7f31-7f70" name="New CategoryLink" hidden="false" targetId="43ba-4fbc-ad58-e60d" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7b0d-4bc8-c0ec-6266" name="Jackal Warriors" hidden="false" collective="false" import="true" targetId="ce8c-2e8a-498e-9816" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ccc6-13d6-34ed-a860" name="New CategoryLink" hidden="false" targetId="e8e5-bdc6-8b13-f611" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5a31-733b-4c89-4cb7" name="Trolls of the Spirit Tree" hidden="false" collective="false" import="true" targetId="626c-8052-870a-c153" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8d4f-3e83-7d64-b7a8" name="New CategoryLink" hidden="false" targetId="e8e5-bdc6-8b13-f611" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a929-029d-b60e-deec" name="Tigers of Ghorak" hidden="false" collective="false" import="true" targetId="94cc-d1a4-ffca-8884" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="dcde-3cf0-53c0-38a5" name="New CategoryLink" hidden="false" targetId="e8e5-bdc6-8b13-f611" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="475d-397e-4f63-36c9" name="Raptors" hidden="false" collective="false" import="true" targetId="9a94-6f72-28a8-2aac" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4e44-cb17-852d-ca2f" name="New CategoryLink" hidden="false" targetId="43ba-4fbc-ad58-e60d" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7798-6ca4-2c45-c4ae" name="Raptors" hidden="false" collective="false" import="true" targetId="9a94-6f72-28a8-2aac" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1a7b-12a0-b3d7-4844" name="New CategoryLink" hidden="false" targetId="e8e5-bdc6-8b13-f611" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a299-2e07-6c8e-ae81" name="Amok Slayers" hidden="false" collective="false" import="true" targetId="93b5-cfad-8130-fcdd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="23d4-92b1-cf0a-53a5" name="New CategoryLink" hidden="false" targetId="2936-62cd-b76c-4740" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="64c4-5229-be68-31c4" name="Amok Slayers" hidden="false" collective="false" import="true" targetId="93b5-cfad-8130-fcdd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="519d-306a-25a3-4f34" name="New CategoryLink" hidden="false" targetId="a006-cb89-8f63-26be" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="ce8c-2e8a-498e-9816" name="Sacred Vestals" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="2a0f-fb73-2610-3331" name="Feal" publicationId="ae64-df01-f3cc-62f4" hidden="false" targetId="ad2e-944d-55f4-3102" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0233-2479-2424-866f" name="Infantry" hidden="false" targetId="7998-c623-9b44-d3d8" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c5f6-a78f-6423-265e" name="Sacred Vestals" publicationId="ae64-df01-f3cc-62f4" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c14a-e173-d883-cd00" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1d1-adf6-3167-e6bc" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="3e4c-e38f-3407-3abc" name="Sacred Vestals" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
+              <characteristics>
+                <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">2</characteristic>
+                <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">20</characteristic>
+                <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">3</characteristic>
+                <characteristic name="RES" typeId="a373-791b-b75c-1e95">5</characteristic>
+                <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">2</characteristic>
+                <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">7</characteristic>
+                <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">7</characteristic>
+                <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb"/>
+                <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a"/>
+                <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
+                <characteristic name="WL" typeId="70ec-23cf-9831-be85">2</characteristic>
+                <characteristic name="COU" typeId="89e0-8ba1-781b-2456"></characteristic>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="1efe-df3b-3118-3456" name="Infantry" hidden="false" targetId="7998-c623-9b44-d3d8" primary="false"/>
+            <categoryLink id="185c-792a-e7ba-b877" name="Std 2nd Choice" hidden="false" targetId="43ba-4fbc-ad58-e60d" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="150.0"/>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d957-595b-b08e-17a9" name="Incarnate" publicationId="ae64-df01-f3cc-62f4" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85f6-48e0-b862-3cd7" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7e79-a5ed-56f8-cfee" name="Incarnate: Shaka Morkhai" hidden="false" collective="false" import="true" targetId="cb2d-5b29-0f44-72d5" type="selectionEntry"/>
+            <entryLink id="3ebc-4c45-c91a-be91" name="Incarnate: Shaka-Umruk" hidden="false" collective="false" import="true" targetId="c150-514c-eda1-d2cf" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="92f5-1066-f7bb-c5c9" name="Special Fighters" publicationId="ae64-df01-f3cc-62f4" page="6" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da85-3529-bed3-3c6e" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8711-e1ad-8106-56a3" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="476c-1bf3-a529-418c" name="Vestal Repentant" publicationId="ae64-df01-f3cc-62f4" page="6" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fce-f1f6-fd51-7567" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="652e-1e6a-2aba-cc18" name="Jackal Master of rites" hidden="false" typeId="7275-7892-cf1b-ed70" typeName="Unit - Faithful">
+                  <characteristics>
+                    <characteristic name="RANK" typeId="37de-dc2d-59d2-fa01">2</characteristic>
+                    <characteristic name="MOV" typeId="6b80-fa0d-222f-d791">10</characteristic>
+                    <characteristic name="DEF" typeId="7c96-8762-f9b7-36d8">3</characteristic>
+                    <characteristic name="RES" typeId="d313-2903-95ba-5068">5</characteristic>
+                    <characteristic name="HTHDICE" typeId="cb91-b72c-61e0-e6eb">1</characteristic>
+                    <characteristic name="HTH" typeId="34fd-056e-119b-8e7f">5</characteristic>
+                    <characteristic name="HTHSTR" typeId="7c8f-90f8-0bf5-93ae">8</characteristic>
+                    <characteristic name="RNG" typeId="cd0b-6ab3-4c7b-7765"/>
+                    <characteristic name="RNGDICE" typeId="391f-aa1f-bc20-f88d"/>
+                    <characteristic name="RNGSTR" typeId="f026-320a-7185-28e8"/>
+                    <characteristic name="WL" typeId="24ce-d500-47cd-9080">1</characteristic>
+                    <characteristic name="FRV" typeId="f864-3d2d-11da-0b09">3</characteristic>
+                    <characteristic name="COU" typeId="1816-4c36-fd3b-179b">3</characteristic>
+                    <characteristic name="FEAR" typeId="6a97-4955-9d58-f24a"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="6442-c1cd-ab5a-77ab" name="Miracle: Mahata" hidden="false" targetId="dd93-58a7-470c-6dc2" type="profile"/>
+                <infoLink id="c289-91fc-1f55-0c3a" name="War Fury" hidden="false" targetId="6579-7d10-f74e-2240" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="175.0"/>
+                <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c985-9b8e-be7d-c2cc" name="Vestal Rune Guardian" publicationId="ae64-df01-f3cc-62f4" page="54" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d52-a7c5-bce6-9ba5" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="4ffa-5142-c67f-3395" name="Jackal Mystic" hidden="false" typeId="8bb4-b272-f08c-0dc1" typeName="Unit - Magician">
+                  <characteristics>
+                    <characteristic name="RANK" typeId="a141-6125-7c44-80e4">2</characteristic>
+                    <characteristic name="MOV" typeId="45e2-0962-5bba-47d4">10</characteristic>
+                    <characteristic name="DEF" typeId="c3f9-fe10-230e-299c">3</characteristic>
+                    <characteristic name="RES" typeId="c464-635e-0189-3290">5</characteristic>
+                    <characteristic name="HTHDICE" typeId="a9d1-937d-bb6e-3fb2">2</characteristic>
+                    <characteristic name="HTH" typeId="ccf1-084b-fc1b-2639">5</characteristic>
+                    <characteristic name="HTHSTR" typeId="838e-d3d7-b574-2754">6</characteristic>
+                    <characteristic name="RNG" typeId="e599-a843-7042-4d3e"/>
+                    <characteristic name="RNGDICE" typeId="9b3a-d316-a280-1af2"/>
+                    <characteristic name="RNGSTR" typeId="7a79-acef-4bcc-686d"/>
+                    <characteristic name="WL" typeId="43e4-a4ec-68be-4597">1</characteristic>
+                    <characteristic name="ENG" typeId="a08c-d341-e2d0-9b12">3</characteristic>
+                    <characteristic name="COU" typeId="46b9-76e0-489f-9bb6">3</characteristic>
+                    <characteristic name="FEAR" typeId="fe46-7177-eacc-10f4"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="5dda-4bbe-be0e-9555" name="Spell: Spirit of the Jackal" hidden="false" targetId="8804-8fcf-a02f-fb27" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="175.0"/>
+                <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c87f-e096-bdfc-e4b1" name="Vestal Grave Guardian" publicationId="ae64-df01-f3cc-62f4" page="6" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b83a-ad2f-17d5-59b4" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="f943-0ef1-943f-8871" name="Jackal Master of rites" hidden="false" typeId="7275-7892-cf1b-ed70" typeName="Unit - Faithful">
+                  <characteristics>
+                    <characteristic name="RANK" typeId="37de-dc2d-59d2-fa01">2</characteristic>
+                    <characteristic name="MOV" typeId="6b80-fa0d-222f-d791">10</characteristic>
+                    <characteristic name="DEF" typeId="7c96-8762-f9b7-36d8">3</characteristic>
+                    <characteristic name="RES" typeId="d313-2903-95ba-5068">5</characteristic>
+                    <characteristic name="HTHDICE" typeId="cb91-b72c-61e0-e6eb">1</characteristic>
+                    <characteristic name="HTH" typeId="34fd-056e-119b-8e7f">5</characteristic>
+                    <characteristic name="HTHSTR" typeId="7c8f-90f8-0bf5-93ae">8</characteristic>
+                    <characteristic name="RNG" typeId="cd0b-6ab3-4c7b-7765"/>
+                    <characteristic name="RNGDICE" typeId="391f-aa1f-bc20-f88d"/>
+                    <characteristic name="RNGSTR" typeId="f026-320a-7185-28e8"/>
+                    <characteristic name="WL" typeId="24ce-d500-47cd-9080">1</characteristic>
+                    <characteristic name="FRV" typeId="f864-3d2d-11da-0b09">3</characteristic>
+                    <characteristic name="COU" typeId="1816-4c36-fd3b-179b">3</characteristic>
+                    <characteristic name="FEAR" typeId="6a97-4955-9d58-f24a"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="6251-acc9-4a7c-e311" name="Miracle: Mahata" hidden="false" targetId="dd93-58a7-470c-6dc2" type="profile"/>
+                <infoLink id="87ef-f9b9-e55d-1f52" name="War Fury" hidden="false" targetId="6579-7d10-f74e-2240" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="175.0"/>
+                <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="359e-b2be-bf58-c705" name="Fang Warriors" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="7c40-cd3f-3568-62ce" name="Infantry" hidden="false" targetId="7998-c623-9b44-d3d8" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="04a9-40c9-6b25-1b21" name="Braves" publicationId="ae64-df01-f3cc-62f4" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e66d-9f41-2be6-840e" type="min"/>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c63-6893-6acc-5ded" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0438-ee8b-0dee-b52f" name="Brave" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
+              <characteristics>
+                <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">1</characteristic>
+                <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">10</characteristic>
+                <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">5</characteristic>
+                <characteristic name="RES" typeId="a373-791b-b75c-1e95">3</characteristic>
+                <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">1</characteristic>
+                <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">5</characteristic>
+                <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">5</characteristic>
+                <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb"/>
+                <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a"/>
+                <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
+                <characteristic name="WL" typeId="70ec-23cf-9831-be85">1</characteristic>
+                <characteristic name="COU" typeId="89e0-8ba1-781b-2456">3</characteristic>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="9799-47fd-f93a-00f1" name="Infantry" hidden="false" targetId="7998-c623-9b44-d3d8" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="37.0"/>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fb72-4222-fd0c-73c3" name="Incarnate" publicationId="ae64-df01-f3cc-62f4" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e232-4c92-77a5-ace8" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7145-abb1-49bb-a2d5" name="Incarnate: Dayak" hidden="false" collective="false" import="true" targetId="ee36-febb-fcb0-86fd" type="selectionEntry"/>
+            <entryLink id="b434-0a05-567f-d215" name="Incarnate: Shaka Morkhai" hidden="false" collective="false" import="true" targetId="cb2d-5b29-0f44-72d5" type="selectionEntry"/>
+            <entryLink id="e4ba-3441-d3cb-2206" name="Incarnate: The Son of Thunder" hidden="false" collective="false" import="true" targetId="449e-2b1e-bdcb-b109" type="selectionEntry"/>
+            <entryLink id="2886-22a1-f4b9-8951" name="Incarnate: Deliox" hidden="false" collective="false" import="true" targetId="c150-514c-eda1-d2cf" type="selectionEntry"/>
+            <entryLink id="38e4-4c35-ac91-1dd4" name="Incarnate: Tamaor" publicationId="ae64-df01-f3cc-62f4" page="42" hidden="false" collective="false" import="true" targetId="ce00-d7a2-7018-68ae" type="selectionEntry"/>
+            <entryLink id="a062-beb7-6f13-76f8" name="Incarnate: Onyx" hidden="false" collective="false" import="true" targetId="371f-9c19-1450-d6e2" type="selectionEntry"/>
+            <entryLink id="5490-0323-428a-d035" name="Incarnate: Tôrk" hidden="false" collective="false" import="true" targetId="0868-3aaf-963a-25aa" type="selectionEntry"/>
+            <entryLink id="cabf-f717-5d1d-5808" name="Incarnate: Vorak" hidden="false" collective="false" import="true" targetId="c3ff-507f-0302-2d7c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c6ad-f548-4de6-50d5" name="Special Fighters" publicationId="ae64-df01-f3cc-62f4" page="6" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e4a-760f-a5eb-e724" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9ea-aa02-3840-8263" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d3cd-5d48-b986-aeff" name="Brave Standard Bearer" publicationId="ae64-df01-f3cc-62f4" page="6" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfd5-b78f-5047-1620" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6954-27cd-9d2b-b656" name="Brave Standard Bearer" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">1</characteristic>
+                    <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">10</characteristic>
+                    <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">3</characteristic>
+                    <characteristic name="RES" typeId="a373-791b-b75c-1e95">5</characteristic>
+                    <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">1</characteristic>
+                    <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">5</characteristic>
+                    <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">6</characteristic>
+                    <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb"/>
+                    <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a"/>
+                    <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
+                    <characteristic name="WL" typeId="70ec-23cf-9831-be85">1</characteristic>
+                    <characteristic name="COU" typeId="89e0-8ba1-781b-2456">3</characteristic>
+                    <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="62.0"/>
+                <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2c64-48b1-65ea-9830" name="Brave Musician" publicationId="ae64-df01-f3cc-62f4" page="6" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bb7-3f1d-aa14-787c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="d5f2-3f7b-3d3e-6f95" name="Brave Musician" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">1</characteristic>
+                    <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">10</characteristic>
+                    <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">3</characteristic>
+                    <characteristic name="RES" typeId="a373-791b-b75c-1e95">5</characteristic>
+                    <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">1</characteristic>
+                    <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">5</characteristic>
+                    <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">6</characteristic>
+                    <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb"/>
+                    <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a"/>
+                    <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
+                    <characteristic name="WL" typeId="70ec-23cf-9831-be85">1</characteristic>
+                    <characteristic name="COU" typeId="89e0-8ba1-781b-2456">3</characteristic>
+                    <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="1252-0a1b-4911-8bab" name="Power of the canyons" page="" hidden="false" targetId="9e51-ddc3-7d7c-26d2" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="62.0"/>
+                <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a65b-78bb-2638-3371" name="Brave Mystic" publicationId="ae64-df01-f3cc-62f4" page="6" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6305-ee6e-0ed7-e96c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="c9d7-4f7c-179f-7a45" name="Brave Mystic" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" typeId="8bb4-b272-f08c-0dc1" typeName="Unit - Magician">
+                  <characteristics>
+                    <characteristic name="RANK" typeId="a141-6125-7c44-80e4">1</characteristic>
+                    <characteristic name="MOV" typeId="45e2-0962-5bba-47d4">10</characteristic>
+                    <characteristic name="DEF" typeId="c3f9-fe10-230e-299c">3</characteristic>
+                    <characteristic name="RES" typeId="c464-635e-0189-3290">5</characteristic>
+                    <characteristic name="HTHDICE" typeId="a9d1-937d-bb6e-3fb2">1</characteristic>
+                    <characteristic name="HTH" typeId="ccf1-084b-fc1b-2639">5</characteristic>
+                    <characteristic name="HTHSTR" typeId="838e-d3d7-b574-2754">6</characteristic>
+                    <characteristic name="RNG" typeId="e599-a843-7042-4d3e"/>
+                    <characteristic name="RNGDICE" typeId="9b3a-d316-a280-1af2"/>
+                    <characteristic name="RNGSTR" typeId="7a79-acef-4bcc-686d"/>
+                    <characteristic name="WL" typeId="43e4-a4ec-68be-4597">1</characteristic>
+                    <characteristic name="ENG" typeId="a08c-d341-e2d0-9b12"/>
+                    <characteristic name="COU" typeId="46b9-76e0-489f-9bb6">3</characteristic>
+                    <characteristic name="FEAR" typeId="fe46-7177-eacc-10f4"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="62.0"/>
+                <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b5f3-271f-71a9-913e" name="Incarnate: Asgarh" publicationId="ae64-df01-f3cc-62f4" page="1" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0f7e-3fd2-f847-1ddd" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="bab9-0acf-f2cb-c601" name="Umran-Kal" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" typeId="7fbe-7f49-81ba-0fcf" typeName="Incarnate">
+          <characteristics>
+            <characteristic name="RANK" typeId="87c8-7716-1bdb-856f">3</characteristic>
+            <characteristic name="MOV" typeId="5ceb-cf8e-bb92-d23a">15</characteristic>
+            <characteristic name="DEF" typeId="912a-a4d7-39c7-5c18">3</characteristic>
+            <characteristic name="RES" typeId="0d16-6fb1-412c-3dbd">8</characteristic>
+            <characteristic name="HTHDICE" typeId="0fb2-bd3c-ae0c-c7dc">3</characteristic>
+            <characteristic name="HTH" typeId="0fe2-bc96-a8c8-41a2">5</characteristic>
+            <characteristic name="HTHSTR" typeId="b61b-40b7-d15d-275f">11</characteristic>
+            <characteristic name="RNG" typeId="2b53-84a7-c5d9-f4b8"/>
+            <characteristic name="RNGDICE" typeId="1efa-aca9-9417-4497"/>
+            <characteristic name="RNGSTR" typeId="fe6b-f4e1-3748-82fd"/>
+            <characteristic name="WL" typeId="ce05-8d55-4750-7db5">4</characteristic>
+            <characteristic name="AUTH" typeId="c1b3-03a7-17ad-7e7a">4</characteristic>
+            <characteristic name="ELIXIR/DUEL" typeId="b9ea-bc8d-91d9-ce13">9</characteristic>
+            <characteristic name="COU" typeId="52dd-1e85-a7a4-cdc8">7</characteristic>
+            <characteristic name="FEAR" typeId="ed90-ab0e-8d4a-1549"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1747-1140-f917-f5ae" name="War Fury" hidden="false" targetId="6579-7d10-f74e-2240" type="profile"/>
+        <infoLink id="496a-e6e1-41ca-9c61" name="Savage" hidden="false" targetId="f0cd-1666-22b6-16b8" type="profile"/>
+        <infoLink id="98bc-f904-ce77-6a12" name="Implacable" hidden="false" targetId="a915-0ec2-e265-7b12" type="profile"/>
+        <infoLink id="6999-f512-0ab4-c9b4" name="Feat: Push through" hidden="false" targetId="c7ea-c48a-7377-1f7b" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b2cd-8d4d-d6a5-7252" name="Incarnate" hidden="false" targetId="b1bb-d6b8-9798-c7aa" primary="false"/>
+        <categoryLink id="6412-bbaf-5446-f0e9" name="New CategoryLink" hidden="false" targetId="62d7-5af4-ada6-6ea1" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="84d0-63d2-5487-76e0" name="Rank 3  Artifacts" hidden="false" collective="false" import="true" targetId="8222-27a1-a742-cdbf" type="selectionEntryGroup"/>
+        <entryLink id="6302-6398-e504-97bf" name="Rank 1 Artifacts" hidden="false" collective="false" import="true" targetId="2fce-70dc-028a-c15b" type="selectionEntryGroup"/>
+        <entryLink id="0eb7-b7d0-470e-16df" name="Rank 2 Artifacts" hidden="false" collective="false" import="true" targetId="aebe-4bec-62d6-6bc1" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="445.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="94cc-d1a4-ffca-8884" name="Worgs" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="4c77-bf6a-ccf1-3ead" name="Creature" hidden="false" targetId="1cb7-380d-c30a-a4ad" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ca90-b7f7-41a9-bbda" name="Tiger of Ghorak" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3c4-ef58-3053-83ee" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8d1-a91e-338b-df10" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="3b5a-abba-869f-31eb" name="Tiger" publicationId="ae64-df01-f3cc-62f4" page="54" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
+              <characteristics>
+                <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">2</characteristic>
+                <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">15</characteristic>
+                <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">4</characteristic>
+                <characteristic name="RES" typeId="a373-791b-b75c-1e95">4</characteristic>
+                <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">2</characteristic>
+                <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">5</characteristic>
+                <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">5</characteristic>
+                <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb"/>
+                <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a"/>
+                <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
+                <characteristic name="WL" typeId="70ec-23cf-9831-be85">2</characteristic>
+                <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ab94-b7ca-0b75-cb0f" name="Jump" hidden="false" targetId="abfd-6955-8cb6-0561" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="a156-66bc-0395-572a" name="Creature" hidden="false" targetId="1cb7-380d-c30a-a4ad" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="135.0"/>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e8df-6985-f527-99a0" name="Incarnate" publicationId="ae64-df01-f3cc-62f4" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c7c-a889-b9b6-39f7" type="max"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b009-ced4-5418-cff0" name="Incarnate: Y&apos;anrylh" publicationId="ae64-df01-f3cc-62f4" page="1" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="781c-776e-f7ab-6143" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ccf5-3bb3-e9d7-1217" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5d41-4f22-48bb-6aee" name="Kal Shardar" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" typeId="7fbe-7f49-81ba-0fcf" typeName="Incarnate">
+          <characteristics>
+            <characteristic name="RANK" typeId="87c8-7716-1bdb-856f">3</characteristic>
+            <characteristic name="MOV" typeId="5ceb-cf8e-bb92-d23a">10</characteristic>
+            <characteristic name="DEF" typeId="912a-a4d7-39c7-5c18">5</characteristic>
+            <characteristic name="RES" typeId="0d16-6fb1-412c-3dbd">7</characteristic>
+            <characteristic name="HTHDICE" typeId="0fb2-bd3c-ae0c-c7dc">3</characteristic>
+            <characteristic name="HTH" typeId="0fe2-bc96-a8c8-41a2">7</characteristic>
+            <characteristic name="HTHSTR" typeId="b61b-40b7-d15d-275f">6</characteristic>
+            <characteristic name="RNG" typeId="2b53-84a7-c5d9-f4b8"/>
+            <characteristic name="RNGDICE" typeId="1efa-aca9-9417-4497"/>
+            <characteristic name="RNGSTR" typeId="fe6b-f4e1-3748-82fd"/>
+            <characteristic name="WL" typeId="ce05-8d55-4750-7db5">4</characteristic>
+            <characteristic name="AUTH" typeId="c1b3-03a7-17ad-7e7a">4</characteristic>
+            <characteristic name="ELIXIR/DUEL" typeId="b9ea-bc8d-91d9-ce13">6</characteristic>
+            <characteristic name="COU" typeId="52dd-1e85-a7a4-cdc8">7</characteristic>
+            <characteristic name="FEAR" typeId="ed90-ab0e-8d4a-1549"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8cde-4405-d4ad-dadd" name="Feat: Push through" hidden="false" targetId="c7ea-c48a-7377-1f7b" type="profile"/>
+        <infoLink id="81ec-6308-1d7a-ec37" name="Sequence" hidden="false" targetId="60b2-baf1-b838-a39b" type="profile"/>
+        <infoLink id="1c0f-3c37-388e-543b" name="War Fury" hidden="false" targetId="6579-7d10-f74e-2240" type="profile"/>
+        <infoLink id="273c-fd48-08d8-67b5" name="Hard Boiled" hidden="false" targetId="6669-f396-145b-b90e" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6350-04c8-098a-583b" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
+        <categoryLink id="5dc1-925b-1806-0c6d" name="Incarnate" hidden="false" targetId="b1bb-d6b8-9798-c7aa" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f97c-4e26-7b2e-29f5" name="Rank 1 Artifacts" hidden="false" collective="false" import="true" targetId="2fce-70dc-028a-c15b" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97a8-4155-7a63-e60a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5cd7-d983-a25b-56ec" name="Companion of the Tomb (1)" publicationId="ae64-df01-f3cc-62f4" page="23" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97ef-bc8e-cf89-8cbd" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="81d6-ea71-1626-7849" name="Rank 1 Rituals" hidden="false" collective="false" import="true" targetId="894a-3d3a-8f6e-f551" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="566f-ccd4-c79e-c19f" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="96dc-4076-3b93-077e" name="Rank 2 Rituals" hidden="false" collective="false" import="true" targetId="791e-5174-bac5-d919" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4444-3c9d-21c6-da76" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+                <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+        <entryLink id="949e-a65f-3b9a-4b6c" name="Rank 3  Artifacts" hidden="false" collective="false" import="true" targetId="8222-27a1-a742-cdbf" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a6d-654c-ea79-3b0e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="77a0-475d-19ea-2b56" name="Rank 2 Artifacts" hidden="false" collective="false" import="true" targetId="aebe-4bec-62d6-6bc1" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="380.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="449e-2b1e-bdcb-b109" name="Incarnate: Irix the Fury" publicationId="ae64-df01-f3cc-62f4" page="1" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2471-2a84-b089-7225" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="9a5c-b71e-e861-97fc" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="3357-1ec5-2a4d-6507" name="The Son of Thunder" publicationId="ae64-df01-f3cc-62f4" page="4" hidden="false" typeId="f21c-0f5b-4807-bb7f" typeName="Incarnate - Magician">
+          <characteristics>
+            <characteristic name="RANK" typeId="8765-c836-f7b7-fbe9">3</characteristic>
+            <characteristic name="MOV" typeId="dd48-412c-a827-4c45">10</characteristic>
+            <characteristic name="DEF" typeId="4c71-f7da-7785-8d0b">5</characteristic>
+            <characteristic name="RES" typeId="b982-d3fc-300f-7a3f">6</characteristic>
+            <characteristic name="HTHDICE" typeId="1b69-0728-3c38-fd7d">2</characteristic>
+            <characteristic name="HTH" typeId="efc6-9cec-ad35-cab7">7</characteristic>
+            <characteristic name="HTHSTR" typeId="d527-4703-4777-133e">6</characteristic>
+            <characteristic name="RNG" typeId="7452-b1c8-1fcd-886b"/>
+            <characteristic name="RNGDICE" typeId="572e-6bdf-ab2b-acdd"/>
+            <characteristic name="RNGSTR" typeId="6990-84da-0126-e694"/>
+            <characteristic name="WL" typeId="e077-5a2b-7172-5fc8">4</characteristic>
+            <characteristic name="ENG" typeId="b371-3bce-de80-663d">7</characteristic>
+            <characteristic name="AUTH" typeId="d3ef-4b64-b5c6-236e">4</characteristic>
+            <characteristic name="ELIXIR/DUEL" typeId="9dd3-9098-b0d9-3aec">7</characteristic>
+            <characteristic name="PATHS" typeId="9133-8054-0968-316f">Instinctive magic</characteristic>
+            <characteristic name="ELEMENTS" typeId="c6c8-ed9c-c7b5-22e6">Earth
+Fire
+Water</characteristic>
+            <characteristic name="COU" typeId="e1f8-5f90-b4e2-7b49">7</characteristic>
+            <characteristic name="FEAR" typeId="1019-8fea-8981-67fd"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="33a2-372a-0ca0-6112" name="Feat: Instinctive counter" hidden="false" targetId="08d0-b8ee-11d5-718f" type="profile"/>
+        <infoLink id="4789-a497-5293-3f9c" name="Magister" hidden="false" targetId="8ca4-9a2b-4a58-4e2b" type="profile"/>
+        <infoLink id="4d77-43f0-3051-e41a" name="Strategist" hidden="false" targetId="46b7-b9f3-a54e-62cc" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e3a7-9307-a98f-2441" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
+        <categoryLink id="7ebe-08f0-48b3-51a0" name="Incarnate" hidden="false" targetId="b1bb-d6b8-9798-c7aa" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b9f4-220b-d47f-b0c5" name="Artifacts" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bb9-903f-a50e-fd44" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c3b-96e6-f370-c4ed" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d7d8-ccb1-7043-1611" name="Rank 1 Artifacts" hidden="false" collective="false" import="true" targetId="2fce-70dc-028a-c15b" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eea2-7ba1-8a2f-9e95" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="6594-0d81-f8e9-16db" name="Rank 2 Artifacts" hidden="false" collective="false" import="true" targetId="aebe-4bec-62d6-6bc1" type="selectionEntryGroup"/>
+            <entryLink id="da80-5105-7491-35f0" name="Rank 3  Artifacts" hidden="false" collective="false" import="true" targetId="8222-27a1-a742-cdbf" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7d62-d6c8-d7ca-23c1" name="Rituals" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcd5-a758-8bb2-4b7f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bec-f4d0-2157-4f2d" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="607a-eae9-1f2f-e2c7" name="Rank 1 Rituals" hidden="false" collective="false" import="true" targetId="894a-3d3a-8f6e-f551" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3886-a9f2-d655-3932" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c898-d3d3-22f8-b1f4" name="Rank 2 Rituals" hidden="false" collective="false" import="true" targetId="791e-5174-bac5-d919" type="selectionEntryGroup"/>
+            <entryLink id="0b59-88db-c608-6e3b" name="Rank 3 Rituals" hidden="false" collective="false" import="true" targetId="6828-05a3-a90d-a405" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="325.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="371f-9c19-1450-d6e2" name="Incarnate: Onyx" publicationId="ae64-df01-f3cc-62f4" page="28" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4436-ce1a-08c9-0633" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="634d-94f3-4dc3-9d10" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7dea-8f92-7400-84c6" name="Rantakh" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" typeId="7fbe-7f49-81ba-0fcf" typeName="Incarnate">
+          <characteristics>
+            <characteristic name="RANK" typeId="87c8-7716-1bdb-856f">1</characteristic>
+            <characteristic name="MOV" typeId="5ceb-cf8e-bb92-d23a">10</characteristic>
+            <characteristic name="DEF" typeId="912a-a4d7-39c7-5c18">6</characteristic>
+            <characteristic name="RES" typeId="0d16-6fb1-412c-3dbd">6</characteristic>
+            <characteristic name="HTHDICE" typeId="0fb2-bd3c-ae0c-c7dc">3</characteristic>
+            <characteristic name="HTH" typeId="0fe2-bc96-a8c8-41a2">5</characteristic>
+            <characteristic name="HTHSTR" typeId="b61b-40b7-d15d-275f">6</characteristic>
+            <characteristic name="RNG" typeId="2b53-84a7-c5d9-f4b8"/>
+            <characteristic name="RNGDICE" typeId="1efa-aca9-9417-4497"/>
+            <characteristic name="RNGSTR" typeId="fe6b-f4e1-3748-82fd"/>
+            <characteristic name="WL" typeId="ce05-8d55-4750-7db5">4</characteristic>
+            <characteristic name="AUTH" typeId="c1b3-03a7-17ad-7e7a">2</characteristic>
+            <characteristic name="ELIXIR/DUEL" typeId="b9ea-bc8d-91d9-ce13">3</characteristic>
+            <characteristic name="COU" typeId="52dd-1e85-a7a4-cdc8"/>
+            <characteristic name="FEAR" typeId="ed90-ab0e-8d4a-1549"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0acd-0d64-290a-52f6" name="Feat: Push through" hidden="false" targetId="c7ea-c48a-7377-1f7b" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4ad6-76ab-98f9-4818" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
+        <categoryLink id="08c3-2435-25ed-8a9f" name="Incarnate" hidden="false" targetId="b1bb-d6b8-9798-c7aa" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="52e3-e918-ce6c-21a0" name="Artifacts" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7577-ec11-c1f8-a7c7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f7f-7bf5-b811-c24e" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b77d-a979-3af9-2de9" name="Rank 1 Artifacts" hidden="false" collective="false" import="true" targetId="2fce-70dc-028a-c15b" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6895-8c46-734d-49dc" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="185.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce00-d7a2-7018-68ae" name="Incarnate: Ophyr" publicationId="ae64-df01-f3cc-62f4" page="1" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9902-3582-0d88-8d5a" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="4989-1fd6-a45f-8b6e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="eb36-b0a5-7149-32bf" name="Tamaor" publicationId="ae64-df01-f3cc-62f4" page="30" hidden="false" typeId="f21c-0f5b-4807-bb7f" typeName="Incarnate - Magician">
+          <characteristics>
+            <characteristic name="RANK" typeId="8765-c836-f7b7-fbe9">2</characteristic>
+            <characteristic name="MOV" typeId="dd48-412c-a827-4c45">10</characteristic>
+            <characteristic name="DEF" typeId="4c71-f7da-7785-8d0b">3</characteristic>
+            <characteristic name="RES" typeId="b982-d3fc-300f-7a3f">5</characteristic>
+            <characteristic name="HTHDICE" typeId="1b69-0728-3c38-fd7d">2</characteristic>
+            <characteristic name="HTH" typeId="efc6-9cec-ad35-cab7">5</characteristic>
+            <characteristic name="HTHSTR" typeId="d527-4703-4777-133e">6</characteristic>
+            <characteristic name="RNG" typeId="7452-b1c8-1fcd-886b"/>
+            <characteristic name="RNGDICE" typeId="572e-6bdf-ab2b-acdd"/>
+            <characteristic name="RNGSTR" typeId="6990-84da-0126-e694"/>
+            <characteristic name="WL" typeId="e077-5a2b-7172-5fc8">4</characteristic>
+            <characteristic name="ENG" typeId="b371-3bce-de80-663d">5</characteristic>
+            <characteristic name="AUTH" typeId="d3ef-4b64-b5c6-236e">2</characteristic>
+            <characteristic name="ELIXIR/DUEL" typeId="9dd3-9098-b0d9-3aec">4</characteristic>
+            <characteristic name="PATHS" typeId="9133-8054-0968-316f">Instinctive Magic</characteristic>
+            <characteristic name="ELEMENTS" typeId="c6c8-ed9c-c7b5-22e6">Air
+Earth</characteristic>
+            <characteristic name="COU" typeId="e1f8-5f90-b4e2-7b49">5</characteristic>
+            <characteristic name="FEAR" typeId="1019-8fea-8981-67fd"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="723a-0192-7da3-2714" name="Feat: Instinctive counter" hidden="false" targetId="08d0-b8ee-11d5-718f" type="profile"/>
+        <infoLink id="ad03-0c2f-290a-a980" name="Mastery of the Arcana" hidden="false" targetId="f514-5d7d-fd41-0d8a" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3338-970f-994d-0f5a" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
+        <categoryLink id="2db7-5c2c-32cd-19e0" name="Incarnate" hidden="false" targetId="b1bb-d6b8-9798-c7aa" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="05e0-86be-d65e-bbbe" name="Artifacts" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f579-57a6-e6f9-7b72" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8a6-6702-e146-916a" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0057-8a6e-10e0-4f9d" name="Rank 1 Artifacts" hidden="false" collective="false" import="true" targetId="2fce-70dc-028a-c15b" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b76-89e0-6875-a8af" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="ff4a-e038-d655-6d73" name="Rank 2 Artifacts" hidden="false" collective="false" import="true" targetId="aebe-4bec-62d6-6bc1" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0243-028b-aeba-df7d" name="Rituals" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6df6-3ede-e404-8449" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a03c-5449-dffb-0f0f" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ba1e-f66f-e181-15d1" name="Rank 1 Rituals" hidden="false" collective="false" import="true" targetId="894a-3d3a-8f6e-f551" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54da-bd52-4927-be5e" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="98fc-b79b-4067-2f26" name="Rank 2 Rituals" hidden="false" collective="false" import="true" targetId="791e-5174-bac5-d919" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="200.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c150-514c-eda1-d2cf" name="Incarnate: Deliox" publicationId="ae64-df01-f3cc-62f4" page="2" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bc3b-0d92-710b-696d" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="5e72-1982-b20f-b541" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="285c-9dc3-36be-0561" name="Shaka-Umruk" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" typeId="d405-24e7-f09f-a16c" typeName="Incarnate - Faithful">
+          <characteristics>
+            <characteristic name="RANK" typeId="c2fc-f025-924a-a2c2">1</characteristic>
+            <characteristic name="MOV" typeId="0733-a1f1-57b5-cde3">10</characteristic>
+            <characteristic name="DEF" typeId="dba4-abc8-375a-a012">3</characteristic>
+            <characteristic name="RES" typeId="98e2-9ca6-4a5c-ff6e">5</characteristic>
+            <characteristic name="HTHDICE" typeId="ef29-4669-5ed2-b148">2</characteristic>
+            <characteristic name="HTH" typeId="ddf7-9c6d-d5af-7017">5</characteristic>
+            <characteristic name="HTHSTR" typeId="4748-7a56-4fb1-7d07">8</characteristic>
+            <characteristic name="RNG" typeId="0dfc-e1b8-c3d5-daab"/>
+            <characteristic name="RNGDICE" typeId="6955-924b-d208-8b2d"/>
+            <characteristic name="RNGSTR" typeId="784e-7f5e-dd7a-425b"/>
+            <characteristic name="WL" typeId="b7f4-e601-c656-adb9">4</characteristic>
+            <characteristic name="FRV" typeId="351e-46b3-020b-5884">3</characteristic>
+            <characteristic name="AUTH" typeId="9d21-62e6-8ec2-011d">2</characteristic>
+            <characteristic name="ELIXIR/DUEL" typeId="1a85-e04f-b6ab-eeb8">4</characteristic>
+            <characteristic name="CULTS" typeId="e970-9ca6-6f98-9bab">Spirit Tree</characteristic>
+            <characteristic name="ASPECTS" typeId="794a-7ee5-da99-16ef">Alteration</characteristic>
+            <characteristic name="COU" typeId="7b8a-9165-d054-9dc7">5</characteristic>
+            <characteristic name="FEAR" typeId="77cb-998f-0191-faf7"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8524-9c26-2d1e-a8e0" name="Feat: Push through" hidden="false" targetId="c7ea-c48a-7377-1f7b" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="995b-8de1-dcb6-64d0" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
+        <categoryLink id="02e8-29d6-46a5-9cb7" name="Incarnate" hidden="false" targetId="b1bb-d6b8-9798-c7aa" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6870-9663-2ee1-dee5" name="Attributes" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c6d-5681-23f3-d70c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="325c-3367-6631-a2ef" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8952-9526-f848-4d66" name="Artifacts" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="3755-e323-64c5-a297" name="Rank 1 Artifacts" hidden="false" collective="false" import="true" targetId="2fce-70dc-028a-c15b" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+                <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="20b8-ae15-cf97-8f63" name="Communions" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="d3f7-196a-2ffa-6c82" name="Rank 1 Communions" hidden="false" collective="false" import="true" targetId="667e-e49a-d6fa-829c" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+                <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="135.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cb2d-5b29-0f44-72d5" name="Incarnate: Syriak" publicationId="ae64-df01-f3cc-62f4" page="38" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3714-9a9c-edae-b099" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="dee7-9753-0902-27e4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c878-4bc2-65d8-4a39" name="Shaka-Morkai" publicationId="ae64-df01-f3cc-62f4" page="38" hidden="false" typeId="d405-24e7-f09f-a16c" typeName="Incarnate - Faithful">
+          <characteristics>
+            <characteristic name="RANK" typeId="c2fc-f025-924a-a2c2">3</characteristic>
+            <characteristic name="MOV" typeId="0733-a1f1-57b5-cde3">10</characteristic>
+            <characteristic name="DEF" typeId="dba4-abc8-375a-a012">3</characteristic>
+            <characteristic name="RES" typeId="98e2-9ca6-4a5c-ff6e">7</characteristic>
+            <characteristic name="HTHDICE" typeId="ef29-4669-5ed2-b148">3</characteristic>
+            <characteristic name="HTH" typeId="ddf7-9c6d-d5af-7017">5</characteristic>
+            <characteristic name="HTHSTR" typeId="4748-7a56-4fb1-7d07">8</characteristic>
+            <characteristic name="RNG" typeId="0dfc-e1b8-c3d5-daab"/>
+            <characteristic name="RNGDICE" typeId="6955-924b-d208-8b2d"/>
+            <characteristic name="RNGSTR" typeId="784e-7f5e-dd7a-425b"/>
+            <characteristic name="WL" typeId="b7f4-e601-c656-adb9">4</characteristic>
+            <characteristic name="FRV" typeId="351e-46b3-020b-5884">7</characteristic>
+            <characteristic name="AUTH" typeId="9d21-62e6-8ec2-011d">5</characteristic>
+            <characteristic name="ELIXIR/DUEL" typeId="1a85-e04f-b6ab-eeb8">7</characteristic>
+            <characteristic name="CULTS" typeId="e970-9ca6-6f98-9bab">Spirit Tree</characteristic>
+            <characteristic name="ASPECTS" typeId="794a-7ee5-da99-16ef">Creation
+Alteration</characteristic>
+            <characteristic name="COU" typeId="7b8a-9165-d054-9dc7">7</characteristic>
+            <characteristic name="FEAR" typeId="77cb-998f-0191-faf7"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e411-afb5-7783-4328" name="Feat: Push through" hidden="false" targetId="c7ea-c48a-7377-1f7b" type="profile"/>
+        <infoLink id="9089-0153-dce2-3844" name="Illumination" hidden="false" targetId="61e9-7ae2-f3a9-a36d" type="profile"/>
+        <infoLink id="3d46-518b-5f30-6792" name="Born Killer" hidden="false" targetId="76a8-e12b-9714-69f4" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cbb4-68fc-6024-f5d9" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
+        <categoryLink id="8ec0-3dc7-d9ff-a454" name="Incarnate" hidden="false" targetId="b1bb-d6b8-9798-c7aa" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1440-cacd-3bdc-ffd0" name="Artifacts" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89db-c8ad-77ee-d4e3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8b2-99e8-5c5a-1cdc" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="efb8-94c2-188d-56cd" name="Rank 1 Artifacts" hidden="false" collective="false" import="true" targetId="2fce-70dc-028a-c15b" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="627c-9ea6-9777-c734" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="fb50-3666-5164-b729" name="Rank 2 Artifacts" hidden="false" collective="false" import="true" targetId="aebe-4bec-62d6-6bc1" type="selectionEntryGroup"/>
+            <entryLink id="89c1-1963-3b96-588f" name="Rank 3  Artifacts" hidden="false" collective="false" import="true" targetId="8222-27a1-a742-cdbf" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="149b-6e2d-ee7a-25af" name="Communions" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c09a-b2c3-7b2b-3817" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd96-c393-4893-2e56" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4c75-5879-495c-474b" name="Rank 1 Communions" hidden="false" collective="false" import="true" targetId="667e-e49a-d6fa-829c" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8649-b146-d976-896c" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="386d-6b04-741b-3321" name="Rank 2 Communions" hidden="false" collective="false" import="true" targetId="4e6f-f552-bcbf-1c1e" type="selectionEntryGroup"/>
+            <entryLink id="ee2d-e15e-a4aa-5d1d" name="Rank 3 Communions" hidden="false" collective="false" import="true" targetId="dd2c-4c19-46f3-a5e7" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="390.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ee36-febb-fcb0-86fd" name="Incarnate: Serethis" publicationId="ae64-df01-f3cc-62f4" page="25" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5a92-cee5-ab7f-5a9b" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="5c14-aace-7221-ae83" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0fc8-e7a8-ca1b-c9ed" name="Dayak" publicationId="ae64-df01-f3cc-62f4" page="6" hidden="false" typeId="7fbe-7f49-81ba-0fcf" typeName="Incarnate">
+          <characteristics>
+            <characteristic name="RANK" typeId="87c8-7716-1bdb-856f">1</characteristic>
+            <characteristic name="MOV" typeId="5ceb-cf8e-bb92-d23a">10</characteristic>
+            <characteristic name="DEF" typeId="912a-a4d7-39c7-5c18">3</characteristic>
+            <characteristic name="RES" typeId="0d16-6fb1-412c-3dbd">7</characteristic>
+            <characteristic name="HTHDICE" typeId="0fb2-bd3c-ae0c-c7dc">2</characteristic>
+            <characteristic name="HTH" typeId="0fe2-bc96-a8c8-41a2">5</characteristic>
+            <characteristic name="HTHSTR" typeId="b61b-40b7-d15d-275f">8</characteristic>
+            <characteristic name="RNG" typeId="2b53-84a7-c5d9-f4b8"/>
+            <characteristic name="RNGDICE" typeId="1efa-aca9-9417-4497"/>
+            <characteristic name="RNGSTR" typeId="fe6b-f4e1-3748-82fd"/>
+            <characteristic name="WL" typeId="ce05-8d55-4750-7db5">4</characteristic>
+            <characteristic name="AUTH" typeId="c1b3-03a7-17ad-7e7a">2</characteristic>
+            <characteristic name="ELIXIR/DUEL" typeId="b9ea-bc8d-91d9-ce13">3</characteristic>
+            <characteristic name="COU" typeId="52dd-1e85-a7a4-cdc8">5</characteristic>
+            <characteristic name="FEAR" typeId="ed90-ab0e-8d4a-1549"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="226a-5894-424a-2a5e" name="Feat: Push through" hidden="false" targetId="c7ea-c48a-7377-1f7b" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="952d-3e58-ca5b-4195" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
+        <categoryLink id="e786-9ac6-232d-3898" name="Incarnate" hidden="false" targetId="b1bb-d6b8-9798-c7aa" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8961-9da8-39e1-cb08" name="Rank 1 Artifacts" hidden="false" collective="false" import="true" targetId="2fce-70dc-028a-c15b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="165.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="626c-8052-870a-c153" name="Great Fangs" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="1c75-0211-2785-556b" name="Creature" hidden="false" targetId="1cb7-380d-c30a-a4ad" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f565-0cc7-8d7f-e122" name="Trolls of the Spirit Tree" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5022-1159-d935-9928" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42bf-5c83-e6aa-dc16" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="6803-8604-1526-2303" name="Troll of the Spirit Tree" publicationId="ae64-df01-f3cc-62f4" page="4" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
+              <characteristics>
+                <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">2</characteristic>
+                <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">15</characteristic>
+                <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">3</characteristic>
+                <characteristic name="RES" typeId="a373-791b-b75c-1e95">9</characteristic>
+                <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">1</characteristic>
+                <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">7</characteristic>
+                <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">11</characteristic>
+                <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb"/>
+                <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a"/>
+                <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
+                <characteristic name="WL" typeId="70ec-23cf-9831-be85">2</characteristic>
+                <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="488c-1d6c-d418-679c" name="Regeneration" hidden="false" targetId="445f-1270-320a-aa22" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="dd64-ae48-5cc5-e49b" name="Creature" hidden="false" targetId="1cb7-380d-c30a-a4ad" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="150.0"/>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9a94-6f72-28a8-2aac" name="Sylvan Animae" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="2587-ec19-37d7-ef17" name="Scout" hidden="false" targetId="b49b-3b0d-2c48-b3af" type="profile"/>
+        <infoLink id="9a4a-d1a5-57e7-052c" name="Hide" hidden="false" targetId="fb58-095e-9810-dd39" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b914-d29d-b363-b051" name="Infantry" hidden="false" targetId="7998-c623-9b44-d3d8" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a621-e86c-95e3-bdba" name="Raptor" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4ed-fd60-f3d2-3253" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="178a-d1c4-456f-0c37" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c3c3-8ca8-3190-3ea7" name="Raptor" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
+              <characteristics>
+                <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">2</characteristic>
+                <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">10</characteristic>
+                <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">3</characteristic>
+                <characteristic name="RES" typeId="a373-791b-b75c-1e95">6</characteristic>
+                <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">1</characteristic>
+                <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">5</characteristic>
+                <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">6</characteristic>
+                <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb"/>
+                <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a"/>
+                <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
+                <characteristic name="WL" typeId="70ec-23cf-9831-be85">1</characteristic>
+                <characteristic name="COU" typeId="89e0-8ba1-781b-2456">3</characteristic>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="f82f-d868-8fd0-fcf4" name="Infantry" hidden="false" targetId="7998-c623-9b44-d3d8" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="54.0"/>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7a16-e95c-6379-654f" name="Incarnate" publicationId="ae64-df01-f3cc-62f4" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2075-8383-e25b-9e51" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d00a-72b8-ebd1-e6ed" name="Incarnate: Avangorok" publicationId="ae64-df01-f3cc-62f4" page="1" hidden="false" collective="false" import="true" targetId="dc92-dbc1-3d5c-6702" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1530-90ee-ca73-d7ee" name="Incarnate: Orhain" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fe0c-db87-23da-a9d7" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="5d7b-df2f-1f60-a909" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="757e-c565-3c56-2620" name="Carbone" publicationId="ae64-df01-f3cc-62f4" page="6" hidden="false" typeId="7fbe-7f49-81ba-0fcf" typeName="Incarnate">
+          <characteristics>
+            <characteristic name="RANK" typeId="87c8-7716-1bdb-856f">1</characteristic>
+            <characteristic name="MOV" typeId="5ceb-cf8e-bb92-d23a">10</characteristic>
+            <characteristic name="DEF" typeId="912a-a4d7-39c7-5c18">3</characteristic>
+            <characteristic name="RES" typeId="0d16-6fb1-412c-3dbd">3</characteristic>
+            <characteristic name="HTHDICE" typeId="0fb2-bd3c-ae0c-c7dc">2</characteristic>
+            <characteristic name="HTH" typeId="0fe2-bc96-a8c8-41a2">3</characteristic>
+            <characteristic name="HTHSTR" typeId="b61b-40b7-d15d-275f">1</characteristic>
+            <characteristic name="RNG" typeId="2b53-84a7-c5d9-f4b8">1</characteristic>
+            <characteristic name="RNGDICE" typeId="1efa-aca9-9417-4497">3</characteristic>
+            <characteristic name="RNGSTR" typeId="fe6b-f4e1-3748-82fd">3</characteristic>
+            <characteristic name="WL" typeId="ce05-8d55-4750-7db5">4</characteristic>
+            <characteristic name="AUTH" typeId="c1b3-03a7-17ad-7e7a">2</characteristic>
+            <characteristic name="ELIXIR/DUEL" typeId="b9ea-bc8d-91d9-ce13">4</characteristic>
+            <characteristic name="COU" typeId="52dd-1e85-a7a4-cdc8">3</characteristic>
+            <characteristic name="FEAR" typeId="ed90-ab0e-8d4a-1549"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5d27-67fb-4f17-1fea" name="Feat: Push through" hidden="false" targetId="c7ea-c48a-7377-1f7b" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2477-7749-1b51-d601" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
+        <categoryLink id="38a5-d399-c064-6aa8" name="Incarnate" hidden="false" targetId="b1bb-d6b8-9798-c7aa" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="72f3-30b6-d61a-93f0" name="Rank 1 Artifacts" hidden="false" collective="false" import="true" targetId="2fce-70dc-028a-c15b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="175.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2a84-ed92-4cd6-8220" name="Hunters" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="0245-2626-f4fb-5617" name="Infantry" hidden="false" targetId="7998-c623-9b44-d3d8" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f54e-6d8f-f217-1977" name="Crossbowmen" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2449-eb08-a179-b051" type="min"/>
+            <constraint field="selections" scope="parent" value="13.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad56-ebf6-1fc2-a213" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="cc49-869d-38bf-3153" name="Crossbowmen" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
+              <characteristics>
+                <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">1</characteristic>
+                <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">10</characteristic>
+                <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">3</characteristic>
+                <characteristic name="RES" typeId="a373-791b-b75c-1e95">5</characteristic>
+                <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">1</characteristic>
+                <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">5</characteristic>
+                <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">6</characteristic>
+                <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb">1</characteristic>
+                <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a">5</characteristic>
+                <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37">6</characteristic>
+                <characteristic name="WL" typeId="70ec-23cf-9831-be85">1</characteristic>
+                <characteristic name="COU" typeId="89e0-8ba1-781b-2456">3</characteristic>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="a766-e546-eaa3-d273" name="Infantry" hidden="false" targetId="7998-c623-9b44-d3d8" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="35.0"/>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8db0-682e-bda7-d159" name="Incarnate" publicationId="ae64-df01-f3cc-62f4" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="482d-5b06-5b46-fc9f" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1ae1-432d-b102-d3ea" name="Incarnate: Dayak" hidden="false" collective="false" import="true" targetId="ee36-febb-fcb0-86fd" type="selectionEntry"/>
+            <entryLink id="f59f-8803-9712-f330" name="Incarnate: Shaka Morkhai" hidden="false" collective="false" import="true" targetId="cb2d-5b29-0f44-72d5" type="selectionEntry"/>
+            <entryLink id="c623-5311-bf78-d356" name="Incarnate: The Son of Thunder" hidden="false" collective="false" import="true" targetId="449e-2b1e-bdcb-b109" type="selectionEntry"/>
+            <entryLink id="e027-c2ec-c84a-1e0e" name="Incarnate: Deliox" hidden="false" collective="false" import="true" targetId="c150-514c-eda1-d2cf" type="selectionEntry"/>
+            <entryLink id="6625-d9ac-4e1d-35dc" name="Incarnate: Tamaor" publicationId="ae64-df01-f3cc-62f4" page="42" hidden="false" collective="false" import="true" targetId="ce00-d7a2-7018-68ae" type="selectionEntry"/>
+            <entryLink id="afa0-4c4f-d9f9-cac4" name="Incarnate: Rantakh" hidden="false" collective="false" import="true" targetId="371f-9c19-1450-d6e2" type="selectionEntry"/>
+            <entryLink id="43dd-8abe-595c-3295" name="Incarnate: Tôrk" hidden="false" collective="false" import="true" targetId="0868-3aaf-963a-25aa" type="selectionEntry"/>
+            <entryLink id="4a13-d71f-3d25-f425" name="Incarnate: Vorak" hidden="false" collective="false" import="true" targetId="c3ff-507f-0302-2d7c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dc92-dbc1-3d5c-6702" name="Incarnate: Isakar the Watcher" publicationId="ae64-df01-f3cc-62f4" page="7" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3fbd-5f87-bad6-3781" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="90cb-6d02-cfeb-2199" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="dadc-51f6-ec78-f4bc" name="Avangorok" publicationId="ae64-df01-f3cc-62f4" page="6" hidden="false" typeId="7fbe-7f49-81ba-0fcf" typeName="Incarnate">
+          <characteristics>
+            <characteristic name="RANK" typeId="87c8-7716-1bdb-856f">2</characteristic>
+            <characteristic name="MOV" typeId="5ceb-cf8e-bb92-d23a">15</characteristic>
+            <characteristic name="DEF" typeId="912a-a4d7-39c7-5c18">3</characteristic>
+            <characteristic name="RES" typeId="0d16-6fb1-412c-3dbd">6</characteristic>
+            <characteristic name="HTHDICE" typeId="0fb2-bd3c-ae0c-c7dc">2</characteristic>
+            <characteristic name="HTH" typeId="0fe2-bc96-a8c8-41a2">5</characteristic>
+            <characteristic name="HTHSTR" typeId="b61b-40b7-d15d-275f">8</characteristic>
+            <characteristic name="RNG" typeId="2b53-84a7-c5d9-f4b8"/>
+            <characteristic name="RNGDICE" typeId="1efa-aca9-9417-4497"/>
+            <characteristic name="RNGSTR" typeId="fe6b-f4e1-3748-82fd"/>
+            <characteristic name="WL" typeId="ce05-8d55-4750-7db5">4</characteristic>
+            <characteristic name="AUTH" typeId="c1b3-03a7-17ad-7e7a">7</characteristic>
+            <characteristic name="ELIXIR/DUEL" typeId="b9ea-bc8d-91d9-ce13">4</characteristic>
+            <characteristic name="COU" typeId="52dd-1e85-a7a4-cdc8">5</characteristic>
+            <characteristic name="FEAR" typeId="ed90-ab0e-8d4a-1549"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e86c-5658-91f7-3ed0" name="Feat: Evasive manoeuver" hidden="false" targetId="93c4-925e-e75e-151e" type="profile"/>
+        <infoLink id="4440-52bd-7e4a-d84f" name="Scout" hidden="false" targetId="b49b-3b0d-2c48-b3af" type="profile"/>
+        <infoLink id="130b-ad69-8434-a629" name="Reach" hidden="false" targetId="26a2-b0f2-f774-e44b" type="profile"/>
+        <infoLink id="64ee-056d-4fda-c358" name="Strategist" hidden="false" targetId="46b7-b9f3-a54e-62cc" type="profile"/>
+        <infoLink id="aba8-e668-f6d3-6c26" name="The Elusive" hidden="false" targetId="be9e-6c0c-0236-93cb" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ccf5-33d9-9fb5-d287" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
+        <categoryLink id="c75a-d282-d204-3843" name="Incarnate" hidden="false" targetId="b1bb-d6b8-9798-c7aa" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1711-4349-e717-5e9b" name="Rank 1 Artifacts" hidden="false" collective="false" import="true" targetId="2fce-70dc-028a-c15b" type="selectionEntryGroup"/>
+        <entryLink id="8731-fc14-3727-4a9d" name="Rank 2 Artifacts" hidden="false" collective="false" import="true" targetId="aebe-4bec-62d6-6bc1" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="285.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0868-3aaf-963a-25aa" name="Incarnate: Saphyr" publicationId="ae64-df01-f3cc-62f4" page="2" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a7ed-260b-dd6b-ba5a" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="ec27-8255-5853-3acb" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0060-bfeb-1a7e-69e2" name="Tôrk" publicationId="ae64-df01-f3cc-62f4" page="30" hidden="false" typeId="f21c-0f5b-4807-bb7f" typeName="Incarnate - Magician">
+          <characteristics>
+            <characteristic name="RANK" typeId="8765-c836-f7b7-fbe9">1</characteristic>
+            <characteristic name="MOV" typeId="dd48-412c-a827-4c45">10</characteristic>
+            <characteristic name="DEF" typeId="4c71-f7da-7785-8d0b">3</characteristic>
+            <characteristic name="RES" typeId="b982-d3fc-300f-7a3f">5</characteristic>
+            <characteristic name="HTHDICE" typeId="1b69-0728-3c38-fd7d">2</characteristic>
+            <characteristic name="HTH" typeId="efc6-9cec-ad35-cab7">5</characteristic>
+            <characteristic name="HTHSTR" typeId="d527-4703-4777-133e">8</characteristic>
+            <characteristic name="RNG" typeId="7452-b1c8-1fcd-886b">1</characteristic>
+            <characteristic name="RNGDICE" typeId="572e-6bdf-ab2b-acdd">3</characteristic>
+            <characteristic name="RNGSTR" typeId="6990-84da-0126-e694">8</characteristic>
+            <characteristic name="WL" typeId="e077-5a2b-7172-5fc8">6</characteristic>
+            <characteristic name="ENG" typeId="b371-3bce-de80-663d">3</characteristic>
+            <characteristic name="AUTH" typeId="d3ef-4b64-b5c6-236e">2</characteristic>
+            <characteristic name="ELIXIR/DUEL" typeId="9dd3-9098-b0d9-3aec">3</characteristic>
+            <characteristic name="PATHS" typeId="9133-8054-0968-316f">Instinctive</characteristic>
+            <characteristic name="ELEMENTS" typeId="c6c8-ed9c-c7b5-22e6">Earth</characteristic>
+            <characteristic name="COU" typeId="e1f8-5f90-b4e2-7b49">5</characteristic>
+            <characteristic name="FEAR" typeId="1019-8fea-8981-67fd"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a637-b9ba-e59e-f994" name="Feat: Truth of the Gnosis" hidden="false" targetId="08d0-b8ee-11d5-718f" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b430-5d9e-11a0-f3f5" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
+        <categoryLink id="7b6d-8f50-dcc9-1e2a" name="Incarnate" hidden="false" targetId="b1bb-d6b8-9798-c7aa" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d410-e11e-1f8d-050b" name="Rank 1 Artifacts" hidden="false" collective="false" import="true" targetId="2fce-70dc-028a-c15b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="195.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="93b5-cfad-8130-fcdd" name="Predators of Blood" publicationId="ae64-df01-f3cc-62f4" page="755" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="b54d-f18b-937b-8d03" name="Born Killer" hidden="false" targetId="76a8-e12b-9714-69f4" type="profile"/>
+        <infoLink id="3780-2752-0a40-87b9" name="Savage" hidden="false" targetId="f0cd-1666-22b6-16b8" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4f7c-88e0-13c5-f251" name="Infantry" hidden="false" targetId="7998-c623-9b44-d3d8" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="039c-6b5e-60da-2e9a" name="Predator" publicationId="ae64-df01-f3cc-62f4" page="55" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b94a-c76a-0ffb-8a62" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c730-0eee-c2b3-78b7" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="b40e-b3a5-327b-c25c" name="Predator" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
+              <characteristics>
+                <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">3</characteristic>
+                <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">15</characteristic>
+                <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">3</characteristic>
+                <characteristic name="RES" typeId="a373-791b-b75c-1e95">7</characteristic>
+                <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">2</characteristic>
+                <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">7</characteristic>
+                <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">9</characteristic>
+                <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb"/>
+                <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a"/>
+                <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
+                <characteristic name="WL" typeId="70ec-23cf-9831-be85">3</characteristic>
+                <characteristic name="COU" typeId="89e0-8ba1-781b-2456"></characteristic>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37">5</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="13b1-ef4e-f352-0e80" name="Infantry" hidden="false" targetId="7998-c623-9b44-d3d8" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="175.0"/>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0f6c-2108-8019-ccf9" name="Incarnate" publicationId="ae64-df01-f3cc-62f4" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="511c-fa21-dc2e-1ad5" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b482-c0a7-7e52-5e99" name="Incarnate: Shaka Morkhai" hidden="false" collective="false" import="true" targetId="cb2d-5b29-0f44-72d5" type="selectionEntry"/>
+            <entryLink id="2db6-f4a0-1c57-fed0" name="Incarnate: Shaka-Umruk" hidden="false" collective="false" import="true" targetId="c150-514c-eda1-d2cf" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c3ff-507f-0302-2d7c" name="Incarnate: Karnyrax" publicationId="ae64-df01-f3cc-62f4" page="2" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a4a1-f236-a5b6-c3b0" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="f95a-a743-b85a-40ff" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="867a-d490-a0bf-e74d" name="Vorak" publicationId="ae64-df01-f3cc-62f4" page="2" hidden="false" typeId="7fbe-7f49-81ba-0fcf" typeName="Incarnate">
+          <characteristics>
+            <characteristic name="RANK" typeId="87c8-7716-1bdb-856f">1</characteristic>
+            <characteristic name="MOV" typeId="5ceb-cf8e-bb92-d23a">10</characteristic>
+            <characteristic name="DEF" typeId="912a-a4d7-39c7-5c18">3</characteristic>
+            <characteristic name="RES" typeId="0d16-6fb1-412c-3dbd">6</characteristic>
+            <characteristic name="HTHDICE" typeId="0fb2-bd3c-ae0c-c7dc">2</characteristic>
+            <characteristic name="HTH" typeId="0fe2-bc96-a8c8-41a2">5</characteristic>
+            <characteristic name="HTHSTR" typeId="b61b-40b7-d15d-275f">6</characteristic>
+            <characteristic name="RNG" typeId="2b53-84a7-c5d9-f4b8"/>
+            <characteristic name="RNGDICE" typeId="1efa-aca9-9417-4497"/>
+            <characteristic name="RNGSTR" typeId="fe6b-f4e1-3748-82fd"/>
+            <characteristic name="WL" typeId="ce05-8d55-4750-7db5"/>
+            <characteristic name="AUTH" typeId="c1b3-03a7-17ad-7e7a">2</characteristic>
+            <characteristic name="ELIXIR/DUEL" typeId="b9ea-bc8d-91d9-ce13">3</characteristic>
+            <characteristic name="COU" typeId="52dd-1e85-a7a4-cdc8">5</characteristic>
+            <characteristic name="FEAR" typeId="ed90-ab0e-8d4a-1549"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e51a-e2e8-f0ee-8151" name="Feat: Push through" hidden="false" targetId="c7ea-c48a-7377-1f7b" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="af8e-c012-f49f-a0aa" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
+        <categoryLink id="1dca-1671-bb08-f0b2" name="Incarnate" hidden="false" targetId="b1bb-d6b8-9798-c7aa" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cacb-3d45-7ecb-e3a4" name="Rank 1 Artifacts" hidden="false" collective="false" import="true" targetId="2fce-70dc-028a-c15b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="140.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="8222-27a1-a742-cdbf" name="Rank 3  Artifacts" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93cb-7548-e66c-ad38" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="8d20-9eea-3be5-be57" name="Jackal Stone (3)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3e7-517c-d985-d6aa" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3449-a29a-60cc-7fd1" name="Jackal Stone (3)" hidden="false" targetId="b8fe-1739-1eca-e45a" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="3.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3bfe-d2f0-0846-ce40" name="Realm Seed (3)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0981-064e-dff7-25df" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8e15-e5ef-9a55-34e3" name="Realm Seed (3)" hidden="false" targetId="5d5d-a5c7-fe56-ec70" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="3.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2fce-70dc-028a-c15b" name="Rank 1 Artifacts" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef0e-22d1-003a-0f96" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="dc9d-aa5d-0813-3d12" name="Thunder rock (1)" publicationId="ae64-df01-f3cc-62f4" page="3" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4da-5455-063a-0b3d" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b14c-ab38-4648-9864" name="Thunder rock (1)" hidden="false" targetId="2854-420d-5d28-9f83" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="1.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="be31-8027-94d1-56e5" name="Tribal banner (1)" publicationId="ae64-df01-f3cc-62f4" page="3" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f730-167c-f154-5b39" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="ed4a-cace-a596-2bd2" name="Tribal banner (1)" hidden="false" targetId="1fd3-a4c6-7a02-8c23" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="1.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="898a-dc57-c7b8-984d" name="Loot (1)" publicationId="ae64-df01-f3cc-62f4" page="3" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6881-3c31-e2e1-ab5b" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7f34-2ac8-60f8-ba19" name="Loot (1)" hidden="false" targetId="3a1a-7ca4-89c9-3e0b" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="1.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fecf-1ecc-1b53-147c" name="Skin of the Behemoth (1)" publicationId="ae64-df01-f3cc-62f4" page="3" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b13-58d9-7266-8b11" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4804-8c29-efd2-d253" name="Skin of the Behemoth (1)" hidden="false" targetId="3250-9e56-c21b-c046" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="1.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="34fb-f131-bc3d-4a22" name="Familiar (1)" publicationId="cd43-c32f-bcee-dc77" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e42d-3906-08e2-7338" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c8b0-8b63-dcfc-a335" name="Familliar" hidden="false" targetId="d947-df68-2410-07b7" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="1.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="aebe-4bec-62d6-6bc1" name="Rank 2 Artifacts" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d789-1093-6214-efa2" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="13c3-22e6-fff4-e213" name="Feral beast hide (2)" publicationId="ae64-df01-f3cc-62f4" page="3" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdd0-e088-bc2e-7188" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c092-ff39-a0d7-14ae" name="Feral beast hide (2)" hidden="false" targetId="2e60-1a01-3636-bbe4" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="5a2e-7ea8-93d2-7ec3" name="Rank 3 Rituals" hidden="false" collective="false" import="true" targetId="6828-05a3-a90d-a405" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33ba-1ca1-ee4c-0d09" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="-1.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9d0c-d99d-b1e4-4629" name="Tree-Spirit sap (2)" publicationId="ae64-df01-f3cc-62f4" page="3" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c717-9f81-e657-3070" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="ffd4-65e6-da16-685f" name="Tree-Spirit sap (2)" hidden="false" targetId="b909-6681-81be-8af8" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="2.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ae6e-6432-ee07-a814" name="Khorlan and Grizmaor (2)" publicationId="ae64-df01-f3cc-62f4" page="3" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb6c-5af5-bec4-2170" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="5b85-46c8-e2a9-1083" name="Khorlan and Grizmaor (2)" publicationId="ae64-df01-f3cc-62f4" page="3" hidden="false" targetId="3008-c877-ffaa-ac4f" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="2.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3d3f-c72f-0bb8-541e" name="Twig of the Spirit Tree (2)" publicationId="ae64-df01-f3cc-62f4" page="3" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcfb-e3ae-f555-616a" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="48e2-1225-f547-7e32" name="Twig of the Spirit Tree (2)" hidden="false" targetId="b0e5-7eb5-e589-6bc4" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="eb95-84e4-dc15-fb0f" name="Rank 3 Communions" hidden="false" collective="false" import="true" targetId="dd2c-4c19-46f3-a5e7" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbe5-7b25-af37-f5e4" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="-1.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="894a-3d3a-8f6e-f551" name="Rank 1 Rituals" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="0722-3634-c9bf-6dc0" name="Gift of Thunder (1)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="031c-343f-ce06-8be2" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6828-dca4-3bb9-3810" name="Gift of Thunder (1)" hidden="false" targetId="5d15-b3f3-178c-a658" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="1.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="134b-ffc3-09e0-be10" name="Kiss of the Earth (1)" publicationId="ae64-df01-f3cc-62f4" page="3" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1355-c5f1-ede2-5fe0" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e8b6-08c3-103a-bd28" name="Kiss of the Earth (1)" hidden="false" targetId="6e95-bdae-be1a-7015" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="1.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bfad-68ee-6ef6-b3a3" name="Gift of granite (1)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02b1-6c4f-05ea-c69a" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4994-7592-6887-8c8f" name="Gift of granite (1)" hidden="false" targetId="b72e-77fd-fda9-8483" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="1.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1be1-90f9-1438-dab9" name="Gift of the Ulunkor (1)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a86-aaa4-6e57-4298" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4202-0a91-8c23-680f" name="Gift of the Ulunkor (1)" hidden="false" targetId="3468-e52b-6b11-3817" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="1.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fbb9-db94-a06f-03b8" name="Gift of the vulture (1)" publicationId="ae64-df01-f3cc-62f4" page="4" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e7a-f4d8-2fa5-6612" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2c7b-33ec-11f9-b2ee" name="Gift of the vulture (1)" hidden="false" targetId="6373-0c39-04e6-80f3" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="1.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="791e-5174-bac5-d919" name="Rank 2 Rituals" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="f9c3-9635-5ae9-3f96" name="Charge of the brontops (2)" publicationId="ae64-df01-f3cc-62f4" page="4" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb3f-bec1-025c-b2d0" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="5cb8-a9a6-a186-8823" name="Charge of the brontops (2)" hidden="false" targetId="6cc2-bf9c-2cf4-a17c" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="2.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7064-8958-8764-b7fd" name="Mystic sap (2)" publicationId="ae64-df01-f3cc-62f4" page="4" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1fb-03da-6c3a-95ab" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="abf5-912c-4472-e773" name="Mystic sap (2)" hidden="false" targetId="b3df-f93a-b3c4-bece" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="2.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0e30-d7c0-10b3-8d40" name="Skin of the Behemoth (2)" publicationId="ae64-df01-f3cc-62f4" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b40-7937-90f2-7d9e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="5a70-2d0d-90c1-ad65" name="Skin of the Behemoth (2)" publicationId="ae64-df01-f3cc-62f4" hidden="false" targetId="ccaf-27d8-d37e-9469" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="2.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6828-05a3-a90d-a405" name="Rank 3 Rituals" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="a2a8-6b32-b8d4-3da2" name="Immortal ghost (3)" publicationId="ae64-df01-f3cc-62f4" page="4" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ff9-a056-73dd-170d" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="142c-8c2a-77f6-2639" name="Immortal ghost (3)" hidden="false" targetId="4e7a-5b83-c967-97f0" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="3.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ed93-55ca-6e4d-49b1" name="Guile of the Jackal (3)" publicationId="ae64-df01-f3cc-62f4" page="4" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97cd-2860-8076-8f32" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="31d4-d49c-f980-3ab4" name="Guile of the Jackal (3)" hidden="false" targetId="f83a-5c93-659b-5f25" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="3.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="667e-e49a-d6fa-829c" name="Rank 1 Communions" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="dc76-f523-b954-84b5" name="Trail of the Long Sun (1)" publicationId="ae64-df01-f3cc-62f4" page="4" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e8e-a451-9daa-9e2c" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0e76-8e00-0c73-fd83" name="Trail of the Long Sun (1)" hidden="false" targetId="5a8a-80fb-493b-3125" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="1.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="edc8-30b0-6c5f-37a4" name="Indulgence of the scavenger (1)" publicationId="ae64-df01-f3cc-62f4" page="4" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13ac-f38f-e863-fcee" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="f77b-4c0e-3f36-cce7" name="Indulgence of the scavenger (1)" hidden="false" targetId="9779-3343-7e14-6acb" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="1.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5849-7db8-3aa5-e895" name="Rage of the jackal (1)" publicationId="ae64-df01-f3cc-62f4" page="5" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da13-6d62-30d1-2139" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c4ef-3aff-d153-e317" name="Rage of the jackal (1)" hidden="false" targetId="ba00-d2e7-3587-fe9c" type="profile"/>
+            <infoLink id="ceb4-67d2-8f0c-227b" name="War Fury" hidden="false" targetId="6579-7d10-f74e-2240" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="1.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ca65-1472-12f7-6563" name="Tenacity of the rock (1)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8cc-9efb-1473-4605" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="f43f-2380-0300-bade" name="Tenacity of the rock (1)" hidden="false" targetId="7413-4e9f-8af8-48d2" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="1.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="86fd-bd2d-8523-4de4" name="Root of the Tree spirit (1)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61d3-56d3-eaaf-2529" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9ed5-93a3-2d62-ae99" name="Root of the Tree spirit (1)" hidden="false" targetId="e5d6-3279-6d3e-1767" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="1.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4e6f-f552-bcbf-1c1e" name="Rank 2 Communions" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="c80d-b5ba-b038-0ec7" name="Breath of the spirit tree (2)" publicationId="ae64-df01-f3cc-62f4" page="5" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4400-b377-4b97-97fa" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8496-c5a9-e37c-f724" name="Breath of the spirit tree (2)" hidden="false" targetId="4c99-92fa-1925-8e2e" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="2.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e60f-434c-e89a-b1ad" name="Thieving Jackal (2)" publicationId="ae64-df01-f3cc-62f4" page="5" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36a9-ce27-0c28-c3a9" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="61fb-a249-6459-d157" name="Thieving Jackal (2)" hidden="false" targetId="e3bb-e896-bb2d-8a0d" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="2.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="812f-c337-5a14-3e45" name="Bahata Mahata (2)" publicationId="ae64-df01-f3cc-62f4" page="5" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f721-40cf-c908-1c33" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6966-9c55-4714-36d6" name="Bahata Mahata (2)" hidden="false" targetId="a2c4-4758-8059-a4e4" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="2.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="dd2c-4c19-46f3-a5e7" name="Rank 3 Communions" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="358b-c19e-9f16-777b" name="Root of time (3)" publicationId="ae64-df01-f3cc-62f4" page="5" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d364-e122-3102-7a86" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="05f7-4a1e-09d6-e85c" name="Root of time (3)" hidden="false" targetId="b8cb-bd62-d0c1-1127" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="3.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fd7b-3fe8-d17d-9519" name="Strength’s triumph! (3)" publicationId="ae64-df01-f3cc-62f4" page="5" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baa1-83d0-14b5-d5ae" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="ec3f-1a73-b9cd-62e1" name="Strength’s triumph! (3)" hidden="false" targetId="89d2-d66e-aa48-e7cf" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="3.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile id="2854-420d-5d28-9f83" name="Thunder rock (1)" publicationId="ae64-df01-f3cc-62f4" page="3" hidden="false" typeId="5f45-606f-01c3-f30e" typeName="Artifact">
+      <characteristics>
+        <characteristic name="Cost" typeId="32dd-00a3-b580-7ee7">1</characteristic>
+        <characteristic name="Effect" typeId="de83-6f10-888b-b08d">The Incarnate inflicts one extra damage point on each of his Strength tests.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b8fe-1739-1eca-e45a" name="Jackal Stone (3)" publicationId="ae64-df01-f3cc-62f4" page="3" hidden="false" typeId="5f45-606f-01c3-f30e" typeName="Artifact">
+      <characteristics>
+        <characteristic name="Cost" typeId="32dd-00a3-b580-7ee7">3</characteristic>
+        <characteristic name="Effect" typeId="de83-6f10-888b-b08d">The Incarnate’s unit is activated twice per round. To represent this, add both the Incarnate’s and the unit’s cards to the activation sequence.
+At the beginning of the second activation, the dice pool of the unit is replenished to its maximum.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5d5d-a5c7-fe56-ec70" name="Realm Seed (3)" publicationId="ae64-df01-f3cc-62f4" page="3" hidden="false" typeId="5f45-606f-01c3-f30e" typeName="Artifact">
+      <characteristics>
+        <characteristic name="Cost" typeId="32dd-00a3-b580-7ee7">3</characteristic>
+        <characteristic name="Effect" typeId="de83-6f10-888b-b08d">The  Incarnate with this artifact can be resurrected for 0 Elixir points.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2e60-1a01-3636-bbe4" name="Feral beast hide (2)" publicationId="ae64-df01-f3cc-62f4" page="3" hidden="false" typeId="5f45-606f-01c3-f30e" typeName="Artifact">
+      <characteristics>
+        <characteristic name="Cost" typeId="32dd-00a3-b580-7ee7">2</characteristic>
+        <characteristic name="Effect" typeId="de83-6f10-888b-b08d">The magician equipped with this artifact gains a ritual of Value 3.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="be9e-6c0c-0236-93cb" name="The Elusive" hidden="false" typeId="ff04-985d-f382-aa2a" typeName="Ability">
+      <characteristics>
+        <characteristic name="Effect" typeId="ff52-3103-6a52-768b">Avangorok&apos;s unit card is always placed in reserve when the activation sequence is created. This reseve is added to the one(s) the player may already have.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b909-6681-81be-8af8" name="Tree-Spirit sap (2)" publicationId="ae64-df01-f3cc-62f4" page="3" hidden="false" typeId="5f45-606f-01c3-f30e" typeName="Artifact">
+      <characteristics>
+        <characteristic name="Cost" typeId="32dd-00a3-b580-7ee7">2</characteristic>
+        <characteristic name="Effect" typeId="de83-6f10-888b-b08d">The incarnate gains the “Ethereal” ability.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1fd3-a4c6-7a02-8c23" name="Tribal banner (1)" publicationId="ae64-df01-f3cc-62f4" page="3" hidden="false" typeId="5f45-606f-01c3-f30e" typeName="Artifact">
+      <characteristics>
+        <characteristic name="Cost" typeId="32dd-00a3-b580-7ee7">1</characteristic>
+        <characteristic name="Effect" typeId="de83-6f10-888b-b08d">The Incarnate is considered as a standard bearer. This also means he is considered Size 4 to determine who sees the banner.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3a1a-7ca4-89c9-3e0b" name="Loot (1)" publicationId="ae64-df01-f3cc-62f4" page="2" hidden="false" typeId="5f45-606f-01c3-f30e" typeName="Artifact">
+      <characteristics>
+        <characteristic name="Cost" typeId="32dd-00a3-b580-7ee7">1</characteristic>
+        <characteristic name="Effect" typeId="de83-6f10-888b-b08d">The holder of this artifact gains a single Value 1 artifact from any other Army Book as long as it is not reserved to an Incarnate.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3250-9e56-c21b-c046" name="Skin of the Behemoth (1)" publicationId="ae64-df01-f3cc-62f4" page="3" hidden="false" typeId="5f45-606f-01c3-f30e" typeName="Artifact">
+      <characteristics>
+        <characteristic name="Cost" typeId="32dd-00a3-b580-7ee7">1</characteristic>
+        <characteristic name="Effect" typeId="de83-6f10-888b-b08d">The Incarnate loses one health point less than what he should, when he suff ers a Strength test.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="08d0-b8ee-11d5-718f" name="Feat: Instinctive counter" page="" hidden="false" typeId="2ea9-d29b-f7f8-a9cb" typeName="Feat">
+      <characteristics>
+        <characteristic name="Elixir Cost" typeId="1d6c-48f4-0850-8128">Spell or Rank1 ritual: 1
+Rank2 or rank 3 ritual: 2</characteristic>
+        <characteristic name="Effect" typeId="cdbd-6ec3-b0c4-c38f">A spell or ritual is countered. The incarnate must still have a valid line of sight to the casting unit. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f83a-5c93-659b-5f25" name="Guile of the Jackal (3)" publicationId="ae64-df01-f3cc-62f4" page="4" hidden="false" typeId="b4bc-a41f-3664-681c" typeName="Ritual">
+      <characteristics>
+        <characteristic name="Mana Cost" typeId="dcc9-d907-3925-682a">20</characteristic>
+        <characteristic name="Effect" typeId="8d55-6f84-4d4f-6e27">The magician’s company is immediately redeployed in its deployment zone as if it were the deployment phase. The fighters in contact with an enemy disengage without suffering any losses. No unit can be redeployed in contact with an enemy unit. All objects or tokens transported remain with the units.</characteristic>
+        <characteristic name="Path" typeId="8d4f-e36b-ce22-8f33">Instinctive Magic</characteristic>
+        <characteristic name="Element" typeId="d5b5-43b6-3090-de3c">Earth</characteristic>
+        <characteristic name="Difficulty" typeId="42eb-533d-d814-815f">8</characteristic>
+        <characteristic name="Target" typeId="2f7f-12e4-a52a-1749">The caster&apos;s company</characteristic>
+        <characteristic name="Duration" typeId="519a-9b8d-4486-ea56">Instantaneous</characteristic>
+        <characteristic name="Value" typeId="fe4e-7f31-bda9-aab8">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6e95-bdae-be1a-7015" name="Kiss of the Earth (1)" publicationId="ae64-df01-f3cc-62f4" page="4" hidden="false" typeId="b4bc-a41f-3664-681c" typeName="Ritual">
+      <characteristics>
+        <characteristic name="Mana Cost" typeId="dcc9-d907-3925-682a">7</characteristic>
+        <characteristic name="Effect" typeId="8d55-6f84-4d4f-6e27">The targeted unit cannot move further than its Movement in cm.</characteristic>
+        <characteristic name="Path" typeId="8d4f-e36b-ce22-8f33">Instinctive Magic</characteristic>
+        <characteristic name="Element" typeId="d5b5-43b6-3090-de3c">Earth</characteristic>
+        <characteristic name="Difficulty" typeId="42eb-533d-d814-815f">6</characteristic>
+        <characteristic name="Target" typeId="2f7f-12e4-a52a-1749">Any visible unit.</characteristic>
+        <characteristic name="Duration" typeId="519a-9b8d-4486-ea56">Round</characteristic>
+        <characteristic name="Value" typeId="fe4e-7f31-bda9-aab8">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5d15-b3f3-178c-a658" name="Gift of Thunder (1)" publicationId="ae64-df01-f3cc-62f4" page="3" hidden="false" typeId="b4bc-a41f-3664-681c" typeName="Ritual">
+      <characteristics>
+        <characteristic name="Mana Cost" typeId="dcc9-d907-3925-682a">8</characteristic>
+        <characteristic name="Effect" typeId="8d55-6f84-4d4f-6e27">The targeted unit gains the “Brutal” ability: the unit always counts as charging when it performs a successful assault.</characteristic>
+        <characteristic name="Path" typeId="8d4f-e36b-ce22-8f33">Instinctive Magic</characteristic>
+        <characteristic name="Element" typeId="d5b5-43b6-3090-de3c">Earth</characteristic>
+        <characteristic name="Difficulty" typeId="42eb-533d-d814-815f">3</characteristic>
+        <characteristic name="Target" typeId="2f7f-12e4-a52a-1749">A unit visible to the caster.</characteristic>
+        <characteristic name="Duration" typeId="519a-9b8d-4486-ea56">Round</characteristic>
+        <characteristic name="Value" typeId="fe4e-7f31-bda9-aab8">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b72e-77fd-fda9-8483" name="Gift of granite (1)" publicationId="ae64-df01-f3cc-62f4" page="4" hidden="false" typeId="b4bc-a41f-3664-681c" typeName="Ritual">
+      <characteristics>
+        <characteristic name="Mana Cost" typeId="dcc9-d907-3925-682a">7</characteristic>
+        <characteristic name="Effect" typeId="8d55-6f84-4d4f-6e27">For Strength tests inflicted on the targeted unit results of 1,2 and 3 are always failures.</characteristic>
+        <characteristic name="Path" typeId="8d4f-e36b-ce22-8f33">Instinctive Magic</characteristic>
+        <characteristic name="Element" typeId="d5b5-43b6-3090-de3c">Earth</characteristic>
+        <characteristic name="Difficulty" typeId="42eb-533d-d814-815f">3</characteristic>
+        <characteristic name="Target" typeId="2f7f-12e4-a52a-1749">A unit visible to the caster.</characteristic>
+        <characteristic name="Duration" typeId="519a-9b8d-4486-ea56">Instantaneous</characteristic>
+        <characteristic name="Value" typeId="fe4e-7f31-bda9-aab8">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3468-e52b-6b11-3817" name="Gift of the Ulunkor (1)" publicationId="ae64-df01-f3cc-62f4" page="4" hidden="false" typeId="b4bc-a41f-3664-681c" typeName="Ritual">
+      <characteristics>
+        <characteristic name="Mana Cost" typeId="dcc9-d907-3925-682a">8</characteristic>
+        <characteristic name="Effect" typeId="8d55-6f84-4d4f-6e27">The next Strength test suffered by the targeted unit inflicts one less damage point.</characteristic>
+        <characteristic name="Path" typeId="8d4f-e36b-ce22-8f33">Instinctive Magic</characteristic>
+        <characteristic name="Element" typeId="d5b5-43b6-3090-de3c">Earth</characteristic>
+        <characteristic name="Difficulty" typeId="42eb-533d-d814-815f">5</characteristic>
+        <characteristic name="Target" typeId="2f7f-12e4-a52a-1749">A unit visible to the caster.</characteristic>
+        <characteristic name="Duration" typeId="519a-9b8d-4486-ea56">Round</characteristic>
+        <characteristic name="Value" typeId="fe4e-7f31-bda9-aab8">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6373-0c39-04e6-80f3" name="Gift of the vulture (1)" publicationId="ae64-df01-f3cc-62f4" page="4" hidden="false" typeId="b4bc-a41f-3664-681c" typeName="Ritual">
+      <characteristics>
+        <characteristic name="Mana Cost" typeId="dcc9-d907-3925-682a">5</characteristic>
+        <characteristic name="Effect" typeId="8d55-6f84-4d4f-6e27">The targeted unit is considered as having a line of sight to everywhere on the battlefield.</characteristic>
+        <characteristic name="Path" typeId="8d4f-e36b-ce22-8f33">Instinctive Magic</characteristic>
+        <characteristic name="Element" typeId="d5b5-43b6-3090-de3c">Earth</characteristic>
+        <characteristic name="Difficulty" typeId="42eb-533d-d814-815f">5</characteristic>
+        <characteristic name="Target" typeId="2f7f-12e4-a52a-1749">A unit visible to the caster.</characteristic>
+        <characteristic name="Duration" typeId="519a-9b8d-4486-ea56">Round</characteristic>
+        <characteristic name="Value" typeId="fe4e-7f31-bda9-aab8">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b3df-f93a-b3c4-bece" name="Mystic sap (2)" publicationId="ae64-df01-f3cc-62f4" page="59" hidden="false" typeId="b4bc-a41f-3664-681c" typeName="Ritual">
+      <characteristics>
+        <characteristic name="Mana Cost" typeId="dcc9-d907-3925-682a">10</characteristic>
+        <characteristic name="Effect" typeId="8d55-6f84-4d4f-6e27">Company Incarnates of the Tree-Spirit all heal two wound levels.</characteristic>
+        <characteristic name="Path" typeId="8d4f-e36b-ce22-8f33">Instinctive Magic</characteristic>
+        <characteristic name="Element" typeId="d5b5-43b6-3090-de3c">Earth</characteristic>
+        <characteristic name="Difficulty" typeId="42eb-533d-d814-815f">5</characteristic>
+        <characteristic name="Target" typeId="2f7f-12e4-a52a-1749">Battlefield</characteristic>
+        <characteristic name="Duration" typeId="519a-9b8d-4486-ea56">Instantaneous</characteristic>
+        <characteristic name="Value" typeId="fe4e-7f31-bda9-aab8">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ccaf-27d8-d37e-9469" name="Skin of the Behemoth (2)" publicationId="ae64-df01-f3cc-62f4" page="4" hidden="false" typeId="b4bc-a41f-3664-681c" typeName="Ritual">
+      <characteristics>
+        <characteristic name="Mana Cost" typeId="dcc9-d907-3925-682a">10</characteristic>
+        <characteristic name="Effect" typeId="8d55-6f84-4d4f-6e27">The company gains one elixir point each time a unit (friendly or enemy) is eliminated.</characteristic>
+        <characteristic name="Path" typeId="8d4f-e36b-ce22-8f33">Instinctive magic</characteristic>
+        <characteristic name="Element" typeId="d5b5-43b6-3090-de3c">Earth</characteristic>
+        <characteristic name="Difficulty" typeId="42eb-533d-d814-815f">8</characteristic>
+        <characteristic name="Target" typeId="2f7f-12e4-a52a-1749">A unit visible to the caster</characteristic>
+        <characteristic name="Duration" typeId="519a-9b8d-4486-ea56">Round</characteristic>
+        <characteristic name="Value" typeId="fe4e-7f31-bda9-aab8">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6cc2-bf9c-2cf4-a17c" name="Charge of the brontops (2)" publicationId="ae64-df01-f3cc-62f4" page="4" hidden="false" typeId="b4bc-a41f-3664-681c" typeName="Ritual">
+      <characteristics>
+        <characteristic name="Mana Cost" typeId="dcc9-d907-3925-682a">10</characteristic>
+        <characteristic name="Effect" typeId="8d55-6f84-4d4f-6e27">A unit in contact with an enemy and that has not been activated yet is activated immediately after the magician’s unit. Its card is revealed and removed from the sequence.</characteristic>
+        <characteristic name="Path" typeId="8d4f-e36b-ce22-8f33">Instinctive magic</characteristic>
+        <characteristic name="Element" typeId="d5b5-43b6-3090-de3c">Earth</characteristic>
+        <characteristic name="Difficulty" typeId="42eb-533d-d814-815f">6</characteristic>
+        <characteristic name="Target" typeId="2f7f-12e4-a52a-1749">A unit of the caster&apos;s company and visible to the caster</characteristic>
+        <characteristic name="Duration" typeId="519a-9b8d-4486-ea56">Instantaneous</characteristic>
+        <characteristic name="Value" typeId="fe4e-7f31-bda9-aab8">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4e7a-5b83-c967-97f0" name="Immortal ghost (3)" page="" hidden="false" typeId="b4bc-a41f-3664-681c" typeName="Ritual">
+      <characteristics>
+        <characteristic name="Mana Cost" typeId="dcc9-d907-3925-682a">20</characteristic>
+        <characteristic name="Effect" typeId="8d55-6f84-4d4f-6e27">The magician transforms the targeted Tree-Spirit Incarnate into an immortal ghost. The targeted Incarnate cannot lose any health points.</characteristic>
+        <characteristic name="Path" typeId="8d4f-e36b-ce22-8f33">Instinctive Magic</characteristic>
+        <characteristic name="Element" typeId="d5b5-43b6-3090-de3c">Earth</characteristic>
+        <characteristic name="Difficulty" typeId="42eb-533d-d814-815f">9</characteristic>
+        <characteristic name="Target" typeId="2f7f-12e4-a52a-1749">Friendly incarnate of the Spirit Tree</characteristic>
+        <characteristic name="Duration" typeId="519a-9b8d-4486-ea56">Round</characteristic>
+        <characteristic name="Value" typeId="fe4e-7f31-bda9-aab8">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9779-3343-7e14-6acb" name="Indulgence of the scavenger (1)" publicationId="ae64-df01-f3cc-62f4" page="5" hidden="false" typeId="ba20-cbf3-042f-69b4" typeName="Communion">
+      <characteristics>
+        <characteristic name="Faith Cost" typeId="a97a-d300-b85c-1d40">8</characteristic>
+        <characteristic name="Effect" typeId="95b3-4101-d06a-8415">The targeted unit gains the “Survival instincts” ability.</characteristic>
+        <characteristic name="Cult" typeId="f62c-1253-94bb-ec4f">Spirit Tree</characteristic>
+        <characteristic name="Aspect" typeId="8f09-7ff1-2976-70d6">Alteration</characteristic>
+        <characteristic name="Difficulty" typeId="1480-1881-9e19-791d">6</characteristic>
+        <characteristic name="Target" typeId="736b-1f60-516b-a6aa">A fridenly unit visible to the caster.</characteristic>
+        <characteristic name="Duration" typeId="45b1-8ca4-c87a-29c2">Round</characteristic>
+        <characteristic name="Value" typeId="cf41-828b-179d-8918">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ba00-d2e7-3587-fe9c" name="Rage of the jackal (1)" publicationId="ae64-df01-f3cc-62f4" page="5" hidden="false" typeId="ba20-cbf3-042f-69b4" typeName="Communion">
+      <characteristics>
+        <characteristic name="Faith Cost" typeId="a97a-d300-b85c-1d40">5</characteristic>
+        <characteristic name="Effect" typeId="95b3-4101-d06a-8415">The targeted unit’s fighters gain the “War Fury” ability</characteristic>
+        <characteristic name="Cult" typeId="f62c-1253-94bb-ec4f">Spirit Tree</characteristic>
+        <characteristic name="Aspect" typeId="8f09-7ff1-2976-70d6">Alteration</characteristic>
+        <characteristic name="Difficulty" typeId="1480-1881-9e19-791d">4</characteristic>
+        <characteristic name="Target" typeId="736b-1f60-516b-a6aa">A unit visible to the caster.</characteristic>
+        <characteristic name="Duration" typeId="45b1-8ca4-c87a-29c2">Round</characteristic>
+        <characteristic name="Value" typeId="cf41-828b-179d-8918">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5a8a-80fb-493b-3125" name="Trail of the Long Sun (1)" publicationId="ae64-df01-f3cc-62f4" page="6" hidden="false" typeId="ba20-cbf3-042f-69b4" typeName="Communion">
+      <characteristics>
+        <characteristic name="Faith Cost" typeId="a97a-d300-b85c-1d40">5</characteristic>
+        <characteristic name="Effect" typeId="95b3-4101-d06a-8415">The targeted unit immediately travels a distance less than or equal to its Movement in cm, ignoring all obstacles and enemies. It disengages without losses if needed.
+Trail of the long sun does not allow to engage enemies.</characteristic>
+        <characteristic name="Cult" typeId="f62c-1253-94bb-ec4f">Spirit Tree</characteristic>
+        <characteristic name="Aspect" typeId="8f09-7ff1-2976-70d6">Alteration</characteristic>
+        <characteristic name="Difficulty" typeId="1480-1881-9e19-791d">6</characteristic>
+        <characteristic name="Target" typeId="736b-1f60-516b-a6aa">A friendly unit visible to the caster.</characteristic>
+        <characteristic name="Duration" typeId="45b1-8ca4-c87a-29c2">Instantaneous</characteristic>
+        <characteristic name="Value" typeId="cf41-828b-179d-8918">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e5d6-3279-6d3e-1767" name="Root of the Tree spirit (1)" publicationId="ae64-df01-f3cc-62f4" page="6" hidden="false" typeId="ba20-cbf3-042f-69b4" typeName="Communion">
+      <characteristics>
+        <characteristic name="Faith Cost" typeId="a97a-d300-b85c-1d40">5</characteristic>
+        <characteristic name="Effect" typeId="95b3-4101-d06a-8415">The player totals the mystic pools of the faithful’s unit and the targeted unit. Each point can be freely transformed into a mana or a faith point. The player then redistributes the points between the two units.</characteristic>
+        <characteristic name="Cult" typeId="f62c-1253-94bb-ec4f">Spirit Tree</characteristic>
+        <characteristic name="Aspect" typeId="8f09-7ff1-2976-70d6">Alteration</characteristic>
+        <characteristic name="Difficulty" typeId="1480-1881-9e19-791d">4</characteristic>
+        <characteristic name="Target" typeId="736b-1f60-516b-a6aa">A friendly unit unit visible to the caster.</characteristic>
+        <characteristic name="Duration" typeId="45b1-8ca4-c87a-29c2">Instantaneous</characteristic>
+        <characteristic name="Value" typeId="cf41-828b-179d-8918">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7413-4e9f-8af8-48d2" name="Tenacity of the rock (1)" page="" hidden="false" typeId="ba20-cbf3-042f-69b4" typeName="Communion">
+      <characteristics>
+        <characteristic name="Faith Cost" typeId="a97a-d300-b85c-1d40">8</characteristic>
+        <characteristic name="Effect" typeId="95b3-4101-d06a-8415">The next successful assault against the targeted unit automatically fails: the assailants are placed out of reach from the fighters of the unit, as if they had not managed to reach their target.</characteristic>
+        <characteristic name="Cult" typeId="f62c-1253-94bb-ec4f">Spirit Tree</characteristic>
+        <characteristic name="Aspect" typeId="8f09-7ff1-2976-70d6">Alteration</characteristic>
+        <characteristic name="Difficulty" typeId="1480-1881-9e19-791d">5</characteristic>
+        <characteristic name="Target" typeId="736b-1f60-516b-a6aa">A unit visible to the caster.</characteristic>
+        <characteristic name="Duration" typeId="45b1-8ca4-c87a-29c2">Round</characteristic>
+        <characteristic name="Value" typeId="cf41-828b-179d-8918">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a2c4-4758-8059-a4e4" name="Bahata Mahata (2)" publicationId="ae64-df01-f3cc-62f4" page="5" hidden="false" typeId="ba20-cbf3-042f-69b4" typeName="Communion">
+      <characteristics>
+        <characteristic name="Faith Cost" typeId="a97a-d300-b85c-1d40">8</characteristic>
+        <characteristic name="Effect" typeId="95b3-4101-d06a-8415">On the targeted unit’s next characteristic test, results of 3+ are always successes.</characteristic>
+        <characteristic name="Cult" typeId="f62c-1253-94bb-ec4f">Spirit Tree</characteristic>
+        <characteristic name="Aspect" typeId="8f09-7ff1-2976-70d6">Alteration</characteristic>
+        <characteristic name="Difficulty" typeId="1480-1881-9e19-791d">6</characteristic>
+        <characteristic name="Target" typeId="736b-1f60-516b-a6aa">A unit visible to the faithful.</characteristic>
+        <characteristic name="Duration" typeId="45b1-8ca4-c87a-29c2">Round</characteristic>
+        <characteristic name="Value" typeId="cf41-828b-179d-8918">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e3bb-e896-bb2d-8a0d" name="Thieving Jackal (2)" page="" hidden="false" typeId="ba20-cbf3-042f-69b4" typeName="Communion">
+      <characteristics>
+        <characteristic name="Faith Cost" typeId="a97a-d300-b85c-1d40">10</characteristic>
+        <characteristic name="Effect" typeId="95b3-4101-d06a-8415">The targeted company cannot earn or spend Elixir points.</characteristic>
+        <characteristic name="Cult" typeId="f62c-1253-94bb-ec4f">Spîrit Tree</characteristic>
+        <characteristic name="Aspect" typeId="8f09-7ff1-2976-70d6">Alteration</characteristic>
+        <characteristic name="Difficulty" typeId="1480-1881-9e19-791d">6</characteristic>
+        <characteristic name="Target" typeId="736b-1f60-516b-a6aa">A company</characteristic>
+        <characteristic name="Duration" typeId="45b1-8ca4-c87a-29c2">Round</characteristic>
+        <characteristic name="Value" typeId="cf41-828b-179d-8918">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4c99-92fa-1925-8e2e" name="Breath of the Spirit Tree (2)" publicationId="ae64-df01-f3cc-62f4" page="6" hidden="false" typeId="ba20-cbf3-042f-69b4" typeName="Communion">
+      <characteristics>
+        <characteristic name="Faith Cost" typeId="a97a-d300-b85c-1d40">10</characteristic>
+        <characteristic name="Effect" typeId="95b3-4101-d06a-8415">All mystical eff ects being resolved or waiting to be are dissipated. It is not possible to use any further mystical effects for the rest of the turn.</characteristic>
+        <characteristic name="Cult" typeId="f62c-1253-94bb-ec4f">Cernunnos</characteristic>
+        <characteristic name="Aspect" typeId="8f09-7ff1-2976-70d6">Alteration</characteristic>
+        <characteristic name="Difficulty" typeId="1480-1881-9e19-791d">8</characteristic>
+        <characteristic name="Target" typeId="736b-1f60-516b-a6aa">Battlefield</characteristic>
+        <characteristic name="Duration" typeId="45b1-8ca4-c87a-29c2">Instantaneous</characteristic>
+        <characteristic name="Value" typeId="cf41-828b-179d-8918">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="89d2-d66e-aa48-e7cf" name="Strength’s triomph! (3)" publicationId="ae64-df01-f3cc-62f4" page="5" hidden="false" typeId="ba20-cbf3-042f-69b4" typeName="Communion">
+      <characteristics>
+        <characteristic name="Faith Cost" typeId="a97a-d300-b85c-1d40">15</characteristic>
+        <characteristic name="Effect" typeId="95b3-4101-d06a-8415">The targeted Incarnate adds his Strength value to all his characteristics (except HTH Dice , Courage and Strength)</characteristic>
+        <characteristic name="Cult" typeId="f62c-1253-94bb-ec4f">Spirit Tree</characteristic>
+        <characteristic name="Aspect" typeId="8f09-7ff1-2976-70d6">Alteration</characteristic>
+        <characteristic name="Difficulty" typeId="1480-1881-9e19-791d">9</characteristic>
+        <characteristic name="Target" typeId="736b-1f60-516b-a6aa">One friendly incarnate</characteristic>
+        <characteristic name="Duration" typeId="45b1-8ca4-c87a-29c2">Round</characteristic>
+        <characteristic name="Value" typeId="cf41-828b-179d-8918">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b8cb-bd62-d0c1-1127" name="Root of time (3)" publicationId="ae64-df01-f3cc-62f4" page="5" hidden="false" typeId="ba20-cbf3-042f-69b4" typeName="Communion">
+      <characteristics>
+        <characteristic name="Faith Cost" typeId="a97a-d300-b85c-1d40">20</characteristic>
+        <characteristic name="Effect" typeId="95b3-4101-d06a-8415">The opponent’s company is immediately redeployed in its deployment zone as if it were the deployment phase. The fighters in contact with an enemy disengage without suff ering any losses. No unit can be redeployed in contact with an enemy unit.</characteristic>
+        <characteristic name="Cult" typeId="f62c-1253-94bb-ec4f">Spirit Tree</characteristic>
+        <characteristic name="Aspect" typeId="8f09-7ff1-2976-70d6">Alteration</characteristic>
+        <characteristic name="Difficulty" typeId="1480-1881-9e19-791d">10</characteristic>
+        <characteristic name="Target" typeId="736b-1f60-516b-a6aa">Company</characteristic>
+        <characteristic name="Duration" typeId="45b1-8ca4-c87a-29c2">Instantaneous</characteristic>
+        <characteristic name="Value" typeId="cf41-828b-179d-8918">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3008-c877-ffaa-ac4f" name="Khorlan and Grizmaor (2)" publicationId="ae64-df01-f3cc-62f4" page="3" hidden="false" typeId="5f45-606f-01c3-f30e" typeName="Artifact">
+      <characteristics>
+        <characteristic name="Cost" typeId="32dd-00a3-b580-7ee7">2</characteristic>
+        <characteristic name="Effect" typeId="de83-6f10-888b-b08d">When performing an HTH Strength test, the Incarnate adds one attack die to his dice pool per enemy he is in contact with. These dice are not bonus dice, so they can be rerolled.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6557-db96-1893-373e" name="Gift Of the Spirit Tree" hidden="false" typeId="ff04-985d-f382-aa2a" typeName="Ability">
+      <characteristics>
+        <characteristic name="Effect" typeId="ff52-3103-6a52-768b">This gift can be used each time a Spirit Tree fighter performs an HTH Strenght test against an enemy unit. For each succes, up to the number of Spirit Tree fighters in contact with an enemy fighter from the unit targeted byt the HTH Strenght test, add a bonus succes to the total.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9e51-ddc3-7d7c-26d2" name="Tactic: Power of the canyons" hidden="false" typeId="b0d4-fc77-7dae-2e49" typeName="Tactic">
+      <characteristics>
+        <characteristic name="Effect" typeId="c0b0-f0c6-3e6e-ffb3">The power of the unit using this tactic is doubled until the end of the round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="70c9-1e1b-1df7-11e2" name="Spell: Thunder&apos;s spirit" publicationId="ae64-df01-f3cc-62f4" page="2" hidden="false" typeId="8053-ee84-9434-dbdb" typeName="Spell">
+      <characteristics>
+        <characteristic name="Mana Cost" typeId="ff67-5aaf-cdb6-9933">5</characteristic>
+        <characteristic name="Effect" typeId="2eac-208c-cd38-951c">The shaman&apos;s unit benefits from the &quot;War Fury&quot; ability. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="93c4-925e-e75e-151e" name="Feat: Evasive manoeuver" page="" hidden="false" typeId="2ea9-d29b-f7f8-a9cb" typeName="Feat">
+      <characteristics>
+        <characteristic name="Elixir Cost" typeId="1d6c-48f4-0850-8128">1</characteristic>
+        <characteristic name="Effect" typeId="cdbd-6ec3-b0c4-c38f">The incarnate and its unit acquire the Disengagement ability until end or turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c7ea-c48a-7377-1f7b" name="Feat: Push through" page="" hidden="false" typeId="2ea9-d29b-f7f8-a9cb" typeName="Feat">
+      <characteristics>
+        <characteristic name="Elixir Cost" typeId="1d6c-48f4-0850-8128">1</characteristic>
+        <characteristic name="Effect" typeId="cdbd-6ec3-b0c4-c38f">The incarnate adds its HTH Strength to the value of is next COU, HTH or STR test.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="dd93-58a7-470c-6dc2" name="Miracle: Mahata" publicationId="ae64-df01-f3cc-62f4" page="2" hidden="false" typeId="03a9-0d90-f45a-83ba" typeName="Miracle">
+      <characteristics>
+        <characteristic name="Faith Cost" typeId="a86a-69f5-9c64-61ac">5</characteristic>
+        <characteristic name="Effect" typeId="4e8a-21d0-5541-44a3">The Master of rites&apos; unit benefits from the War Fury ability. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8804-8fcf-a02f-fb27" name="Spell: Spirit of the Jackal" publicationId="ae64-df01-f3cc-62f4" page="2" hidden="false" typeId="8053-ee84-9434-dbdb" typeName="Spell">
+      <characteristics>
+        <characteristic name="Mana Cost" typeId="ff67-5aaf-cdb6-9933">5</characteristic>
+        <characteristic name="Effect" typeId="2eac-208c-cd38-951c">The mystic jackal can cast this spell when his unit’s card is revealed. The player draws the next card in his activation sequence. He chooses which card is played between the two and places the other back into the next position in his activation sequence (or on top of the deck) just as if it had not been revealed. This spell can be used once per round and once per unit that includes one or more Mystics of Jackal.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b0e5-7eb5-e589-6bc4" name="Twig of the Spirit Tree (2)" publicationId="ae64-df01-f3cc-62f4" page="3" hidden="false" typeId="5f45-606f-01c3-f30e" typeName="Artifact">
+      <characteristics>
+        <characteristic name="Cost" typeId="32dd-00a3-b580-7ee7">2</characteristic>
+        <characteristic name="Effect" typeId="de83-6f10-888b-b08d">The faithful equipped with this artifact gains a communion of Value 3.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

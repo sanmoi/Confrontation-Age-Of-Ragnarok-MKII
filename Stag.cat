@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c3d7-2f2c-f8f6-c06c" name="The Stag of Caer Maed" revision="1" battleScribeVersion="2.03" authorName="Jeremie DELASSUS" authorContact="" library="false" gameSystemId="2eeb-3ef6-1863-6305" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c3d7-2f2c-f8f6-c06c" name="The Stag of Caer Maed" revision="3" battleScribeVersion="2.03" authorName="Jeremie DELASSUS" authorContact="" library="false" gameSystemId="2eeb-3ef6-1863-6305" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="c2bc-5f69-7933-127a" name="Web Army book: Stag" shortName="WRB:STAG" publisher="Rackham"/>
     <publication id="ca4d-74be-154b-2e2d" name="Cry Havoc Online pdf supplement: Belial&apos;s legion" shortName="Belial&apos;s legion CHO pdf"/>
@@ -137,6 +137,21 @@
     <entryLink id="63b7-66c3-498f-e204" name="Formor Fiends" hidden="false" collective="false" import="true" targetId="7530-29bf-992f-6b48" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="8823-d566-6ea9-7b0d" name="New CategoryLink" hidden="false" targetId="a006-cb89-8f63-26be" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2af1-3107-805b-0181" name="Drune Archers" hidden="false" collective="false" import="true" targetId="44e1-0cee-dfaf-3219" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2868-3995-d73d-84b6" name="New CategoryLink" hidden="false" targetId="e8e5-bdc6-8b13-f611" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2cda-269b-e4de-d045" name="Drune Archers" hidden="false" collective="false" import="true" targetId="44e1-0cee-dfaf-3219" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0bd7-b17e-9406-3303" name="New CategoryLink" hidden="false" targetId="e8e5-bdc6-8b13-f611" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a919-0f8c-f1d6-4674" name="Drune Archers" hidden="false" collective="false" import="true" targetId="44e1-0cee-dfaf-3219" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="373e-a8c5-3acf-b9b1" name="New CategoryLink" hidden="false" targetId="2936-62cd-b76c-4740" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -546,7 +561,7 @@
     </selectionEntry>
     <selectionEntry id="8b9c-c586-7a35-60b5" name="Horned Raiders" publicationId="c2bc-5f69-7933-127a" page="55" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="55dc-5f1a-7c5a-0bd5" name="Heavy Cavalry" hidden="false" targetId="62d7-5af4-ada6-6ea1" primary="false"/>
+        <categoryLink id="1974-bad9-cdb0-2cea" name="Light Cavalry" hidden="false" targetId="92f3-1c61-ec1f-c3cd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9be0-ae8d-2dee-8b36" name="Horned Raiders" publicationId="c2bc-5f69-7933-127a" hidden="false" collective="false" import="true" type="model">
@@ -579,7 +594,7 @@
             <infoLink id="8ce9-01e1-7ef3-e28f" name="Jump" hidden="false" targetId="abfd-6955-8cb6-0561" type="profile"/>
           </infoLinks>
           <categoryLinks>
-            <categoryLink id="08e6-6b38-2c01-2756" name="Light Cavalry" hidden="false" targetId="92f3-1c61-ec1f-c3cd" primary="false"/>
+            <categoryLink id="bdd1-8823-945d-c439" name="Light Cavalry" hidden="false" targetId="92f3-1c61-ec1f-c3cd" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="205.0"/>
@@ -767,28 +782,7 @@ Water</characteristic>
               </constraints>
             </entryLink>
             <entryLink id="6594-0d81-f8e9-16db" name="Rank 2 Artifacts" hidden="false" collective="false" import="true" targetId="aebe-4bec-62d6-6bc1" type="selectionEntryGroup"/>
-            <entryLink id="da80-5105-7491-35f0" name="Rank 3  Artifacts" hidden="false" collective="false" import="true" targetId="8222-27a1-a742-cdbf" type="selectionEntryGroup">
-              <selectionEntries>
-                <selectionEntry id="2e65-9f14-f386-f2ac" name="Seal of Hades (3)" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88a0-af7a-e711-1193" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="aa74-0e8d-941b-4fcd" name="Rank 3 Rituals" hidden="false" collective="false" import="true" targetId="6828-05a3-a90d-a405" type="selectionEntryGroup"/>
-                    <entryLink id="1f16-3a94-9368-f153" name="Rank 2 Rituals" hidden="false" collective="false" import="true" targetId="791e-5174-bac5-d919" type="selectionEntryGroup"/>
-                    <entryLink id="a0b4-f360-8ced-d69f" name="Rank 1 Rituals" hidden="false" collective="false" import="true" targetId="894a-3d3a-8f6e-f551" type="selectionEntryGroup">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f3b-0f21-43b6-52ca" type="max"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
-                    <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="3.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </entryLink>
+            <entryLink id="da80-5105-7491-35f0" name="Rank 3  Artifacts" hidden="false" collective="false" import="true" targetId="8222-27a1-a742-cdbf" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
@@ -895,35 +889,33 @@ Water</characteristic>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="634d-94f3-4dc3-9d10" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7dea-8f92-7400-84c6" name="Rhea Of Brisis" publicationId="c2bc-5f69-7933-127a" page="28" hidden="false" typeId="f21c-0f5b-4807-bb7f" typeName="Incarnate - Magician">
+        <profile id="7dea-8f92-7400-84c6" name="Corwyn" publicationId="c2bc-5f69-7933-127a" page="28" hidden="false" typeId="f21c-0f5b-4807-bb7f" typeName="Incarnate - Magician">
           <characteristics>
-            <characteristic name="RANK" typeId="8765-c836-f7b7-fbe9">3</characteristic>
+            <characteristic name="RANK" typeId="8765-c836-f7b7-fbe9">2</characteristic>
             <characteristic name="MOV" typeId="dd48-412c-a827-4c45">10</characteristic>
-            <characteristic name="DEF" typeId="4c71-f7da-7785-8d0b">5</characteristic>
-            <characteristic name="RES" typeId="b982-d3fc-300f-7a3f">3</characteristic>
-            <characteristic name="HTHDICE" typeId="1b69-0728-3c38-fd7d">3</characteristic>
+            <characteristic name="DEF" typeId="4c71-f7da-7785-8d0b">3</characteristic>
+            <characteristic name="RES" typeId="b982-d3fc-300f-7a3f">4</characteristic>
+            <characteristic name="HTHDICE" typeId="1b69-0728-3c38-fd7d">2</characteristic>
             <characteristic name="HTH" typeId="efc6-9cec-ad35-cab7">5</characteristic>
-            <characteristic name="HTHSTR" typeId="d527-4703-4777-133e">10</characteristic>
+            <characteristic name="HTHSTR" typeId="d527-4703-4777-133e">5</characteristic>
             <characteristic name="RNG" typeId="7452-b1c8-1fcd-886b"/>
             <characteristic name="RNGDICE" typeId="572e-6bdf-ab2b-acdd"/>
             <characteristic name="RNGSTR" typeId="6990-84da-0126-e694"/>
             <characteristic name="WL" typeId="e077-5a2b-7172-5fc8">4</characteristic>
-            <characteristic name="ENG" typeId="b371-3bce-de80-663d">8</characteristic>
-            <characteristic name="AUTH" typeId="d3ef-4b64-b5c6-236e">5</characteristic>
-            <characteristic name="ELIXIR/DUEL" typeId="9dd3-9098-b0d9-3aec">6</characteristic>
-            <characteristic name="PATHS" typeId="9133-8054-0968-316f">Necromancy</characteristic>
-            <characteristic name="ELEMENTS" typeId="c6c8-ed9c-c7b5-22e6">Darkness
-Air
+            <characteristic name="ENG" typeId="b371-3bce-de80-663d">5</characteristic>
+            <characteristic name="AUTH" typeId="d3ef-4b64-b5c6-236e">3</characteristic>
+            <characteristic name="ELIXIR/DUEL" typeId="9dd3-9098-b0d9-3aec">4</characteristic>
+            <characteristic name="PATHS" typeId="9133-8054-0968-316f">Torments</characteristic>
+            <characteristic name="ELEMENTS" typeId="c6c8-ed9c-c7b5-22e6">Darknes
 Water</characteristic>
-            <characteristic name="COU" typeId="e1f8-5f90-b4e2-7b49"/>
+            <characteristic name="COU" typeId="e1f8-5f90-b4e2-7b49">5</characteristic>
             <characteristic name="FEAR" typeId="1019-8fea-8981-67fd"/>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="0acd-0d64-290a-52f6" name="Feat: Hidden Weakness" hidden="false" targetId="08d0-b8ee-11d5-718f" type="profile"/>
-        <infoLink id="a288-cb97-f3d9-584f" name="Catalyst" hidden="false" targetId="4275-53c9-e282-c4ef" type="profile"/>
-        <infoLink id="d7cc-3c20-a1fa-b56a" name="Magister" hidden="false" targetId="8ca4-9a2b-4a58-4e2b" type="profile"/>
+        <infoLink id="d7cc-3c20-a1fa-b56a" name="Strategist" hidden="false" targetId="46b7-b9f3-a54e-62cc" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4ad6-76ab-98f9-4818" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
@@ -942,7 +934,6 @@ Water</characteristic>
               </constraints>
             </entryLink>
             <entryLink id="eab0-bf5a-607a-3cfd" name="Rank 2 Artifacts" hidden="false" collective="false" import="true" targetId="aebe-4bec-62d6-6bc1" type="selectionEntryGroup"/>
-            <entryLink id="011d-e801-342c-5cb6" name="Rank 3  Artifacts" hidden="false" collective="false" import="true" targetId="8222-27a1-a742-cdbf" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
@@ -961,7 +952,6 @@ Water</characteristic>
               </constraints>
             </entryLink>
             <entryLink id="7359-a732-1e11-dc11" name="Rank 2 Rituals" hidden="false" collective="false" import="true" targetId="791e-5174-bac5-d919" type="selectionEntryGroup"/>
-            <entryLink id="80f9-1f74-4864-248e" name="Rank 3 Rituals" hidden="false" collective="false" import="true" targetId="6828-05a3-a90d-a405" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
@@ -1525,8 +1515,8 @@ Belial comes into play for free, unharmed, and equipped with its reserved artifa
                 <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">2</characteristic>
                 <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">15</characteristic>
                 <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">3</characteristic>
-                <characteristic name="RES" typeId="a373-791b-b75c-1e95">6</characteristic>
-                <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">3</characteristic>
+                <characteristic name="RES" typeId="a373-791b-b75c-1e95">3</characteristic>
+                <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">2</characteristic>
                 <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">5</characteristic>
                 <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">5</characteristic>
                 <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb"/>
@@ -1562,8 +1552,8 @@ Belial comes into play for free, unharmed, and equipped with its reserved artifa
                     <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">2</characteristic>
                     <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">15</characteristic>
                     <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">3</characteristic>
-                    <characteristic name="RES" typeId="a373-791b-b75c-1e95">6</characteristic>
-                    <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">3</characteristic>
+                    <characteristic name="RES" typeId="a373-791b-b75c-1e95">3</characteristic>
+                    <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">2</characteristic>
                     <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">5</characteristic>
                     <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">5</characteristic>
                     <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb"/>
@@ -1594,8 +1584,8 @@ Belial comes into play for free, unharmed, and equipped with its reserved artifa
                     <characteristic name="RANK" typeId="a141-6125-7c44-80e4">2</characteristic>
                     <characteristic name="MOV" typeId="45e2-0962-5bba-47d4">15</characteristic>
                     <characteristic name="DEF" typeId="c3f9-fe10-230e-299c">3</characteristic>
-                    <characteristic name="RES" typeId="c464-635e-0189-3290">6</characteristic>
-                    <characteristic name="HTHDICE" typeId="a9d1-937d-bb6e-3fb2">3</characteristic>
+                    <characteristic name="RES" typeId="c464-635e-0189-3290">3</characteristic>
+                    <characteristic name="HTHDICE" typeId="a9d1-937d-bb6e-3fb2">2</characteristic>
                     <characteristic name="HTH" typeId="ccf1-084b-fc1b-2639">5</characteristic>
                     <characteristic name="HTHSTR" typeId="838e-d3d7-b574-2754">5</characteristic>
                     <characteristic name="RNG" typeId="e599-a843-7042-4d3e"/>
@@ -1821,7 +1811,7 @@ When both Felyhin and Morgwen are in the same unit, they both gain the abilities
             <characteristic name="WL" typeId="ce05-8d55-4750-7db5">4</characteristic>
             <characteristic name="AUTH" typeId="c1b3-03a7-17ad-7e7a">3</characteristic>
             <characteristic name="ELIXIR/DUEL" typeId="b9ea-bc8d-91d9-ce13">4</characteristic>
-            <characteristic name="COU" typeId="52dd-1e85-a7a4-cdc8"></characteristic>
+            <characteristic name="COU" typeId="52dd-1e85-a7a4-cdc8"/>
             <characteristic name="FEAR" typeId="ed90-ab0e-8d4a-1549">3</characteristic>
           </characteristics>
         </profile>
@@ -1841,6 +1831,63 @@ When both Felyhin and Morgwen are in the same unit, they both gain the abilities
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="225.0"/>
+        <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="44e1-0cee-dfaf-3219" name="Drune Archers" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5479-5039-4bdf-3a9c" name="Toxic" hidden="false" targetId="3fd6-231c-fd00-3bbe" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="247d-1ff7-5627-972d" name="Infantry" hidden="false" targetId="7998-c623-9b44-d3d8" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="03a4-7821-83b9-fdbe" name="Archer" publicationId="c2bc-5f69-7933-127a" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6fc-3d60-de79-b12b" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="192e-4cb9-341c-17f0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7337-8ae0-83bb-5666" name="Archer" publicationId="c2bc-5f69-7933-127a" page="49" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
+              <characteristics>
+                <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">2</characteristic>
+                <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">10</characteristic>
+                <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">3</characteristic>
+                <characteristic name="RES" typeId="a373-791b-b75c-1e95">4</characteristic>
+                <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">1</characteristic>
+                <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">5</characteristic>
+                <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">5</characteristic>
+                <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb">5</characteristic>
+                <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a">1</characteristic>
+                <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37">5</characteristic>
+                <characteristic name="WL" typeId="70ec-23cf-9831-be85">1</characteristic>
+                <characteristic name="COU" typeId="89e0-8ba1-781b-2456">3</characteristic>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="62.0"/>
+            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3cf6-6e29-3a7b-4706" name="Incarnate" publicationId="c2bc-5f69-7933-127a" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d51e-ce65-d29a-4cdb" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8ea3-eeb7-9170-a416" name="Incarnate: Balkrón" publicationId="c2bc-5f69-7933-127a" page="1" hidden="false" collective="false" import="true" targetId="ce4b-695e-1712-1cac" type="selectionEntry"/>
+            <entryLink id="9bf6-984d-a7e8-89a9" name="Incarnate: Corwyn" publicationId="c2bc-5f69-7933-127a" page="1" hidden="false" collective="false" import="true" targetId="bb8d-3610-80df-ab6b" type="selectionEntry"/>
+            <entryLink id="a381-09ef-e0d3-18e3" name="Incarnate: Damralh" publicationId="c2bc-5f69-7933-127a" page="1" hidden="false" collective="false" import="true" targetId="17f6-ea7c-daee-8af3" type="selectionEntry"/>
+            <entryLink id="2549-b1ec-d828-bf28" name="Incarnate: Gwernydd" publicationId="c2bc-5f69-7933-127a" page="1" hidden="false" collective="false" import="true" targetId="6e99-2aad-7fb0-d673" type="selectionEntry"/>
+            <entryLink id="bb80-db8f-0c58-cd35" name="Incarnate: Tyramon" publicationId="c2bc-5f69-7933-127a" page="1" hidden="false" collective="false" import="true" targetId="4caf-7da2-6c14-aa03" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
         <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2120,7 +2167,7 @@ When both Felyhin and Morgwen are in the same unit, they both gain the abilities
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9524-68fd-851c-c51c" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="67c5-2b8b-8fae-0d03" name="Soul Feast (2)" publicationId="c2bc-5f69-7933-127a" hidden="false" targetId="ccaf-27d8-d37e-9469" type="profile"/>
+            <infoLink id="67c5-2b8b-8fae-0d03" name="Wickedness of the formor (1)" publicationId="c2bc-5f69-7933-127a" hidden="false" targetId="7413-4e9f-8af8-48d2" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="2.0"/>
@@ -2572,7 +2619,7 @@ Each fighter in the target unit can draw an additional attack dice from the unit
     <profile id="4c99-92fa-1925-8e2e" name="Vengeance (2)" publicationId="c2bc-5f69-7933-127a" page="5" hidden="false" typeId="ba20-cbf3-042f-69b4" typeName="Communion">
       <characteristics>
         <characteristic name="Faith Cost" typeId="a97a-d300-b85c-1d40">15</characteristic>
-        <characteristic name="Effect" typeId="95b3-4101-d06a-8415">Vengeance takes eff ect each time the targeted unit suffers damage points inflicted by the enemy.
+        <characteristic name="Effect" typeId="95b3-4101-d06a-8415">Vengeance takes effect each time the targeted unit suffers damage points inflicted by the enemy.
 The player rolls as many dice as there were damage points inflicted. Each roll of 4+ inflicts one damage point to the unit that originally caused the damage.</characteristic>
         <characteristic name="Cult" typeId="f62c-1253-94bb-ec4f">Cernunnos</characteristic>
         <characteristic name="Aspect" typeId="8f09-7ff1-2976-70d6">Alteration</characteristic>
@@ -2632,7 +2679,7 @@ Fighters in the unit acquire the &quot;Disengage&quot; ability.</characteristic>
     </profile>
     <profile id="8efb-a3c1-2f0e-0545" name="Get them!" hidden="false" typeId="b0d4-fc77-7dae-2e49" typeName="Tactic">
       <characteristics>
-        <characteristic name="Effect" typeId="c0b0-f0c6-3e6e-ffb3">When one or more fighters from the musician&apos;s unit are removed as losses, if the unit is free, each fighter can move up to its movement towards the source of the damage having caused the losses.</characteristic>
+        <characteristic name="Effect" typeId="c0b0-f0c6-3e6e-ffb3">When one or more fighters from the musician&apos;s unit are removed as losses, if the unit is free, each fighter can move up to its movement towards the enemy unit which caused the strength test. The unit&apos;s leader must fiinsh this move closer to the leader of the target unit.</characteristic>
       </characteristics>
     </profile>
     <profile id="70c9-1e1b-1df7-11e2" name="Soul&apos;s Prison" publicationId="c2bc-5f69-7933-127a" hidden="false" typeId="8053-ee84-9434-dbdb" typeName="Spell">

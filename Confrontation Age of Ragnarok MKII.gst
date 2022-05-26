@@ -388,5 +388,25 @@ If it recovers enough hit points to be above 0 when the phase end it will howeve
         <characteristic name="Effect" typeId="ff52-3103-6a52-768b">Each 5 or 6 on a strength test performed by a fighter with this ability generates a bonus dice.</characteristic>
       </characteristics>
     </profile>
+    <profile id="d502-ad93-d08a-1a63" name="Focus" publicationId="cd43-c32f-bcee-dc77" hidden="false" typeId="ff04-985d-f382-aa2a" typeName="Ability">
+      <characteristics>
+        <characteristic name="Effect" typeId="ff52-3103-6a52-768b">A magician with Focus rolls as many dice more as his Energy value each time he performs an Energy test . These are not bonus dice, so they can be re-rolled.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e01a-e76d-f37f-d163" name="Charging Strength" publicationId="cd43-c32f-bcee-dc77" hidden="false" typeId="ff04-985d-f382-aa2a" typeName="Ability">
+      <characteristics>
+        <characteristic name="Effect" typeId="ff52-3103-6a52-768b">When the fighter charges he adds his Attack to his Strength to resolve HTH Strength tests.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="16d9-56ea-c56b-f3a4" name="Bravery" hidden="false" typeId="ff04-985d-f382-aa2a" typeName="Ability">
+      <characteristics>
+        <characteristic name="Effect" typeId="ff52-3103-6a52-768b">Failures obtained on Courage tests are re-rolled once more.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="269e-dca2-a545-62f1" name="Sacred Weapon" hidden="false" typeId="22e0-f5d5-27ac-efff" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b2f3-5155-f011-1fda">Threshold for strenght test of sacred weapons is read one column to the right.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
 </gameSystem>
