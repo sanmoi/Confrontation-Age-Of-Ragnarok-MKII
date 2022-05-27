@@ -146,7 +146,7 @@
     </entryLink>
     <entryLink id="2cda-269b-e4de-d045" name="Drune Archers" hidden="false" collective="false" import="true" targetId="44e1-0cee-dfaf-3219" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="84f6-bdb1-52c6-d471" name="New CategoryLink" hidden="false" targetId="a006-cb89-8f63-26be" primary="true"/>
+        <categoryLink id="0bd7-b17e-9406-3303" name="New CategoryLink" hidden="false" targetId="e8e5-bdc6-8b13-f611" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a919-0f8c-f1d6-4674" name="Drune Archers" hidden="false" collective="false" import="true" targetId="44e1-0cee-dfaf-3219" type="selectionEntry">
