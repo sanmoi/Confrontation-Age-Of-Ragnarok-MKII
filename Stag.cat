@@ -1845,7 +1845,7 @@ When both Felyhin and Morgwen are in the same unit, they both gain the abilities
         <selectionEntry id="03a4-7821-83b9-fdbe" name="Archer" publicationId="c2bc-5f69-7933-127a" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6fc-3d60-de79-b12b" type="min"/>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="192e-4cb9-341c-17f0" type="max"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="192e-4cb9-341c-17f0" type="max"/>
           </constraints>
           <profiles>
             <profile id="7337-8ae0-83bb-5666" name="Archer" publicationId="c2bc-5f69-7933-127a" page="49" hidden="false" typeId="9440-bd86-f76c-5457" typeName="Unit">
