@@ -343,7 +343,7 @@
     </selectionEntry>
     <selectionEntry id="e9ec-00f4-3c2c-5542" name="Red Carnaghs" publicationId="c2bc-5f69-7933-127a" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="f2b9-0625-50d9-a116" name="Savage" hidden="false" targetId="f0cd-1666-22b6-16b8" type="profile"/>
+        <infoLink id="f2b9-0625-50d9-a116" name="Ferocity" hidden="false" targetId="f215-bb01-7a31-74d4" type="profile"/>
         <infoLink id="eb13-d4a5-4609-5b32" name="Born Killer" hidden="false" targetId="76a8-e12b-9714-69f4" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -360,15 +360,15 @@
               <characteristics>
                 <characteristic name="RANK" typeId="90ee-d3d5-3b8d-15df">3</characteristic>
                 <characteristic name="MOV" typeId="a2d8-8e2b-3430-1037">10</characteristic>
-                <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">7</characteristic>
-                <characteristic name="RES" typeId="a373-791b-b75c-1e95">7</characteristic>
+                <characteristic name="DEF" typeId="2754-dd0f-7123-ad68">3</characteristic>
+                <characteristic name="RES" typeId="a373-791b-b75c-1e95">6</characteristic>
                 <characteristic name="HTHDICE" typeId="aa00-83c3-998d-07c6">1</characteristic>
                 <characteristic name="HTH" typeId="881e-5ebc-37e7-7422">5</characteristic>
                 <characteristic name="HTHSTR" typeId="c90e-237d-852f-79fa">9</characteristic>
                 <characteristic name="RNG" typeId="0e9d-49ea-e544-6bdb"/>
                 <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a"/>
                 <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
-                <characteristic name="WL" typeId="70ec-23cf-9831-be85">3</characteristic>
+                <characteristic name="WL" typeId="70ec-23cf-9831-be85">2</characteristic>
                 <characteristic name="COU" typeId="89e0-8ba1-781b-2456">5</characteristic>
                 <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"/>
               </characteristics>
@@ -583,8 +583,8 @@
                 <characteristic name="RNGDICE" typeId="de2c-8552-8a71-a42a"/>
                 <characteristic name="RNGSTR" typeId="2afc-c35f-6abc-9d37"/>
                 <characteristic name="WL" typeId="70ec-23cf-9831-be85">3</characteristic>
-                <characteristic name="COU" typeId="89e0-8ba1-781b-2456"/>
-                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37">7</characteristic>
+                <characteristic name="COU" typeId="89e0-8ba1-781b-2456">7</characteristic>
+                <characteristic name="FEAR" typeId="650c-f148-b0cf-1a37"></characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -659,31 +659,29 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ccf5-3bb3-e9d7-1217" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5d41-4f22-48bb-6aee" name="Azael the Infidel" publicationId="c2bc-5f69-7933-127a" page="30" hidden="false" typeId="f21c-0f5b-4807-bb7f" typeName="Incarnate - Magician">
+        <profile id="5d41-4f22-48bb-6aee" name="Gwahyr" publicationId="c2bc-5f69-7933-127a" page="30" hidden="false" typeId="7fbe-7f49-81ba-0fcf" typeName="Incarnate">
           <characteristics>
-            <characteristic name="RANK" typeId="8765-c836-f7b7-fbe9">1</characteristic>
-            <characteristic name="MOV" typeId="dd48-412c-a827-4c45">10</characteristic>
-            <characteristic name="DEF" typeId="4c71-f7da-7785-8d0b">3</characteristic>
-            <characteristic name="RES" typeId="b982-d3fc-300f-7a3f">6</characteristic>
-            <characteristic name="HTHDICE" typeId="1b69-0728-3c38-fd7d">2</characteristic>
-            <characteristic name="HTH" typeId="efc6-9cec-ad35-cab7">5</characteristic>
-            <characteristic name="HTHSTR" typeId="d527-4703-4777-133e">5</characteristic>
-            <characteristic name="RNG" typeId="7452-b1c8-1fcd-886b"/>
-            <characteristic name="RNGDICE" typeId="572e-6bdf-ab2b-acdd"/>
-            <characteristic name="RNGSTR" typeId="6990-84da-0126-e694"/>
-            <characteristic name="WL" typeId="e077-5a2b-7172-5fc8">4</characteristic>
-            <characteristic name="ENG" typeId="b371-3bce-de80-663d">4</characteristic>
-            <characteristic name="AUTH" typeId="d3ef-4b64-b5c6-236e">3</characteristic>
-            <characteristic name="ELIXIR/DUEL" typeId="9dd3-9098-b0d9-3aec">4</characteristic>
-            <characteristic name="PATHS" typeId="9133-8054-0968-316f">Necromancy</characteristic>
-            <characteristic name="ELEMENTS" typeId="c6c8-ed9c-c7b5-22e6">Darkness</characteristic>
-            <characteristic name="COU" typeId="e1f8-5f90-b4e2-7b49"/>
-            <characteristic name="FEAR" typeId="1019-8fea-8981-67fd"/>
+            <characteristic name="RANK" typeId="87c8-7716-1bdb-856f">2</characteristic>
+            <characteristic name="MOV" typeId="5ceb-cf8e-bb92-d23a">10</characteristic>
+            <characteristic name="DEF" typeId="912a-a4d7-39c7-5c18">5</characteristic>
+            <characteristic name="RES" typeId="0d16-6fb1-412c-3dbd">5</characteristic>
+            <characteristic name="HTHDICE" typeId="0fb2-bd3c-ae0c-c7dc">2</characteristic>
+            <characteristic name="HTH" typeId="0fe2-bc96-a8c8-41a2">5</characteristic>
+            <characteristic name="HTHSTR" typeId="b61b-40b7-d15d-275f">7</characteristic>
+            <characteristic name="RNG" typeId="2b53-84a7-c5d9-f4b8"/>
+            <characteristic name="RNGDICE" typeId="1efa-aca9-9417-4497"/>
+            <characteristic name="RNGSTR" typeId="fe6b-f4e1-3748-82fd"/>
+            <characteristic name="WL" typeId="ce05-8d55-4750-7db5">4</characteristic>
+            <characteristic name="AUTH" typeId="c1b3-03a7-17ad-7e7a">3</characteristic>
+            <characteristic name="ELIXIR/DUEL" typeId="b9ea-bc8d-91d9-ce13">3</characteristic>
+            <characteristic name="COU" typeId="52dd-1e85-a7a4-cdc8"/>
+            <characteristic name="FEAR" typeId="ed90-ab0e-8d4a-1549"/>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="8cde-4405-d4ad-dadd" name="Feat: Hidden Weakness" hidden="false" targetId="08d0-b8ee-11d5-718f" type="profile"/>
+        <infoLink id="8cde-4405-d4ad-dadd" name="Feat: Truth of the Gnosis" hidden="false" targetId="08d0-b8ee-11d5-718f" type="profile"/>
+        <infoLink id="79c1-839a-5cff-e8df" name="Fierce" hidden="false" targetId="d523-ee8a-8be8-d7c2" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6350-04c8-098a-583b" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
@@ -820,22 +818,22 @@ Water</characteristic>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="bace-6c7c-8f62-c9ef" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b13c-519c-afb9-955e" name="Melmoth" publicationId="c2bc-5f69-7933-127a" page="30" hidden="false" typeId="7fbe-7f49-81ba-0fcf" typeName="Incarnate">
+        <profile id="b13c-519c-afb9-955e" name="Brenthyr" publicationId="c2bc-5f69-7933-127a" page="30" hidden="false" typeId="7fbe-7f49-81ba-0fcf" typeName="Incarnate">
           <characteristics>
             <characteristic name="RANK" typeId="87c8-7716-1bdb-856f">1</characteristic>
-            <characteristic name="MOV" typeId="5ceb-cf8e-bb92-d23a">7</characteristic>
+            <characteristic name="MOV" typeId="5ceb-cf8e-bb92-d23a">10</characteristic>
             <characteristic name="DEF" typeId="912a-a4d7-39c7-5c18">3</characteristic>
-            <characteristic name="RES" typeId="0d16-6fb1-412c-3dbd">8</characteristic>
+            <characteristic name="RES" typeId="0d16-6fb1-412c-3dbd">3</characteristic>
             <characteristic name="HTHDICE" typeId="0fb2-bd3c-ae0c-c7dc">3</characteristic>
             <characteristic name="HTH" typeId="0fe2-bc96-a8c8-41a2">5</characteristic>
-            <characteristic name="HTHSTR" typeId="b61b-40b7-d15d-275f">8</characteristic>
+            <characteristic name="HTHSTR" typeId="b61b-40b7-d15d-275f">5</characteristic>
             <characteristic name="RNG" typeId="2b53-84a7-c5d9-f4b8"/>
             <characteristic name="RNGDICE" typeId="1efa-aca9-9417-4497"/>
             <characteristic name="RNGSTR" typeId="fe6b-f4e1-3748-82fd"/>
             <characteristic name="WL" typeId="ce05-8d55-4750-7db5">4</characteristic>
-            <characteristic name="AUTH" typeId="c1b3-03a7-17ad-7e7a">5</characteristic>
-            <characteristic name="ELIXIR/DUEL" typeId="b9ea-bc8d-91d9-ce13">5</characteristic>
-            <characteristic name="COU" typeId="52dd-1e85-a7a4-cdc8"/>
+            <characteristic name="AUTH" typeId="c1b3-03a7-17ad-7e7a">3</characteristic>
+            <characteristic name="ELIXIR/DUEL" typeId="b9ea-bc8d-91d9-ce13">3</characteristic>
+            <characteristic name="COU" typeId="52dd-1e85-a7a4-cdc8">5</characteristic>
             <characteristic name="FEAR" typeId="ed90-ab0e-8d4a-1549"/>
           </characteristics>
         </profile>
@@ -848,27 +846,11 @@ Water</characteristic>
         <categoryLink id="9279-c8de-8f7b-3427" name="Incarnate" hidden="false" targetId="b1bb-d6b8-9798-c7aa" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b555-da03-6c97-418d" name="Skull Warrior" publicationId="c2bc-5f69-7933-127a" page="40" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b555-da03-6c97-418d" name="Brenthyr" publicationId="c2bc-5f69-7933-127a" page="40" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f319-3ec9-9576-2861" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1010-3e4e-b122-95d3" type="min"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="8e84-006d-6b2a-6617" name="Regeneration" hidden="false" targetId="445f-1270-320a-aa22" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
-            <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c360-6f09-64fc-297f" name="Azael and Melmoth" hidden="false" collective="false" import="true" type="upgrade">
-          <entryLinks>
-            <entryLink id="05fd-e63c-bc07-1dc5" name="Incarnate: Azael the Infidel" hidden="false" collective="false" import="true" targetId="7e93-b3aa-52b4-eb24" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a15-b605-e39e-b387" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
           <costs>
             <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
             <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
@@ -1051,33 +1033,31 @@ Water</characteristic>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="5e72-1982-b20f-b541" type="max"/>
       </constraints>
       <profiles>
-        <profile id="285c-9dc3-36be-0561" name="Ejhin Of Vanth" publicationId="c2bc-5f69-7933-127a" page="30" hidden="false" typeId="d405-24e7-f09f-a16c" typeName="Incarnate - Faithful">
+        <profile id="285c-9dc3-36be-0561" name="Gwernydd" publicationId="c2bc-5f69-7933-127a" page="30" hidden="false" typeId="d405-24e7-f09f-a16c" typeName="Incarnate - Faithful">
           <characteristics>
             <characteristic name="RANK" typeId="c2fc-f025-924a-a2c2">2</characteristic>
             <characteristic name="MOV" typeId="0733-a1f1-57b5-cde3">10</characteristic>
             <characteristic name="DEF" typeId="dba4-abc8-375a-a012">3</characteristic>
             <characteristic name="RES" typeId="98e2-9ca6-4a5c-ff6e">4</characteristic>
             <characteristic name="HTHDICE" typeId="ef29-4669-5ed2-b148">2</characteristic>
-            <characteristic name="HTH" typeId="ddf7-9c6d-d5af-7017">5</characteristic>
-            <characteristic name="HTHSTR" typeId="4748-7a56-4fb1-7d07">5</characteristic>
+            <characteristic name="HTH" typeId="ddf7-9c6d-d5af-7017">3</characteristic>
+            <characteristic name="HTHSTR" typeId="4748-7a56-4fb1-7d07">3</characteristic>
             <characteristic name="RNG" typeId="0dfc-e1b8-c3d5-daab"/>
             <characteristic name="RNGDICE" typeId="6955-924b-d208-8b2d"/>
             <characteristic name="RNGSTR" typeId="784e-7f5e-dd7a-425b"/>
             <characteristic name="WL" typeId="b7f4-e601-c656-adb9">4</characteristic>
-            <characteristic name="FRV" typeId="351e-46b3-020b-5884">5</characteristic>
+            <characteristic name="FRV" typeId="351e-46b3-020b-5884">3</characteristic>
             <characteristic name="AUTH" typeId="9d21-62e6-8ec2-011d">3</characteristic>
-            <characteristic name="ELIXIR/DUEL" typeId="1a85-e04f-b6ab-eeb8">4</characteristic>
-            <characteristic name="CULTS" typeId="e970-9ca6-6f98-9bab">Trinity of the Abyss</characteristic>
-            <characteristic name="ASPECTS" typeId="794a-7ee5-da99-16ef">Alteration
-Destruction</characteristic>
+            <characteristic name="ELIXIR/DUEL" typeId="1a85-e04f-b6ab-eeb8">3</characteristic>
+            <characteristic name="CULTS" typeId="e970-9ca6-6f98-9bab">Cernunos</characteristic>
+            <characteristic name="ASPECTS" typeId="794a-7ee5-da99-16ef">Destruction</characteristic>
             <characteristic name="COU" typeId="7b8a-9165-d054-9dc7"/>
             <characteristic name="FEAR" typeId="77cb-998f-0191-faf7"/>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="8524-9c26-2d1e-a8e0" name="Feat: Hidden Weakness" hidden="false" targetId="08d0-b8ee-11d5-718f" type="profile"/>
-        <infoLink id="589c-3bcb-2af2-b29e" name="Loved by the gods" hidden="false" targetId="6a63-4cad-b003-7a1b" type="profile"/>
+        <infoLink id="8524-9c26-2d1e-a8e0" name="Feat: Truth of the Gnosis" hidden="false" targetId="08d0-b8ee-11d5-718f" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="995b-8de1-dcb6-64d0" name="New CategoryLink" hidden="false" targetId="7998-c623-9b44-d3d8" primary="true"/>
@@ -1095,7 +1075,6 @@ Destruction</characteristic>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56cc-8288-b376-1e8a" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="1426-724c-ae70-6d91" name="Rank 2 Artifacts" hidden="false" collective="false" import="true" targetId="aebe-4bec-62d6-6bc1" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
@@ -1107,14 +1086,19 @@ Destruction</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cddb-71eb-60cb-a180" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3f8-7a31-65cf-0690" type="min"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="044c-b3c3-ac81-6887" name="Rank 1 Communions" hidden="false" collective="false" import="true" targetId="667e-e49a-d6fa-829c" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry id="94cf-4724-1a4d-5989" name="Rank1 Communion" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5935-b599-3864-4e93" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9712-2ca3-def4-7683" type="max"/>
               </constraints>
-            </entryLink>
-            <entryLink id="5d6a-810d-d9c0-a32f" name="Rank 2 Communions" hidden="false" collective="false" import="true" targetId="4e6f-f552-bcbf-1c1e" type="selectionEntryGroup"/>
-          </entryLinks>
+              <infoLinks>
+                <infoLink id="16f4-440c-edd5-e09c" name="Aura or profanation (1)" hidden="false" targetId="9779-3343-7e14-6acb" type="profile"/>
+                <infoLink id="b4b4-34ec-5bf8-45b4" name="Wickedness of the formor (1)" hidden="false" targetId="7413-4e9f-8af8-48d2" type="profile"/>
+                <infoLink id="b7d7-62a9-d066-3328" name="Death to the Soul! (1)" hidden="false" targetId="e5d6-3279-6d3e-1767" type="profile"/>
+                <infoLink id="d5c5-8479-105e-c55e" name="Breath of the Horned-one (1)" hidden="false" targetId="5a8a-80fb-493b-3125" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
           <costs>
             <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="0.0"/>
             <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
@@ -1867,7 +1851,7 @@ When both Felyhin and Morgwen are in the same unit, they both gain the abilities
             </profile>
           </profiles>
           <costs>
-            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="62.0"/>
+            <cost name="Pts" typeId="b33a-c5c1-d77c-6d2c" value="46.0"/>
             <cost name="Attribute cost" typeId="e3bf-cbb3-1947-82b3" value="0.0"/>
           </costs>
         </selectionEntry>
